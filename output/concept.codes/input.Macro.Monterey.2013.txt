@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Monterey.2013.txt	0.12034827987727
+input/Macro/Monterey.2013.txt	0.256792075654916
+input/Macro/Monterey.2013.txt	0.199881676710102
+input/Macro/Monterey.2013.txt	0.309084656661597

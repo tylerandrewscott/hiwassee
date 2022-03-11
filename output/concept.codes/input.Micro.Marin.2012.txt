@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Marin.2012.txt	0.0847752816828152
+input/Micro/Marin.2012.txt	0.24096551297673
+input/Micro/Marin.2012.txt	0.166476137175709
+input/Micro/Marin.2012.txt	0.359251336466232

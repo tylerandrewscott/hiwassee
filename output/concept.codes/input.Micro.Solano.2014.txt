@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Solano.2014.txt	0.077041660192558
+input/Micro/Solano.2014.txt	0.215917378541585
+input/Micro/Solano.2014.txt	0.21393011404428
+input/Micro/Solano.2014.txt	0.352485156041665

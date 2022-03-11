@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Marin.2014.txt	0.080369129848997
+input/Macro/Marin.2014.txt	0.248347372584326
+input/Macro/Marin.2014.txt	0.226752558149419
+input/Macro/Marin.2014.txt	0.345950911488211

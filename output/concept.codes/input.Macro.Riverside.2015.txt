@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Riverside.2015.txt	0.124525779058832
+input/Macro/Riverside.2015.txt	0.270770327719137
+input/Macro/Riverside.2015.txt	0.209536314052418
+input/Macro/Riverside.2015.txt	0.303553101489111

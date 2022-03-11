@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/ElDorado.2012.txt	0.0759227675331991
+input/Micro/ElDorado.2012.txt	0.24141483889966
+input/Micro/ElDorado.2012.txt	0.186077444468049
+input/Micro/ElDorado.2012.txt	0.332158022506957

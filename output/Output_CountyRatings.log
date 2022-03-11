@@ -1,0 +1,708 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Volumes/TimaSSD/ResearchCurrent/Local_FinResilience_Projects/APPAM2019_ResilienceRatings/Analysis/Output_CountyRatings.log
+  log type:  text
+ opened on:   1 Mar 2022, 11:59:27
+
+. use "Data_Clean_CountyRatings.dta", clear
+
+. xtset cfips year
+
+Panel variable: cfips (strongly balanced)
+ Time variable: year, 2010 to 2017
+         Delta: 1 unit
+
+. 
+. ***********************County CREDIT RATINGS***********************************
+. 
+. *regressions for crisismanagement: M1
+. ***do several robustness checks by swapping fiscal measures
+. 
+. set more off
+
+. xtologit crate crisismanagement mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+
+Random-effects ordered logistic regression           Number of obs    =    159
+Group variable: cfips                                Number of groups =     37
+
+Random effects u_i ~ Gaussian                        Obs per group:
+                                                                  min =      1
+                                                                  avg =    4.3
+                                                                  max =      5
+
+Integration method: mvaghermite                      Integration pts. =     12
+
+                                                     Wald chi2(8)     =  19.67
+Log pseudolikelihood = -120.81688                    Prob > chi2      = 0.0117
+
+                                                  (Std. err. adjusted for 37 clusters in cfips)
+-----------------------------------------------------------------------------------------------
+                              |               Robust
+                        crate | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------------------+----------------------------------------------------------------
+             crisismanagement |  -20.41576    15.7111    -1.30   0.194    -51.20894    10.37742
+            mrp_ideology_mean |  -3.007634   5.263674    -0.57   0.568    -13.32425    7.308977
+             lntransferstotal |  -5.925733   4.114636    -1.44   0.150    -13.99027    2.138805
+            lnag_market_value |    1.51757   .9093385     1.67   0.095    -.2647002    3.299841
+                median_income |   .0011697   .0005194     2.25   0.024     .0001517    .0021877
+                   unemp_rate |  -.6380004   .2435504    -2.62   0.009    -1.115351   -.1606503
+                        lnpop |   9.488338   4.521595     2.10   0.036     .6261743     18.3505
+lnliabilities_longtermgeneral |  -.8357867   .8848399    -0.94   0.345    -2.570041    .8984676
+------------------------------+----------------------------------------------------------------
+                        /cut1 |   20.53916   41.84137                     -61.46841    102.5467
+                        /cut2 |   21.57016   41.86904                     -60.49164     103.632
+                        /cut3 |   25.36769   41.44786                     -55.86862     106.604
+                        /cut4 |   35.15847   41.54395                     -46.26617    116.5831
+                        /cut5 |   41.97739   41.69874                     -39.75063    123.7054
+                        /cut6 |    48.7591   41.81599                     -33.19873    130.7169
+                        /cut7 |    60.9511   41.68614                     -20.75222    142.6544
+------------------------------+----------------------------------------------------------------
+                    /sigma2_u |    54.4333   30.02087                       18.4677    160.4414
+-----------------------------------------------------------------------------------------------
+
+. eststo M1crateOlmRated
+
+. 
+. /*
+> set more off
+> xtologit crate crisismanagement mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+> 
+> set more off
+> xtologit crate crisismanagement mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lninterest_longtermtotal if crate > 0, nolog vce(robust)
+> 
+> set more off
+> xtreg crate crisismanagement mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, vce(robust)
+> eststo M1crateLinRated
+> */
+. 
+. 
+. *regressions for security: M2
+. ***do several robustness checks by swapping fiscal measures
+. 
+. set more off
+
+. xtologit crate security mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+
+Random-effects ordered logistic regression           Number of obs    =    159
+Group variable: cfips                                Number of groups =     37
+
+Random effects u_i ~ Gaussian                        Obs per group:
+                                                                  min =      1
+                                                                  avg =    4.3
+                                                                  max =      5
+
+Integration method: mvaghermite                      Integration pts. =     12
+
+                                                     Wald chi2(8)     =  27.48
+Log pseudolikelihood = -121.50412                    Prob > chi2      = 0.0006
+
+                                                  (Std. err. adjusted for 37 clusters in cfips)
+-----------------------------------------------------------------------------------------------
+                              |               Robust
+                        crate | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------------------+----------------------------------------------------------------
+                     security |  -1.030708   13.48888    -0.08   0.939    -27.46843    25.40702
+            mrp_ideology_mean |  -2.997159   4.937772    -0.61   0.544    -12.67501    6.680696
+             lntransferstotal |  -5.493162   4.099244    -1.34   0.180    -13.52753    2.541209
+            lnag_market_value |   1.501294   .9216171     1.63   0.103    -.3050427     3.30763
+                median_income |   .0011499   .0005028     2.29   0.022     .0001643    .0021354
+                   unemp_rate |  -.6349078   .2350028    -2.70   0.007    -1.095505   -.1743108
+                        lnpop |    8.89105   4.370757     2.03   0.042     .3245231    17.45758
+lnliabilities_longtermgeneral |  -.8380423   .8956926    -0.94   0.349    -2.593567    .9174829
+------------------------------+----------------------------------------------------------------
+                        /cut1 |   25.84869   42.26151                     -56.98236    108.6797
+                        /cut2 |   26.87193   42.31335                     -56.06073    109.8046
+                        /cut3 |   30.60387   41.85019                     -51.42099    112.6287
+                        /cut4 |   39.97376    42.1379                       -42.615    122.5625
+                        /cut5 |   46.72714   42.36101                      -36.2989    129.7532
+                        /cut6 |   53.44658   42.52945                     -29.90961    136.8028
+                        /cut7 |   65.51518   42.50433                     -17.79179    148.8221
+------------------------------+----------------------------------------------------------------
+                    /sigma2_u |   52.85419   29.38713                      17.77494    157.1631
+-----------------------------------------------------------------------------------------------
+
+. eststo M2crateOlmRated
+
+. 
+. 
+. /*
+> 
+> set more off
+> xtologit crate security mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+>         
+> set more off
+> xtologit crate security mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lninterest_longtermtotal if crate > 0, nolog vce(robust)
+> 
+> set more off
+> xtreg crate security mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, vce(robust)
+> eststo M2crateLinRated
+> 
+> */
+. 
+. 
+. *regressions for preparedness: M3
+. ***do several robustness checks by swapping fiscal measures
+. 
+. set more off
+
+. xtologit crate preparedness mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+
+Random-effects ordered logistic regression           Number of obs    =    159
+Group variable: cfips                                Number of groups =     37
+
+Random effects u_i ~ Gaussian                        Obs per group:
+                                                                  min =      1
+                                                                  avg =    4.3
+                                                                  max =      5
+
+Integration method: mvaghermite                      Integration pts. =     12
+
+                                                     Wald chi2(8)     =  17.42
+Log pseudolikelihood = -121.47484                    Prob > chi2      = 0.0260
+
+                                                  (Std. err. adjusted for 37 clusters in cfips)
+-----------------------------------------------------------------------------------------------
+                              |               Robust
+                        crate | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------------------+----------------------------------------------------------------
+                 preparedness |   3.939945    16.2387     0.24   0.808    -27.88731     35.7672
+            mrp_ideology_mean |  -3.076895   5.017057    -0.61   0.540    -12.91015    6.756355
+             lntransferstotal |  -5.647884   3.933789    -1.44   0.151    -13.35797    2.062199
+            lnag_market_value |   1.502256     .92833     1.62   0.106    -.3172372    3.321749
+                median_income |   .0011458   .0005126     2.24   0.025      .000141    .0021505
+                   unemp_rate |  -.6502159   .2417916    -2.69   0.007    -1.124119   -.1763131
+                        lnpop |   9.086262   4.232063     2.15   0.032     .7915715    17.38095
+lnliabilities_longtermgeneral |  -.8618272   .8950001    -0.96   0.336    -2.615995    .8923409
+------------------------------+----------------------------------------------------------------
+                        /cut1 |    25.4834   42.06836                     -56.96908    107.9359
+                        /cut2 |   26.51134   42.11841                     -56.03923    109.0619
+                        /cut3 |   30.25059   41.67653                      -51.4339    111.9351
+                        /cut4 |   39.69988   42.04052                     -42.69803    122.0978
+                        /cut5 |   46.48285   42.29806                     -36.41983    129.3855
+                        /cut6 |   53.23372   42.46891                     -30.00381    136.4713
+                        /cut7 |   65.34162   42.48299                     -17.92351    148.6068
+------------------------------+----------------------------------------------------------------
+                    /sigma2_u |   53.71034   29.73858                      18.14516    158.9846
+-----------------------------------------------------------------------------------------------
+
+. eststo M3crateOlmRated
+
+. 
+. 
+. /*
+> 
+> set more off
+> xtologit crate preparedness mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+> 
+> set more off
+> xtologit crate preparedness mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lninterest_longtermtotal if crate > 0, nolog vce(robust)
+> 
+> set more off
+> xtreg crate preparedness mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, vce(robust)
+> eststo M3crateLinRated
+> 
+> */
+. 
+. 
+. *regressions for riskmanagement: M4
+. ***do several robustness checks by swapping fiscal measures
+. 
+. set more off
+
+. xtologit crate riskmanagement mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+
+Random-effects ordered logistic regression           Number of obs    =    159
+Group variable: cfips                                Number of groups =     37
+
+Random effects u_i ~ Gaussian                        Obs per group:
+                                                                  min =      1
+                                                                  avg =    4.3
+                                                                  max =      5
+
+Integration method: mvaghermite                      Integration pts. =     12
+
+                                                     Wald chi2(8)     =  27.94
+Log pseudolikelihood = -121.48789                    Prob > chi2      = 0.0005
+
+                                                  (Std. err. adjusted for 37 clusters in cfips)
+-----------------------------------------------------------------------------------------------
+                              |               Robust
+                        crate | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------------------+----------------------------------------------------------------
+               riskmanagement |   -3.10606   16.07858    -0.19   0.847     -34.6195    28.40738
+            mrp_ideology_mean |  -2.965237   4.878026    -0.61   0.543    -12.52599    6.595518
+             lntransferstotal |  -5.505078   4.133369    -1.33   0.183    -13.60633    2.596176
+            lnag_market_value |   1.504309   .9293109     1.62   0.106    -.3171069    3.325725
+                median_income |   .0011526   .0005074     2.27   0.023     .0001581    .0021471
+                   unemp_rate |  -.6318679   .2406217    -2.63   0.009    -1.103478    -.160258
+                        lnpop |   8.870908   4.445496     2.00   0.046     .1578961    17.58392
+lnliabilities_longtermgeneral |  -.8384169   .8866723    -0.95   0.344    -2.576263     .899429
+------------------------------+----------------------------------------------------------------
+                        /cut1 |    24.6709   41.68757                     -57.03523     106.377
+                        /cut2 |   25.68942   41.73691                     -56.11341    107.4923
+                        /cut3 |   29.40593   41.15981                     -51.26583    110.0777
+                        /cut4 |   38.70671   41.22868                     -42.10002    119.5134
+                        /cut5 |   45.43114   41.32332                     -35.56107    126.4234
+                        /cut6 |   52.15601   41.30676                     -28.80376    133.1158
+                        /cut7 |   64.22529   41.06844                     -16.26737     144.718
+------------------------------+----------------------------------------------------------------
+                    /sigma2_u |    52.4223   28.50907                      18.05523     152.205
+-----------------------------------------------------------------------------------------------
+
+. eststo M4crateOlmRated
+
+. 
+. /*
+> 
+> set more off
+> xtologit crate riskmanagement mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+> 
+> set more off
+> xtologit crate riskmanagement mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lninterest_longtermtotal if crate > 0, nolog vce(robust)
+> 
+> set more off
+> xtreg crate riskmanagement mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, vce(robust)
+> eststo M4crateLinRated
+> 
+> */
+. 
+. 
+. * Table 3: Ordered Logistic Models for the Covariates of Underlying County Credit Ratings.
+. 
+. esttab M1crateOlmRated M2crateOlmRated M3crateOlmRated M4crateOlmRated, ///
+>         mtitles(M1CrisisMangmnt M2Security M3Prepared M4RiskMangmnt) ///
+>     aic bic sca(ll) p star(* 0.05 ** 0.01 *** 0.001)
+
+----------------------------------------------------------------------------
+                      (1)             (2)             (3)             (4)   
+             M1CrisisMa~t      M2Security      M3Prepared    M4RiskMang~t   
+----------------------------------------------------------------------------
+crate                                                                       
+crisismana~t       -20.42                                                   
+                  (0.194)                                                   
+
+mrp_ideolo~n       -3.008          -2.997          -3.077          -2.965   
+                  (0.568)         (0.544)         (0.540)         (0.543)   
+
+lntransfer~l       -5.926          -5.493          -5.648          -5.505   
+                  (0.150)         (0.180)         (0.151)         (0.183)   
+
+lnag_marke~e        1.518           1.501           1.502           1.504   
+                  (0.095)         (0.103)         (0.106)         (0.106)   
+
+median_inc~e      0.00117*        0.00115*        0.00115*        0.00115*  
+                  (0.024)         (0.022)         (0.025)         (0.023)   
+
+unemp_rate         -0.638**        -0.635**        -0.650**        -0.632** 
+                  (0.009)         (0.007)         (0.007)         (0.009)   
+
+lnpop               9.488*          8.891*          9.086*          8.871*  
+                  (0.036)         (0.042)         (0.032)         (0.046)   
+
+lnliabilit~l       -0.836          -0.838          -0.862          -0.838   
+                  (0.345)         (0.349)         (0.336)         (0.344)   
+
+security                           -1.031                                   
+                                  (0.939)                                   
+
+preparedness                                        3.940                   
+                                                  (0.808)                   
+
+riskmanage~t                                                       -3.106   
+                                                                  (0.847)   
+----------------------------------------------------------------------------
+cut1                                                                        
+_cons               20.54           25.85           25.48           24.67   
+                  (0.624)         (0.541)         (0.545)         (0.554)   
+----------------------------------------------------------------------------
+cut2                                                                        
+_cons               21.57           26.87           26.51           25.69   
+                  (0.606)         (0.525)         (0.529)         (0.538)   
+----------------------------------------------------------------------------
+cut3                                                                        
+_cons               25.37           30.60           30.25           29.41   
+                  (0.541)         (0.465)         (0.468)         (0.475)   
+----------------------------------------------------------------------------
+cut4                                                                        
+_cons               35.16           39.97           39.70           38.71   
+                  (0.397)         (0.343)         (0.345)         (0.348)   
+----------------------------------------------------------------------------
+cut5                                                                        
+_cons               41.98           46.73           46.48           45.43   
+                  (0.314)         (0.270)         (0.272)         (0.272)   
+----------------------------------------------------------------------------
+cut6                                                                        
+_cons               48.76           53.45           53.23           52.16   
+                  (0.244)         (0.209)         (0.210)         (0.207)   
+----------------------------------------------------------------------------
+cut7                                                                        
+_cons               60.95           65.52           65.34           64.23   
+                  (0.144)         (0.123)         (0.124)         (0.118)   
+----------------------------------------------------------------------------
+sigma2_u                                                                    
+_cons               54.43           52.85           53.71           52.42   
+                  (0.070)         (0.072)         (0.071)         (0.066)   
+----------------------------------------------------------------------------
+N                     159             159             159             159   
+AIC                 273.6           275.0           274.9           275.0   
+BIC                 322.7           324.1           324.1           324.1   
+ll                 -120.8          -121.5          -121.5          -121.5   
+----------------------------------------------------------------------------
+p-values in parentheses
+* p<0.05, ** p<0.01, *** p<0.001
+
+.                         
+. 
+.         
+. *regressions for resiliencereact Static Resilience: Ma1
+. ***do several robustness checks by swapping fiscal measures
+. 
+. set more off
+
+. xtologit crate resiliencereact mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+
+Random-effects ordered logistic regression           Number of obs    =    159
+Group variable: cfips                                Number of groups =     37
+
+Random effects u_i ~ Gaussian                        Obs per group:
+                                                                  min =      1
+                                                                  avg =    4.3
+                                                                  max =      5
+
+Integration method: mvaghermite                      Integration pts. =     12
+
+                                                     Wald chi2(8)     =  24.12
+Log pseudolikelihood = -121.21662                    Prob > chi2      = 0.0022
+
+                                                  (Std. err. adjusted for 37 clusters in cfips)
+-----------------------------------------------------------------------------------------------
+                              |               Robust
+                        crate | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------------------+----------------------------------------------------------------
+              resiliencereact |  -8.370293   9.210717    -0.91   0.363    -26.42297     9.68238
+            mrp_ideology_mean |  -2.994908   5.064706    -0.59   0.554    -12.92155    6.931733
+             lntransferstotal |  -5.840473   4.153685    -1.41   0.160    -13.98155    2.300599
+            lnag_market_value |    1.52354   .9177112     1.66   0.097    -.2751413     3.32222
+                median_income |   .0011553   .0004906     2.36   0.019     .0001938    .0021168
+                   unemp_rate |  -.6482891   .2414247    -2.69   0.007    -1.121473   -.1751055
+                        lnpop |   9.354946   4.505048     2.08   0.038     .5252151    18.18468
+lnliabilities_longtermgeneral |  -.8176633   .8854139    -0.92   0.356    -2.553043     .917716
+------------------------------+----------------------------------------------------------------
+                        /cut1 |   22.88738   42.46253                     -60.33764    106.1124
+                        /cut2 |   23.91599   42.50345                     -59.38924    107.2212
+                        /cut3 |   27.70353   42.04998                     -54.71291      110.12
+                        /cut4 |   37.30351   42.19364                     -45.39451    120.0015
+                        /cut5 |   44.14421   42.34446                     -38.84941    127.1378
+                        /cut6 |   50.85404   42.46281                     -32.37154    134.0796
+                        /cut7 |   62.99935   42.38487                     -20.07347    146.0722
+------------------------------+----------------------------------------------------------------
+                    /sigma2_u |   53.75192   29.38972                      18.40712    156.9647
+-----------------------------------------------------------------------------------------------
+
+. eststo Ma1crateOlmRated
+
+. 
+. /*
+> set more off
+> xtologit crate resiliencereact mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+>         
+> set more off
+> xtologit crate resiliencereact mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lninterest_longtermtotal if crate > 0, nolog vce(robust)
+>                 
+> set more off
+> xtreg crate resiliencereact mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, vce(robust)
+> eststo Ma1crateLinRated
+> 
+> set more off
+> xtreg crate resiliencereact mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, fe vce(robust)
+> eststo Ma1crateLinFE
+> estat ic
+> 
+> */
+. 
+. 
+. *regressions for resilienceproact Dynamic Resilience: Ma2
+. ***do several robustness checks by swapping fiscal measures
+. 
+. set more off
+
+. xtologit crate resilienceproact mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+
+Random-effects ordered logistic regression           Number of obs    =    159
+Group variable: cfips                                Number of groups =     37
+
+Random effects u_i ~ Gaussian                        Obs per group:
+                                                                  min =      1
+                                                                  avg =    4.3
+                                                                  max =      5
+
+Integration method: mvaghermite                      Integration pts. =     12
+
+                                                     Wald chi2(8)     =  23.53
+Log pseudolikelihood = -121.50358                    Prob > chi2      = 0.0027
+
+                                                  (Std. err. adjusted for 37 clusters in cfips)
+-----------------------------------------------------------------------------------------------
+                              |               Robust
+                        crate | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------------------+----------------------------------------------------------------
+             resilienceproact |   .5494106   10.60686     0.05   0.959    -20.23966    21.33848
+            mrp_ideology_mean |  -3.015561   4.930981    -0.61   0.541    -12.68011    6.648984
+             lntransferstotal |   -5.48884   4.039402    -1.36   0.174    -13.40592    2.428242
+            lnag_market_value |   1.498864   .9255528     1.62   0.105    -.3151861    3.312914
+                median_income |   .0011493   .0005108     2.25   0.024     .0001481    .0021505
+                   unemp_rate |  -.6359209   .2245718    -2.83   0.005    -1.076074   -.1957682
+                        lnpop |   8.891575   4.262686     2.09   0.037     .5368639    17.24629
+lnliabilities_longtermgeneral |  -.8439567   .8760672    -0.96   0.335    -2.561017    .8731034
+------------------------------+----------------------------------------------------------------
+                        /cut1 |   26.12395   42.69466                     -57.55604    109.8039
+                        /cut2 |   27.14835   42.76517                     -56.66985    110.9665
+                        /cut3 |    30.8804   42.24495                     -51.91818     113.679
+                        /cut4 |   40.26413   42.49818                     -43.03078     123.559
+                        /cut5 |   47.02132    42.6762                     -36.62249    130.6651
+                        /cut6 |   53.74787   42.76084                     -30.06184    137.5576
+                        /cut7 |   65.81981   42.68437                     -17.84001    149.4796
+------------------------------+----------------------------------------------------------------
+                    /sigma2_u |   53.02264   28.38901                      18.56594    151.4279
+-----------------------------------------------------------------------------------------------
+
+. eststo Ma2crateOlmRated
+
+. 
+. /*
+> 
+> set more off
+> xtologit crate resilienceproact mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, nolog vce(robust)
+>         
+> set more off
+> xtologit crate resilienceproact mrp_ideology_mean ///
+>         lnrevenuepc lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lninterest_longtermtotal if crate > 0, nolog vce(robust)
+>                 
+> set more off
+> xtreg crate resilienceproact mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, vce(robust)
+> eststo Ma2crateLinRated
+> return list
+> 
+> set more off
+> xtreg crate resilienceproact mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral if crate > 0, fe vce(robust)
+> eststo Ma2crateLinFE
+> estat ic
+> 
+> */
+. 
+. 
+. *Table A1. Ordered Logistic Panel Models for the Covariates of Underlying
+. *       County Credit Ratings, Collapsed Measurement of Signals of Resilience.
+. 
+. esttab Ma1crateOlmRated Ma2crateOlmRated, ///
+>         mtitles(Ma1StaticRes Ma2DynamicRes) ///
+>     aic bic sca(ll) p star(* 0.05 ** 0.01 *** 0.001)
+
+--------------------------------------------
+                      (1)             (2)   
+             Ma1StaticRes    Ma2Dynamic~s   
+--------------------------------------------
+crate                                       
+resilie~eact       -8.370                   
+                  (0.363)                   
+
+mrp_ideolo~n       -2.995          -3.016   
+                  (0.554)         (0.541)   
+
+lntransfer~l       -5.840          -5.489   
+                  (0.160)         (0.174)   
+
+lnag_marke~e        1.524           1.499   
+                  (0.097)         (0.105)   
+
+median_inc~e      0.00116*        0.00115*  
+                  (0.019)         (0.024)   
+
+unemp_rate         -0.648**        -0.636** 
+                  (0.007)         (0.005)   
+
+lnpop               9.355*          8.892*  
+                  (0.038)         (0.037)   
+
+lnliabilit~l       -0.818          -0.844   
+                  (0.356)         (0.335)   
+
+resilie~oact                        0.549   
+                                  (0.959)   
+--------------------------------------------
+cut1                                        
+_cons               22.89           26.12   
+                  (0.590)         (0.541)   
+--------------------------------------------
+cut2                                        
+_cons               23.92           27.15   
+                  (0.574)         (0.526)   
+--------------------------------------------
+cut3                                        
+_cons               27.70           30.88   
+                  (0.510)         (0.465)   
+--------------------------------------------
+cut4                                        
+_cons               37.30           40.26   
+                  (0.377)         (0.343)   
+--------------------------------------------
+cut5                                        
+_cons               44.14           47.02   
+                  (0.297)         (0.271)   
+--------------------------------------------
+cut6                                        
+_cons               50.85           53.75   
+                  (0.231)         (0.209)   
+--------------------------------------------
+cut7                                        
+_cons               63.00           65.82   
+                  (0.137)         (0.123)   
+--------------------------------------------
+sigma2_u                                    
+_cons               53.75           53.02   
+                  (0.067)         (0.062)   
+--------------------------------------------
+N                     159             159   
+AIC                 274.4           275.0   
+BIC                 323.5           324.1   
+ll                 -121.2          -121.5   
+--------------------------------------------
+p-values in parentheses
+* p<0.05, ** p<0.01, *** p<0.001
+
+. 
+. *Figure A2. Binary Distribution between Collapsed Measures of Signals of Resilience
+. 
+. twoway (lfit resiliencereact resilienceproact, lwidth(thin)) /// 
+>         (scatter resiliencereact resilienceproact, /// 
+>         mcolor(blue) msymbol(oh) mlabsize(tiny) mlabcolor(black)), ///
+>         graphregion(color(white)) ///
+>         ytitle("Reactive Resilience") ///
+>         xtitle("Proactive Resilience") ///
+>         title("Reactive vs. Proactive Resilience") ///
+>         scheme(economist) legend(off)
+
+. graph export TwoWay_React_Proact_Resilience.pdf, replace
+file /Volumes/TimaSSD/ResearchCurrent/Local_FinResilience_Projects/APPAM2019_ResilienceRatings/Analysis/TwoWay_React_Proact_Resilience.pdf saved as PDF format
+
+.         
+. 
+. *Table 2. Descriptive Statistics: County Ratings Part
+. 
+. sum crate crisismanagement  security resiliencereact /// 
+>         preparedness riskmanagement resilienceproact ///
+>         mrp_ideology_mean ///
+>         lntransferstotal lnag_market_value lnbalance lnrevenuepc lnexpendpc ///
+>         median_income unemp_rate lnpop ///
+>         lnliabilities_longtermgeneral lninterest_longtermtotal /// 
+>         if _est_Ma1crateOlmRated == 1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+       crate |        159    5.477987    1.629772          1          8
+crisismana~t |        159    .2468818    .0277765    .132036    .321019
+    security |        159    .0875074    .0236094    .006069    .162258
+resilie~eact |        159    .3343892    .0472326    .153348    .448312
+preparedness |        159    .2115475     .024509    .134733    .300422
+-------------+---------------------------------------------------------
+riskmanage~t |        159    .3234755    .0259563    .244931    .369196
+resilie~oact |        159    .5350229    .0412254    .386483    .638487
+mrp_ideolo~n |        159   -.1844736    .2942698  -.7465761   .4661179
+lntransfer~l |        159    19.82653    1.089002   17.52908   22.98503
+lnag_marke~e |        159    19.96516    1.502446   16.02312    22.3273
+-------------+---------------------------------------------------------
+   lnbalance |        121     17.2192    1.384682   13.57038   20.23822
+ lnrevenuepc |        159    7.429197    .1845442   6.985428   7.898699
+  lnexpendpc |        159    7.399032    .1794539   6.970184   7.840577
+median_inc~e |        159    27068.57    6418.106      16068      45835
+  unemp_rate |        159    8.601258    4.183058          3       27.4
+-------------+---------------------------------------------------------
+       lnpop |        159    13.07286    1.181827   10.70923   16.12379
+lnliabilit~l |        159    19.00556    1.377898   15.48322   22.22734
+lninterest~l |        158    15.55124    1.480878    12.3596   18.18496
+
+. 
+. *close and keep the log file
+. log close
+      name:  <unnamed>
+       log:  /Volumes/TimaSSD/ResearchCurrent/Local_FinResilience_Projects/APPAM2019_ResilienceRatings/Analysis/Output_CountyRatings.log
+  log type:  text
+ closed on:   1 Mar 2022, 11:59:30
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------

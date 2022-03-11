@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Napa.2012.txt	0.106528476570826
+input/Micro/Napa.2012.txt	0.226573052774386
+input/Micro/Napa.2012.txt	0.169808321196812
+input/Micro/Napa.2012.txt	0.361939726179548

@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Inyo.2014.txt	0.0956991074384446
+input/Micro/Inyo.2014.txt	0.238611864951386
+input/Micro/Inyo.2014.txt	0.175363342903994
+input/Micro/Inyo.2014.txt	0.338340272428032

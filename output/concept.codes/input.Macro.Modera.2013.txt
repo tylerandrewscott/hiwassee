@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Modera.2013.txt	0.072646871212846
+input/Macro/Modera.2013.txt	0.208426575591272
+input/Macro/Modera.2013.txt	0.253200514185879
+input/Macro/Modera.2013.txt	0.320111573956449

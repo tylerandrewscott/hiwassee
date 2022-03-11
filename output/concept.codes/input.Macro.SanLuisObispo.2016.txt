@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/SanLuisObispo.2016.txt	0.0977406133708458
+input/Macro/SanLuisObispo.2016.txt	0.256313681409284
+input/Macro/SanLuisObispo.2016.txt	0.190746714291693
+input/Macro/SanLuisObispo.2016.txt	0.345614751339661

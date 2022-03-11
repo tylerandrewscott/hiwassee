@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Sutter.2012.txt	0.0482625392656737
+input/Macro/Sutter.2012.txt	0.231615603422224
+input/Macro/Sutter.2012.txt	0.217123735737786
+input/Macro/Sutter.2012.txt	0.355389551365129

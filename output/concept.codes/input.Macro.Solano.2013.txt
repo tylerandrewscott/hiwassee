@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Solano.2013.txt	0.0577149236067923
+input/Macro/Solano.2013.txt	0.203890003335782
+input/Macro/Solano.2013.txt	0.226057516177438
+input/Macro/Solano.2013.txt	0.349626994226386

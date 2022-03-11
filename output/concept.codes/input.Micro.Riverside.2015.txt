@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Riverside.2015.txt	0.0789372996649188
+input/Micro/Riverside.2015.txt	0.232873609939311
+input/Micro/Riverside.2015.txt	0.192145999371434
+input/Micro/Riverside.2015.txt	0.328262213518606

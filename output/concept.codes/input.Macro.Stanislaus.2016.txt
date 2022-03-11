@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Stanislaus.2016.txt	0.0850539879361367
+input/Macro/Stanislaus.2016.txt	0.241940097903302
+input/Macro/Stanislaus.2016.txt	0.209568449521118
+input/Macro/Stanislaus.2016.txt	0.341839251044545

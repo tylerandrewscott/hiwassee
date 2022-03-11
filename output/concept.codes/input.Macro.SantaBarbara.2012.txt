@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/SantaBarbara.2012.txt	0.0773184964194647
+input/Macro/SantaBarbara.2012.txt	0.254427814209081
+input/Macro/SantaBarbara.2012.txt	0.195218725682648
+input/Macro/SantaBarbara.2012.txt	0.361513769552922

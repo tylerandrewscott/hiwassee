@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Ventura.2015.txt	0.102506158869213
+input/Micro/Ventura.2015.txt	0.231973387461597
+input/Micro/Ventura.2015.txt	0.149135505386873
+input/Micro/Ventura.2015.txt	0.35651379418477

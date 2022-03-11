@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Tulare.2016.txt	0.114826308367716
+input/Micro/Tulare.2016.txt	0.229888081224052
+input/Micro/Tulare.2016.txt	0.171701525731954
+input/Micro/Tulare.2016.txt	0.34292519979937

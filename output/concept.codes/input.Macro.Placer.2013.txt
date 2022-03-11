@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Placer.2013.txt	0.101849300020511
+input/Macro/Placer.2013.txt	0.257141161668747
+input/Macro/Placer.2013.txt	0.221943756266311
+input/Macro/Placer.2013.txt	0.316498069197181

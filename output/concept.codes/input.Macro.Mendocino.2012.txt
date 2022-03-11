@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Mendocino.2012.txt	0.0663672412984249
+input/Macro/Mendocino.2012.txt	0.266557944701245
+input/Macro/Mendocino.2012.txt	0.194718035448044
+input/Macro/Mendocino.2012.txt	0.312437149511619

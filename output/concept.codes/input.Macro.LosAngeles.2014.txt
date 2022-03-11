@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/LosAngeles.2014.txt	0.118582002450946
+input/Macro/LosAngeles.2014.txt	0.262433316731404
+input/Macro/LosAngeles.2014.txt	0.20128697370994
+input/Macro/LosAngeles.2014.txt	0.31438435657534

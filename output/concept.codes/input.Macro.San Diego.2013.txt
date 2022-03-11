@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/San Diego.2013.txt	0.12912113203718
+input/Macro/San Diego.2013.txt	0.286360471531057
+input/Macro/San Diego.2013.txt	0.226859497102805
+input/Macro/San Diego.2013.txt	0.26867228295959

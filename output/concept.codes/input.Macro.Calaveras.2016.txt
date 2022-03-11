@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Calaveras.2016.txt	0.0777343882959733
+input/Macro/Calaveras.2016.txt	0.244053483903512
+input/Macro/Calaveras.2016.txt	0.199718444487338
+input/Macro/Calaveras.2016.txt	0.333874962694026

@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Shasta.2015.txt	0.0970780966716555
+input/Macro/Shasta.2015.txt	0.234192046076102
+input/Macro/Shasta.2015.txt	0.176682083487783
+input/Macro/Shasta.2015.txt	0.336736453666181

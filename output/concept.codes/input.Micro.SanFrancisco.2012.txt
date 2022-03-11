@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/SanFrancisco.2012.txt	0.0903379891477865
+input/Micro/SanFrancisco.2012.txt	0.249367618559087
+input/Micro/SanFrancisco.2012.txt	0.147158561475932
+input/Micro/SanFrancisco.2012.txt	0.326717527027726

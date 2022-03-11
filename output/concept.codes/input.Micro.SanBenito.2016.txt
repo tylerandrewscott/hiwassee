@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/SanBenito.2016.txt	0.11215599108899
+input/Micro/SanBenito.2016.txt	0.265409195291117
+input/Micro/SanBenito.2016.txt	0.161235444414499
+input/Micro/SanBenito.2016.txt	0.329678589450111

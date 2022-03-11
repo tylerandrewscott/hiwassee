@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/LosAngeles.2012.txt	0.10228474465845
+input/Micro/LosAngeles.2012.txt	0.251562461736028
+input/Micro/LosAngeles.2012.txt	0.156797528693048
+input/Micro/LosAngeles.2012.txt	0.338138158261687

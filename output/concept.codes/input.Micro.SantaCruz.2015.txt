@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/SantaCruz.2015.txt	0.0865445461408671
+input/Micro/SantaCruz.2015.txt	0.231236460634366
+input/Micro/SantaCruz.2015.txt	0.205077123040686
+input/Micro/SantaCruz.2015.txt	0.358134051877868

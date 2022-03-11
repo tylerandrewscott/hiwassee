@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Mendocino.2013.txt	0.098341680487611
+input/Micro/Mendocino.2013.txt	0.237958241314253
+input/Micro/Mendocino.2013.txt	0.174590702169627
+input/Micro/Mendocino.2013.txt	0.361941584247333

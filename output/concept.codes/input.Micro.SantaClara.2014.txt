@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/SantaClara.2014.txt	0.101295985696157
+input/Micro/SantaClara.2014.txt	0.24859963966583
+input/Micro/SantaClara.2014.txt	0.15489950191663
+input/Micro/SantaClara.2014.txt	0.347115381600886

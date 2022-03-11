@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/SanLuisObispo.2014.txt	0.109532187992076
+input/Micro/SanLuisObispo.2014.txt	0.233113124943672
+input/Micro/SanLuisObispo.2014.txt	0.176274039807775
+input/Micro/SanLuisObispo.2014.txt	0.355794438030505

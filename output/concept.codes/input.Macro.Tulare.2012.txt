@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Tulare.2012.txt	0.0863095140037876
+input/Macro/Tulare.2012.txt	0.261606670042553
+input/Macro/Tulare.2012.txt	0.214501968570836
+input/Macro/Tulare.2012.txt	0.284017898481848

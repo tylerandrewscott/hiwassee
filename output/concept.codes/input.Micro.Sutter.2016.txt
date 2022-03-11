@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Sutter.2016.txt	0.0763681383538453
+input/Micro/Sutter.2016.txt	0.227545669056119
+input/Micro/Sutter.2016.txt	0.165775767489366
+input/Micro/Sutter.2016.txt	0.323689612908998

@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Tuolumne.2014.txt	0.0887903121691033
+input/Macro/Tuolumne.2014.txt	0.20397382981509
+input/Macro/Tuolumne.2014.txt	0.227904779064822
+input/Macro/Tuolumne.2014.txt	0.335899721728407

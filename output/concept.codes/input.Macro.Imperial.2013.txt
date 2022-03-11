@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Imperial.2013.txt	0.0213124928723013
+input/Macro/Imperial.2013.txt	0.132036273133774
+input/Macro/Imperial.2013.txt	0.262438304301242
+input/Macro/Imperial.2013.txt	0.366242146052364

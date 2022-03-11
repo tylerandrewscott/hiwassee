@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/San Diego.2015.txt	0.109173414324373
+input/Micro/San Diego.2015.txt	0.230495343618597
+input/Micro/San Diego.2015.txt	0.133235410226213
+input/Micro/San Diego.2015.txt	0.358247745071953

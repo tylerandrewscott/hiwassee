@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/SanBernardino.2012.txt	0.0854976391340837
+input/Macro/SanBernardino.2012.txt	0.237937951993835
+input/Macro/SanBernardino.2012.txt	0.228879410975059
+input/Macro/SanBernardino.2012.txt	0.32685831951953

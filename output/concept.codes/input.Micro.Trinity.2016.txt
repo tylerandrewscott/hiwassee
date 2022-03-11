@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Trinity.2016.txt	0.0788502909312036
+input/Micro/Trinity.2016.txt	0.251128864041829
+input/Micro/Trinity.2016.txt	0.189691070594244
+input/Micro/Trinity.2016.txt	0.344921800331287

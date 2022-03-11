@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/SanDiego.2012.txt	0.110633649560735
+input/Micro/SanDiego.2012.txt	0.23078509197948
+input/Micro/SanDiego.2012.txt	0.144091576281054
+input/Micro/SanDiego.2012.txt	0.350523774379546

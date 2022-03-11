@@ -1,0 +1,135 @@
+The Auditor-Controller will continue to perform the ongoing duties as outli ned i n ABX1 26-
+Redevelopment Dissolution and continue work with the other departments, and the contracted
+vendor to instal l the new Property Tax System . I mplementation of the new system withi n the
+Auditor-Controller's office is scheduled for 20 1 2. I n addition, the Auditor-Controller will contin u e to
+implement processes and procedures that focus on i ncreased efficiency and cost savings s u ch as
+an electronic accounts payable system which will begi n to a llow County vendors to receive
+payments electro nically.Governor B rown's p roposed budget mai ntains the department's funding level for 20 1 2- 1 3. The
+revenue stabilization augmentation included in the last two years' budget a llocation is n ow part of
+base fundi n g . The Child Support program is no longer included in "Phase 2 Rea l ig n me nt" plans.
+The department has been advised that should child support once again be considered for P hase
+2 Realignment, the earliest anticipated implementation would be i n 20 1 4- 1 5 . Annually, the State
+D CSS sets specific performance goals for the local child support programs, refle cting the
+performance measurements incentivized by the federal Office of Child S upport Enforcement. An
+overa rching objective for 201 2- 1 3 will be to meet or exceed the State determined perfo rm ance
+goals.
+
+In 201 2-1 3 , Purchasing anticipates processing approximately 4,300 requ isitions and purchase
+orders for county-wide expenditures of approximately $ 1 8 m i l lion. The focus of the d ivision
+contin ues to be on management of processes and procedures including strategi c purchasing to
+i ncrease leverage i n the County's purchasing power; "Green Procurement" of enviro n mental
+friendly and energy reducing products; and pursuing collaborative strategies to achieve more
+efficient and effective purchasing operations, with both risk management and cost savings as
+top priorities.
+
+I n 2 0 1 2-1 3 , the Service Center will continue to focus on increasing customer satisfaction and
+work efficiencies. Priorities i nclude prompt maintenance and repair, reducing the n u m ber of
+vehicles assigned to departments, i ncreasing the efficiency of checking out veh icles, i ncreasing
+the ratio of a lternative fuel veh icles i n the fleet and increasing the number of employee van pools.
+The Fleet Division is currently working with Networkfleet, I nc. on a p ilot fleet wireless
+m a nagement progra m . The goal of the pilot program is to decrease fuel usag e , d ecrease
+m a i ntenance costs and provide roadside assistance. The program also enables participation in
+Cal ifornia's Contin uous Testing Program and a llows for reporting on g reen house gases. Once
+the pilot program is complete and the data analyzed , a determi nation will be made whether to
+continue this program beyond the pilot period .
+
+The recommended budget reflects a service delivery system that continues to operate u nder
+significant fiscal pressure. While reductions have been absorbed without program e l i m i nation,
+the department's capacity for provid i ng other than mandated services is severely con stra i ned.
+As budgetary constraints have reduced the department's ability to provide non-acute and
+ancillary support services, promoting and practicing preventative services to keep clients at a
+lower level of care has been a challenge. The lack of preventative services may lead to future
+i ncreases i n acute services and costs.
+This is the third year of the eight year implementation of health reform enacted by the Patient
+Protection a nd Affordable Care Act (ACA). ACA reforms implemented in 20 1 2- 1 3 include l inking
+Medica re payments to q uality outcomes, efforts to standard ize billing and i mplement e lectronic
+health records , and continued federal funding for the Child ren's Health I nsura nce P rogra m .
+These changes w i l l provide community members with increased access to affordable care.
+Beginning i n January 201 2, HSA has expanded indigent health care throug h the Low I ncome
+H ea lth Program ( L I H P), which is the "Bridge to Reform" of the State's Medi-Cal 1 1 1 5 Waiver
+demonstration project. The L I H P , known locally as the MediCruz Advantage program , allows
+leveraging of federal matching funds for eligible health services to eligible clients .
+Many o f H SA's non-profit service contractors leverage County general fund dollars t o a ccess
+additional State and federal revenues. As general fund dollars have been reduced , H SA has
+allocated Mental Health Services Act ( MHSA) and Realig nment funds to m i n i mize the i mpact
+upon the contractors' ability to leverage additional funds to maintain the core stability of nonp
+rofit comm u n ity partners.
+Finally, each H SA Division - Public Health, Clinics, Mental Health , Substa nce Abuse, Benefits
+and Adm i n istration - has unique challenges and opportun ities. As resources become
+i ncreasingly stretched, reports and other paperwork processing times have been met with
+delays ; workloads have i ncreased and wait lists for non-acute services have g rown longer. H SA
+contin ues to stream line functions and programs to reduce admi n istrative costs, flatten
+management structure, and stretch available County general and Realig n ment fun d s to
+leverage federal and State funding. Staff has pursued g rants and revenue enhance m ents to
+maintai n core capacity, and has done so with fewer resources than in prior years.
+
+M ig rate remaining HSA desktops into County domain to improve desktop remote s u pport
+and automated software updates
+• Complete Phase I I of HSA refresh project by ordering, configuring and deploying 1 20
+machines
+• I nstall and configure Auditor-Controller, Assessor and Treasurer-Tax Collector u ser
+desktops for production release of new Property Tax System
+• Provide second tier support for Sheriff's Technical Unit
+
+Upgrade GIS software to version 10.1 (including training system users)
+
+•	Upgrade the GIS Database to SQL 2008 (new version of relational database software)
+
+•	Update the Elections, Water Quality, Mail List, and Sanitation web mapping sites
+
+•	Provide mapping support for June and November elections
+
+•	Update the slope and contour data for the County based on the re-processed LiDAR
+
+•	Work to integrate the GIS with the Manatron Property Tax System
+
+
+ncrease capacity for electronic storage of County business applications data by an additional10-20 Terabytes.
+
+•	Complete integration of HSA users and devices into the central County server domain.
+
+•	Provide an automated solution countywide to enforce and support the County's public records retention requirements for email documents.
+
+•	Develop security, support and access standards for mobile devices to the County network and data; in partnership with Desktop and Telecommunications staff test and document and implement the mobile device strategy.
+
+
+pgrade existing copper data lines to broadband fiber to realize significant cost savings.
+
+•	Complete first phase of the Voice over IP migration project by evaluating existing network infrastructure.
+
+•	Increase bandwidth and speed of the County Internet connection with conversion to new Ethernet in a highly redundant solution in support of the Business Continuity project.
+
+
+Complete County Narrowband Conversion Project by September 2012.
+
+•	Coordinate and assist the cities of Watsonville, Capitola and Scotts Valley in converting their radio infrastructure to full Narrowband compliance.
+
+•	Assist the City of Watsonville with continued deployment of its Public Safety Mesh WiFi System.
+
+•	Provide ongoing technical support for the new Dispatch Console at Santa Cruz Regional 911.
+
+•	Extend microwave infrastructure into San Benito County to support Santa Cruz Regional 911 dispatch services.
+
+•	Upgrade the County’s antiquated receiver switching infrastructure.
+
+The department will continue to pursue amendments to County Codes and changes to the policies and practices that pertain to customer service and to all areas of the department. Many departmental services and functions are ongoing, such as providing public information, processing permits, enforcing the codes and condition compliance for approved and constructed projects, and administering various housing grant funds. However, each year, there are special projects or focus areas. The key work plan items for 2012-13 include the following:
+
+•	Continue Sustainable Community and Transit Corridor Plan activities for the Soquel Ave/ Drive corridor and Live Oak/economic development opportunity sites.
+
+•	Carry out Economic Development activities, including but not limited to completion of Redevelopment Agency projects; business retention, expansion and attraction efforts; coordination with the Sustainable Community Plan effort to identify and plan for economic development opportunity sites; preparation of Economic Development Strategy and GP/LCP Amendments; identification and pursuit of grants and funding resources.
+
+•	Initiate long-range planning to update the GP/LCP for the reuse of the CEMEX site on North Coast.
+
+•	Conduct CEQA review and finalize the Climate Action Strategy. Update the Floodplain and Geologic Hazards ordinance and complete major portions of the work funded by the Disaster Recovery Initiative grant. •
+•	Promote and encourage participation in Construction Legalization and Code Compliance Program, so that owners of unpermitted improvements understand their value and decide to obtain/complete building permits, thereby increasing public safety and property values.
+
+Update County Code Chapters 13.10 (Zoning Regulations), 13.20 (Coastal Regulations), and 18.10 (Permit Processes) in order to consolidate information related to land use types, update use charts, amend certain development standards, and amend certain procedures to streamline permit processes as appropriate, and to expand rights of appeal.
+
+
+
+The Treasurer-Tax Col lector wil l continue the i mplementation of the new property tax system
+which includes the fol lowing com ponents critical to the functioning of the Tax Collectio n D ivision:
+• Secured rol l maintenance and assessment
+• Unsecured rol l maintenance and assessment
+• Tax structure and liability
+• Tax col lectio n and apportionment

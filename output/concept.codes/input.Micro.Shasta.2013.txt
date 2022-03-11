@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Shasta.2013.txt	0.10580240315859
+input/Micro/Shasta.2013.txt	0.261768197832836
+input/Micro/Shasta.2013.txt	0.181798545837254
+input/Micro/Shasta.2013.txt	0.328792750730373

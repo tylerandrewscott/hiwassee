@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Mono.2016.txt	0.051682970333963
+input/Micro/Mono.2016.txt	0.192776887578817
+input/Micro/Mono.2016.txt	0.207959104036913
+input/Micro/Mono.2016.txt	0.250406168854709

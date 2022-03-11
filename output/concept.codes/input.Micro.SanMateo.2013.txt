@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/SanMateo.2013.txt	0.102809079282907
+input/Micro/SanMateo.2013.txt	0.247852607770567
+input/Micro/SanMateo.2013.txt	0.195840887528271
+input/Micro/SanMateo.2013.txt	0.348449526919979

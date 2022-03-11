@@ -1,0 +1,165 @@
+Resolving assessment appeals from 2013 will be a priority for the appraisal staff. Appeals require an appraiser to make an independent analysis of the market value of each property and attend the Assessment Appeals Board at a hearing if not resolved with the property owner. All pending appeals are expected to be resolved by December 2014.
+
+In 2014-15, the Assessor expects to complete the work with the Auditor-Controller, Treasurer-Tax Collector, and Information Services on refinements to the new property tax system. The new system enables staff to produce the assessment roll sooner by computerizing processes previously done manually.
+
+The Auditor-Controller has begun the process to replace the County’s nineteen year old Financial and Procurement System. The County is expected to complete contract negotiations with the selected software vendor, issue bonds for the financing, and begin the implementation work in the Spring of 2014, with an expected go live date twelve months later. This implementation will require extensive use of the department’s staff as well as assistance from many key County fiscal and ISD staff. An external Project Management firm has been hired to assist the County with the selection and implementation of the system. The Auditor-Controller will continue work on the functionality of the new County Property Tax System.
+
+Effective January 5, 2015, the Auditor-Controller’s office will consolidate with the Treasurer-Tax Collector’s office as approved by the Board of Supervisors on November 5, 2013. A detailed report will be included in the supplemental budget to address this transition and reorganization.
+
+In 2014-15, Purchasing anticipates processing approximately 4,500 requisitions and purchase orders for county-wide expenditures of approximately $20 million. The focus of the division continues to be on management of processes and procedures including strategic purchasing to increase leverage in the County’s purchasing power; “Green Procurement” of environmentally friendly and energy-reducing products; and pursuing collaborative strategies to achieve more efficient and effective purchasing operations with both risk management and cost savings as top priorities.
+
+The Purchasing Division will be working actively with the Auditor’s Office and Information Services Department on implementation and training for the new financial system which includes a new purchasing module. In conjunction with this implementation, purchasing procedures will be streamlined and training provided for County departments.
+
+Governor Brown's proposed 2014-15 State Budget maintains the department's funding level at its
+2013-14 levels. Annually, the State Department of Child Support Services sets specific
+performance goals for the local child support programs, reflecting the performance measurements
+incentivized by the federal Office of Child Support Enforcement. The objective for 2014-15 will be
+to meet or exceed the State determined performance goals, with an emphasis on increasing the
+total dollars collected.
+
+In 2014-15, Purchasing anticipates processing approximately 4,500 requisitions and purchase
+orders for county-wide expenditures of approximately $20 million. The focus of the division
+continues to be on management of processes and procedures including strategic purchasing to
+increase leverage in the County's purchasing power; "Green Procurement" of environmentally
+friendly and energy-reducing products; and pursuing collaborative strategies to more
+efficient and effective purchasing operations with both risk management and cost savings as top
+priorities.
+The Purchasing Division will be working actively with the Auditor's Office and Information
+Services Department on implementation and training for the new financial system which
+includes a new purchasing module. In conjunction with this implementation, purchasing
+procedures will be streamlined and training provided for County departments.In 2014-15, the Service Center will continue to focus on increasing customer satisfaction and
+work efficiencies. Priorities include providing prompt maintenance and repair, reducing the
+number of vehicles assigned to departments, increasing the efficiency of checking out vehicles,
+increasing the ratio of alternative fuel vehicles in the fleet and increasing the number of
+employee van pools. Create and maintain an agency wide infrastructure to effectively monitor and evaluate
+existing services and programs for cost effectiveness and client and program outcomes.
+• Establish and maintain outcome measure criteria for each program and periodic
+reporting and quality improvement processes.
+• Focus on strategic planning and target available resources to collaborate with
+and agencies to provide and evidence-based
+model, to the top identified 0% high-risk Create and maintain an agency wide infrastructure to effectively monitor and evaluate
+existing services and programs for cost effectiveness and client and program outcomes.
+• Establish and maintain outcome measure criteria for each program and periodic
+reporting and quality improvement processes.
+clients (based on high cost, high utilization, and interfacing with the child welfare, health
+care, and criminal justice systems).
+• Dedicate funding to provide training and necessary technology that allows for staff to be
+more efficient and effective in providing public services.
+
+The overarching challenge for the Public Health Division has been to continue to provide
+mandated functions and grant operations and increasing program demands and workload.
+• The Emergency Preparedness Program conducted two state-wide exercises in
+coordination with State and County stakeholders and the County Office of Emergency
+Services to increase response capacity in Santa Cruz County.
+• The Communicable Disease Unit performed three large contact investigations: two due
+to measles and one due to tuberculosis.
+• In April 2013, in response to increased community concern, HSA assumed direct
+administration of the Syringe Services Program to protect and promote the health and
+safety of County residents by preventing the spread of infectious diseases associated
+with injection drug use, and decrease the number of improperly disposed syringes in the
+community.
+
+The upcoming year will bring a number of significant changes to the County mental health
+system in Santa Cruz as follows:
+• A significant performance improvement project using "lean" practices will be conducted
+to significantly improve front door access to services process, used by consumers and
+families to access services, reduce the overall wait times for services, and develop a
+system that will be able to accommodate larger numbers of individuals needing
+treatment.
+• The County Behavioral Health System will also be implementing two nationally
+recognized and best practices of client level outcome assessment tools: The Child and
+Adolescent Needs and Strengths Assessment (CANS) and the Adult Needs and
+Strengths Assessment (ANSA). The implementation of these tools will improve the
+ability to measure program effectiveness, establish a service plan development process
+that is person centered using measurable goals and objectives that are based on
+addressing needs and building strengths.
+• Embarking on an effort to further modernize the services it provides by establishing
+several new programs that are based on national Evidence Based Practices:
+• Medical staff is working on creating more efficient work flow processes in the areas of
+medication refill will also be adding a of new interventions for
+clients to improve upon and support the use of medications, and also improve health
+outcomes for a population is at high risk for a
+• Division is on track to an Record system, which is also
+envisioned to be available to our stakeholder provider agencies in the community.
+
+The Division has been working with community stakeholders to perform a needs
+assessment and set of recommendations for establishing enhanced crisis response
+services for the community.
+• The Division is also performing a careful analysis of its facilities in South County to
+ensure that services are provided in a setting that not only best supports the clinical
+needs of our clients and families, but also protects their privacy and conforms with State
+and federal regulations supporting the delivery of mental health services. The South
+County area has tremendous need and potential growth for services; therefore, it would
+be necessary to explore sustainable options to fully support the projected growth and
+service needs for client services. In the face of drought and long term water supply deficiencies, there is increasing need
+for Environmental Health staff to increase coordination and support of integrated
+regional water management and encouragement for private well owners and small water
+systems to increase their participation in better managing the county's limited water
+supplies.Start multi-year deployment of VOIP, including required infrastructure upgrades, to County
+departments.
+• Create server environment and begin rollout of Office 365 with on premise and cloud
+installations, starting with ISO and Health.
+• Establish development framework for mobile applications.
+• Begin data migration from County General Ledger and Purchasing (FAMIS and APS)
+mainframe systems to vendor application. Complete new interfaces to County applications
+to and from replacement system.
+• Manage software release process across the test and production environments for
+Aumentum Property Tax system, working with the user departments and the vendor. ISO
+expects monthly release and multiple hotfix/datafixes to continue in this fiscal year.
+• Design and release new Assessor and Auditor-Controller web site, including Treasury and
+Tax Collection functions. Begin work on Human Services Department website redesign.Facilitate the 'last mile' integration of San Benito County radio and telecommunications
+infrastructure to the MBAMS Microwave system.
+• Assist the City of Watsonville with deployment of its Public Safety Mesh WiFi System.
+• Establish and implement support protocols for Santa Cruz Regional 911 new Dispatch
+Console.
+• Complete upgrade to radio infrastructure for additional grant-funded improvements.to encourage efficient service areas for services provided by cities, counties, and special districts;
+
+•	to guide urban development away from prime agricultural lands and open space resources;
+
+•	to promote orderly growth; and
+
+•	to discourage urban sprawl.
+
+
+Phase I of the Heart of Soquel and the Farm Park community garden plan to be open during fiscal year 2014-15. The impacts of a declaration of a state of drought for Santa Cruz County to parks maintenance and use are unclear at this time and will be addressed in future reports when they are better understood.
+
+The recommended budget includes adjustments to the pool schedule which result in the Swim Center being open seven days a week for nine months from March 1 through the Thanksgiving holiday, with the exception of the Memorial Day holiday. Operational efficiencies will be achieved with two long weekend closures at Thanksgiving and Christmas only, and Sunday closures December through February Overall, the pool will be open 342 days, with 23 days of closure, and the option to close during inclement weather, as in previous fiscal years.
+
+These recommendations result in an overall increase in hours that the Swim Center is open and will result in twenty additional days of increased use and programming.
+
+Year-round after-school and summer recreation youth programs will be the same as in fiscal year 2013-14. Enrollment policies and staffing continue to be revised as necessary to manage these programs to achieve full cost recovery. Quail Hollow will include summer camps, volunteer support and weekend programs supported in part by a State Habitat Conservation Wildlife Activities Grant. Classes continue on a year-round basis, including Spanish language, and Kreative Kids at Wilder Hall. Arts related programs will include rotating and permanent exhibits at the Governmental Center and the Swim Center, Outside the Box, Artist of the Year, and public art installations per the adopted art program. Participation in senior day trips remains good, and staff continues to revise and expand trip offerings in response to demand.
+
+Efforts will focus on maximizing County resources for park and facility management, as well as needed improvements by leveraging these resources with outside funding sources where possible and by engaging in community collaboration and partnerships. The Capital Projects Division will continue work on a number of projects utilizing grant funding including the Farm Park Habitat Restoration and Community Garden project and the Heart of Soquel, both planned for 2014-15 construction, as well as design and permitting of Quail Hollow Brook Stream and Habitat Restoration project. Construction of Phase I of McGregor Park is also planned for 2014-15. In addition, staff will continue work on the phased development of Chanticleer Avenue Park and Phase 2 of the Cabrillo - Nisene to the Sea Trail.
+
+Significant progress has taken place on the final redevelopment funded capital improvement projects. The remaining work will focus on completing construction of the Center for Public Safety, and construction of the Heart of Soquel and Twin Lakes Beachfront projects.The department will complete various policy efforts initiated in the prior year, and will continue to
+pursue amendments to County Codes to modernize, clarify and streamline land use regulations
+and permit processes. The key work plan items for 2014-15 include the following:
+• Complete the Draft Sustainable Santa Cruz County Plan funded by a Proposition 84 grant,
+and stakeholder outreach to finalize the EVS for Board consideration in late summer.
+Also complete the CEMEX Site Re-Use Plan funded by a CDBG grant, including proposed
+amendments to the General Plan and Local Coastal Program as appropriate.
+• Complete Code amendments of the Geologic Hazards, Coastal Bluff, Floodplain and
+Grading ordinances; and other tasks funded by a Disaster Recovery Initiative (DRI) grant,
+as well as an update of County Code Chapter 16.01 regarding CEQA Environmental
+Regulations.
+• Complete amendments to County Code Chapters 13.10 (Zoning Regulations) and 18.10
+(Permit Processes) in order to consolidate information related to land use types, update
+use charts, amend certain development standards, and procedures to streamline permit
+processes as appropriate.Phase I of the Heart of Soquel and the Farm Park community garden plan to be open during fiscal year 2014-15. The impacts of a declaration of a state of drought for Santa Cruz County to parks maintenance and use are unclear at this time and will be addressed in future reports when they are better understood.
+
+The recommended budget includes adjustments to the pool schedule which result in the Swim Center being open seven days a week for nine months from March 1 through the Thanksgiving holiday, with the exception of the Memorial Day holiday. Operational efficiencies will be achieved with two long weekend closures at Thanksgiving and Christmas only, and Sunday closures December through February Overall, the pool will be open 342 days, with 23 days of closure, and the option to close during inclement weather, as in previous fiscal years.
+
+These recommendations result in an overall increase in hours that the Swim Center is open and will result in twenty additional days of increased use and programming.
+
+Year-round after-school and summer recreation youth programs will be the same as in fiscal year 2013-14. Enrollment policies and staffing continue to be revised as necessary to manage these programs to achieve full cost recovery. Quail Hollow will include summer camps, volunteer support and weekend programs supported in part by a State Habitat Conservation Wildlife Activities Grant. Classes continue on a year-round basis, including Spanish language, and Kreative Kids at Wilder Hall. Arts related programs will include rotating and permanent exhibits at the Governmental Center and the Swim Center, Outside the Box, Artist of the Year, and public art installations per the adopted art program. Participation in senior day trips remains good, and staff continues to revise and expand trip offerings in response to demand.
+
+Efforts will focus on maximizing County resources for park and facility management, as well as needed improvements by leveraging these resources with outside funding sources where possible and by engaging in community collaboration and partnerships. The Capital Projects Division will continue work on a number of projects utilizing grant funding including the Farm Park Habitat Restoration and Community Garden project and the Heart of Soquel, both planned for 2014-15 construction, as well as design and permitting of Quail Hollow Brook Stream and Habitat Restoration project. Construction of Phase I of McGregor Park is also planned for 2014-15. In addition, staff will continue work on the phased development of Chanticleer Avenue Park and Phase 2 of the Cabrillo - Nisene to the Sea Trail.
+
+Significant progress has taken place on the final redevelopment funded capital improvement projects. The remaining work will focus on completing construction of the Center for Public Safety, and construction of the Heart of Soquel and Twin Lakes Beachfront projects.
+The Treasurer-Tax Collector
+tax system which
+Collection Division: Secured and Unsecured roll maintenance and assessment
+• Tax structure and liability
+• Tax collection and apportionment
+The Treasurer-Tax Collector will implement a mid-year consolidation with the Auditor-Controller's
+Office and a detailed report will be provided as a part of the supplemental budget.

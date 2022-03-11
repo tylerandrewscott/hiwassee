@@ -1,0 +1,612 @@
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Volumes/TimaSSD/ResearchCurrent/Local_FinResilience_Projects/APPAM2019_ResilienceRatings/Analysis/Output_DealRatings.log
+  log type:  text
+ opened on:   1 Mar 2022, 13:01:22
+
+. use "Data_Clean_DealRatings.dta", clear
+
+. 
+. ***********************DEAL CREDIT RATINGS*************************************
+. 
+. *regressions for crisismanagement: M5
+. set more off
+
+. ologit crate_deal crisismanagement mrp_ideology_mean ///
+>         lnbalance lnag_market_value unemp_rate lnpop  ///
+>         lnprincipal_amnt matyears guaranty_yes ///
+>         source_tax source_rev source_other callable fedtaxable ///
+>         fy2014 fy2015 fy2016 fy2017 if crate_deal > 0, vce(robust)
+
+Iteration 0:   log pseudolikelihood = -178.63356  
+Iteration 1:   log pseudolikelihood = -129.77966  
+Iteration 2:   log pseudolikelihood = -120.55166  
+Iteration 3:   log pseudolikelihood = -119.90707  
+Iteration 4:   log pseudolikelihood = -119.90433  
+Iteration 5:   log pseudolikelihood = -119.90433  
+
+Ordered logistic regression                             Number of obs =    111
+                                                        Wald chi2(18) =  82.99
+                                                        Prob > chi2   = 0.0000
+Log pseudolikelihood = -119.90433                       Pseudo R2     = 0.3288
+
+-----------------------------------------------------------------------------------
+                  |               Robust
+       crate_deal | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------+----------------------------------------------------------------
+ crisismanagement |  -23.95701   14.50876    -1.65   0.099    -52.39367    4.479638
+mrp_ideology_mean |   3.307905   1.461981     2.26   0.024     .4424748    6.173336
+        lnbalance |   .1123428   .1753419     0.64   0.522    -.2313211    .4560067
+lnag_market_value |  -.4790022   .4247002    -1.13   0.259    -1.311399     .353395
+       unemp_rate |  -.7759278   .3753633    -2.07   0.039    -1.511626   -.0402293
+            lnpop |   1.645283   .4329154     3.80   0.000     .7967844    2.493781
+ lnprincipal_amnt |  -.3873977   .1556701    -2.49   0.013    -.6925054     -.08229
+         matyears |   .0678667    .044103     1.54   0.124    -.0185736    .1543071
+     guaranty_yes |    2.36659   1.172728     2.02   0.044     .0680852    4.665095
+       source_tax |   1.595621   .8173038     1.95   0.051    -.0062651    3.197507
+       source_rev |  -1.398504   .8228249    -1.70   0.089    -3.011211     .214203
+     source_other |  -6.163166   1.571494    -3.92   0.000    -9.243238   -3.083094
+         callable |   .4732659   1.111554     0.43   0.670     -1.70534    2.651872
+       fedtaxable |  -1.613691   .7260257    -2.22   0.026    -3.036676   -.1907071
+           fy2014 |  -4.678499   3.165712    -1.48   0.139    -10.88318    1.526182
+           fy2015 |  -1.507694   1.462305    -1.03   0.303    -4.373759     1.35837
+           fy2016 |  -2.032599   1.446882    -1.40   0.160    -4.868435     .803237
+           fy2017 |  -1.285194   1.864462    -0.69   0.491    -4.939472    2.369084
+------------------+----------------------------------------------------------------
+            /cut1 |  -9.331663   8.114701                     -25.23619    6.572859
+            /cut2 |  -8.873883   8.096418                     -24.74257    6.994805
+            /cut3 |  -8.332541   7.980998                     -23.97501    7.309928
+            /cut4 |  -6.283051   7.962388                     -21.88905    9.322943
+            /cut5 |  -3.621515   8.024806                     -19.34985    12.10682
+            /cut6 |  -.2259578   8.100985                      -16.1036    15.65168
+-----------------------------------------------------------------------------------
+
+. eststo M5crateCat
+
+. 
+. *regressions for security: M6
+. 
+. set more off
+
+. ologit crate_deal security mrp_ideology_mean ///
+>         lnbalance lnag_market_value unemp_rate lnpop  ///
+>         lnprincipal_amnt matyears guaranty_yes ///
+>         source_tax source_rev source_other callable fedtaxable ///
+>         fy2014 fy2015 fy2016 fy2017 if crate_deal > 0, vce(robust)
+
+Iteration 0:   log pseudolikelihood = -178.63356  
+Iteration 1:   log pseudolikelihood = -125.72882  
+Iteration 2:   log pseudolikelihood = -114.93361  
+Iteration 3:   log pseudolikelihood = -113.81495  
+Iteration 4:   log pseudolikelihood = -113.80972  
+Iteration 5:   log pseudolikelihood = -113.80972  
+
+Ordered logistic regression                             Number of obs =    111
+                                                        Wald chi2(18) =  87.06
+                                                        Prob > chi2   = 0.0000
+Log pseudolikelihood = -113.80972                       Pseudo R2     = 0.3629
+
+-----------------------------------------------------------------------------------
+                  |               Robust
+       crate_deal | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------+----------------------------------------------------------------
+         security |  -53.40624   17.57013    -3.04   0.002    -87.84307   -18.96941
+mrp_ideology_mean |   2.889506    1.51672     1.91   0.057    -.0832115    5.862223
+        lnbalance |   .5186039   .2196145     2.36   0.018     .0881675    .9490403
+lnag_market_value |  -.1990279   .4334488    -0.46   0.646    -1.048572    .6505161
+       unemp_rate |  -1.012801   .4323734    -2.34   0.019    -1.860237   -.1653644
+            lnpop |    1.71451   .4726599     3.63   0.000     .7881131    2.640906
+ lnprincipal_amnt |    -.38516   .1474641    -2.61   0.009    -.6741843   -.0961358
+         matyears |   .0640562    .051519     1.24   0.214    -.0369193    .1650316
+     guaranty_yes |   2.733769   1.096801     2.49   0.013     .5840783     4.88346
+       source_tax |   2.065114   .9331177     2.21   0.027     .2362372    3.893991
+       source_rev |  -1.692244   .9375273    -1.81   0.071    -3.529764    .1452756
+     source_other |  -6.478986   1.629713    -3.98   0.000    -9.673164   -3.284808
+         callable |   .7661915   1.327174     0.58   0.564    -1.835021    3.367404
+       fedtaxable |    -1.4247   .7536361    -1.89   0.059    -2.901799    .0523999
+           fy2014 |  -4.349509   3.233387    -1.35   0.179    -10.68683    1.987813
+           fy2015 |  -.9727617   1.434176    -0.68   0.498    -3.783696    1.838172
+           fy2016 |  -1.285871   1.334272    -0.96   0.335    -3.900997    1.329255
+           fy2017 |  -.9909721   1.852303    -0.53   0.593    -4.621419    2.639475
+------------------+----------------------------------------------------------------
+            /cut1 |   3.616909   7.697255                     -11.46943    18.70325
+            /cut2 |   4.178498   7.713324                     -10.93934    19.29634
+            /cut3 |   4.807923   7.691876                     -10.26788    19.88372
+            /cut4 |   7.083696   7.653383                     -7.916658    22.08405
+            /cut5 |   9.966149   7.703797                     -5.133017    25.06531
+            /cut6 |   13.41404     7.7599                     -1.795084    28.62317
+-----------------------------------------------------------------------------------
+
+. eststo M6crateCat
+
+. 
+. *regressions for preparedness: M7
+. 
+. set more off
+
+. ologit crate_deal preparedness mrp_ideology_mean ///
+>         lnbalance lnag_market_value unemp_rate lnpop  ///
+>         lnprincipal_amnt matyears guaranty_yes ///
+>         source_tax source_rev source_other callable fedtaxable ///
+>         fy2014 fy2015 fy2016 fy2017 if crate_deal > 0, vce(robust)
+
+Iteration 0:   log pseudolikelihood = -178.63356  
+Iteration 1:   log pseudolikelihood = -130.15932  
+Iteration 2:   log pseudolikelihood = -121.04594  
+Iteration 3:   log pseudolikelihood =  -120.5017  
+Iteration 4:   log pseudolikelihood = -120.50009  
+Iteration 5:   log pseudolikelihood = -120.50009  
+
+Ordered logistic regression                             Number of obs =    111
+                                                        Wald chi2(18) =  65.89
+                                                        Prob > chi2   = 0.0000
+Log pseudolikelihood = -120.50009                       Pseudo R2     = 0.3254
+
+-----------------------------------------------------------------------------------
+                  |               Robust
+       crate_deal | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------+----------------------------------------------------------------
+     preparedness |   13.77882   11.95669     1.15   0.249    -9.655854     37.2135
+mrp_ideology_mean |   3.227261   1.463467     2.21   0.027     .3589181    6.095603
+        lnbalance |   .0921025   .1734902     0.53   0.596    -.2479321    .4321371
+lnag_market_value |  -.5995478   .4368188    -1.37   0.170    -1.455697    .2566014
+       unemp_rate |  -.7299708   .3923173    -1.86   0.063    -1.498899    .0389571
+            lnpop |   1.624194   .4642958     3.50   0.000     .7141909    2.534197
+ lnprincipal_amnt |  -.3203779   .1532159    -2.09   0.037    -.6206756   -.0200802
+         matyears |   .0450921   .0447645     1.01   0.314    -.0426447    .1328289
+     guaranty_yes |   2.247689   1.145461     1.96   0.050     .0026257    4.492752
+       source_tax |   1.681064   .8242776     2.04   0.041     .0655093    3.296618
+       source_rev |  -1.460169   .8859327    -1.65   0.099    -3.196565    .2762273
+     source_other |  -5.859566   1.526219    -3.84   0.000      -8.8509   -2.868233
+         callable |     .53731   1.213748     0.44   0.658    -1.841592    2.916212
+       fedtaxable |  -1.560829   .7835606    -1.99   0.046    -3.096579   -.0250781
+           fy2014 |  -4.721478   3.415278    -1.38   0.167     -11.4153    1.972343
+           fy2015 |   -.992983     1.4979    -0.66   0.507    -3.928812    1.942846
+           fy2016 |  -1.637488   1.470593    -1.11   0.265    -4.519797    1.244821
+           fy2017 |  -.8710984   1.960822    -0.44   0.657    -4.714239    2.972043
+------------------+----------------------------------------------------------------
+            /cut1 |  -1.984489   8.090239                     -17.84107    13.87209
+            /cut2 |  -1.537743   8.089139                     -17.39216    14.31668
+            /cut3 |  -1.013374   8.050618                     -16.79229    14.76555
+            /cut4 |   1.049951   8.092113                      -14.8103     16.9102
+            /cut5 |   3.725134   8.201586                     -12.34968    19.79995
+            /cut6 |   7.078505   8.230011                     -9.052021    23.20903
+-----------------------------------------------------------------------------------
+
+. eststo M7crateCat
+
+. 
+. *regressions for riskmanagement: M8
+. 
+. set more off
+
+. ologit crate_deal riskmanagement mrp_ideology_mean ///
+>         lnbalance lnag_market_value unemp_rate lnpop  ///
+>         lnprincipal_amnt matyears guaranty_yes ///
+>         source_tax source_rev source_other callable fedtaxable ///
+>         fy2014 fy2015 fy2016 fy2017 if crate_deal > 0, vce(robust)
+
+Iteration 0:   log pseudolikelihood = -178.63356  
+Iteration 1:   log pseudolikelihood = -125.62778  
+Iteration 2:   log pseudolikelihood = -115.97669  
+Iteration 3:   log pseudolikelihood = -115.30857  
+Iteration 4:   log pseudolikelihood = -115.30701  
+Iteration 5:   log pseudolikelihood = -115.30701  
+
+Ordered logistic regression                             Number of obs =    111
+                                                        Wald chi2(18) =  74.99
+                                                        Prob > chi2   = 0.0000
+Log pseudolikelihood = -115.30701                       Pseudo R2     = 0.3545
+
+-----------------------------------------------------------------------------------
+                  |               Robust
+       crate_deal | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------+----------------------------------------------------------------
+   riskmanagement |   33.76768   12.28916     2.75   0.006     9.681383    57.85399
+mrp_ideology_mean |   3.535581    1.57128     2.25   0.024     .4559275    6.615234
+        lnbalance |   .4660523   .2287284     2.04   0.042     .0177529    .9143518
+lnag_market_value |  -.1222918   .4881532    -0.25   0.802    -1.079055     .834471
+       unemp_rate |  -1.024481   .4556106    -2.25   0.025    -1.917461   -.1315005
+            lnpop |   1.338114   .4230838     3.16   0.002     .5088845    2.167343
+ lnprincipal_amnt |  -.2562938    .142672    -1.80   0.072    -.5359257     .023338
+         matyears |   .0739723   .0410962     1.80   0.072    -.0065747    .1545193
+     guaranty_yes |   2.426444   1.189871     2.04   0.041     .0943402    4.758547
+       source_tax |   1.810844   .9065089     2.00   0.046      .034119    3.587569
+       source_rev |  -1.765342   .8488896    -2.08   0.038    -3.429135   -.1015494
+     source_other |  -6.123012   1.677494    -3.65   0.000    -9.410839   -2.835184
+         callable |   .8754692   1.127179     0.78   0.437    -1.333761    3.084699
+       fedtaxable |   -1.13815   .7342759    -1.55   0.121    -2.577304    .3010047
+           fy2014 |  -5.298695   3.207858    -1.65   0.099    -11.58598    .9885909
+           fy2015 |  -2.497281   1.640609    -1.52   0.128    -5.712816    .7182536
+           fy2016 |  -2.998889   1.649149    -1.82   0.069     -6.23116    .2333831
+           fy2017 |  -2.380847   2.066005    -1.15   0.249    -6.430142    1.668448
+------------------+----------------------------------------------------------------
+            /cut1 |   16.17324   11.29961                     -5.973582    38.32006
+            /cut2 |    16.6743   11.29371                     -5.460967    38.80957
+            /cut3 |   17.21604   11.30703                     -4.945334    39.37741
+            /cut4 |   19.36585   11.31321                     -2.807647    41.53934
+            /cut5 |     22.253   11.41332                     -.1166893    44.62269
+            /cut6 |   25.73965    11.4592                      3.280024    48.19927
+-----------------------------------------------------------------------------------
+
+. eststo M8crateCat
+
+. 
+. 
+. *Table 4. Ordered Logistic Models for the Covariates of County Deal Level Credit Ratings.
+. 
+. esttab M5crateCat M6crateCat M7crateCat M8crateCat, ///
+>         mtitles(M5CrisisMngmt M6Security M7Prepared M8RiskMangmnt) ///
+>     aic bic sca(ll) p star(* 0.05 ** 0.01 *** 0.001)
+
+----------------------------------------------------------------------------
+                      (1)             (2)             (3)             (4)   
+             M5CrisisMn~t      M6Security      M7Prepared    M8RiskMang~t   
+----------------------------------------------------------------------------
+crate_deal                                                                  
+crisismana~t       -23.96                                                   
+                  (0.099)                                                   
+
+mrp_ideolo~n        3.308*          2.890           3.227*          3.536*  
+                  (0.024)         (0.057)         (0.027)         (0.024)   
+
+lnbalance           0.112           0.519*         0.0921           0.466*  
+                  (0.522)         (0.018)         (0.596)         (0.042)   
+
+lnag_marke~e       -0.479          -0.199          -0.600          -0.122   
+                  (0.259)         (0.646)         (0.170)         (0.802)   
+
+unemp_rate         -0.776*         -1.013*         -0.730          -1.024*  
+                  (0.039)         (0.019)         (0.063)         (0.025)   
+
+lnpop               1.645***        1.715***        1.624***        1.338** 
+                  (0.000)         (0.000)         (0.000)         (0.002)   
+
+lnprincipa~t       -0.387*         -0.385**        -0.320*         -0.256   
+                  (0.013)         (0.009)         (0.037)         (0.072)   
+
+matyears           0.0679          0.0641          0.0451          0.0740   
+                  (0.124)         (0.214)         (0.314)         (0.072)   
+
+guaranty_yes        2.367*          2.734*          2.248*          2.426*  
+                  (0.044)         (0.013)         (0.050)         (0.041)   
+
+source_tax          1.596           2.065*          1.681*          1.811*  
+                  (0.051)         (0.027)         (0.041)         (0.046)   
+
+source_rev         -1.399          -1.692          -1.460          -1.765*  
+                  (0.089)         (0.071)         (0.099)         (0.038)   
+
+source_other       -6.163***       -6.479***       -5.860***       -6.123***
+                  (0.000)         (0.000)         (0.000)         (0.000)   
+
+callable            0.473           0.766           0.537           0.875   
+                  (0.670)         (0.564)         (0.658)         (0.437)   
+
+fedtaxable         -1.614*         -1.425          -1.561*         -1.138   
+                  (0.026)         (0.059)         (0.046)         (0.121)   
+
+fy2014             -4.678          -4.350          -4.721          -5.299   
+                  (0.139)         (0.179)         (0.167)         (0.099)   
+
+fy2015             -1.508          -0.973          -0.993          -2.497   
+                  (0.303)         (0.498)         (0.507)         (0.128)   
+
+fy2016             -2.033          -1.286          -1.637          -2.999   
+                  (0.160)         (0.335)         (0.265)         (0.069)   
+
+fy2017             -1.285          -0.991          -0.871          -2.381   
+                  (0.491)         (0.593)         (0.657)         (0.249)   
+
+security                           -53.41**                                 
+                                  (0.002)                                   
+
+preparedness                                        13.78                   
+                                                  (0.249)                   
+
+riskmanage~t                                                        33.77** 
+                                                                  (0.006)   
+----------------------------------------------------------------------------
+/                                                                           
+cut1               -9.332           3.617          -1.984           16.17   
+                  (0.250)         (0.638)         (0.806)         (0.152)   
+
+cut2               -8.874           4.178          -1.538           16.67   
+                  (0.273)         (0.588)         (0.849)         (0.140)   
+
+cut3               -8.333           4.808          -1.013           17.22   
+                  (0.296)         (0.532)         (0.900)         (0.128)   
+
+cut4               -6.283           7.084           1.050           19.37   
+                  (0.430)         (0.355)         (0.897)         (0.087)   
+
+cut5               -3.622           9.966           3.725           22.25   
+                  (0.652)         (0.196)         (0.650)         (0.051)   
+
+cut6               -0.226           13.41           7.079           25.74*  
+                  (0.978)         (0.084)         (0.390)         (0.025)   
+----------------------------------------------------------------------------
+N                     111             111             111             111   
+AIC                 287.8           275.6           289.0           278.6   
+BIC                 352.8           340.6           354.0           343.6   
+ll                 -119.9          -113.8          -120.5          -115.3   
+----------------------------------------------------------------------------
+p-values in parentheses
+* p<0.05, ** p<0.01, *** p<0.001
+
+.         
+. 
+.         
+. 
+. *regressions for M9 resiliencereact Static Resilience where crisis management & security/ safety combined
+. 
+. set more off
+
+. ologit crate_deal resiliencereact mrp_ideology_mean ///
+>         lnbalance unemp_rate lnpop  ///
+>         lnprincipal_amnt matyears guaranty_yes ///
+>         source_tax source_rev source_other callable fedtaxable ///
+>         fy2014 fy2015 fy2016 fy2017 if crate_deal > 0, vce(robust)
+
+Iteration 0:   log pseudolikelihood = -178.63356  
+Iteration 1:   log pseudolikelihood = -127.71817  
+Iteration 2:   log pseudolikelihood = -117.78066  
+Iteration 3:   log pseudolikelihood = -116.87995  
+Iteration 4:   log pseudolikelihood = -116.87709  
+Iteration 5:   log pseudolikelihood = -116.87709  
+
+Ordered logistic regression                             Number of obs =    111
+                                                        Wald chi2(17) =  84.31
+                                                        Prob > chi2   = 0.0000
+Log pseudolikelihood = -116.87709                       Pseudo R2     = 0.3457
+
+-----------------------------------------------------------------------------------
+                  |               Robust
+       crate_deal | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------+----------------------------------------------------------------
+  resiliencereact |   -24.6731   9.745889    -2.53   0.011    -43.77469   -5.571509
+mrp_ideology_mean |   3.576943   1.396343     2.56   0.010     .8401618    6.313725
+        lnbalance |   .3951146   .1789642     2.21   0.027     .0443511    .7458781
+       unemp_rate |  -1.065328   .3159531    -3.37   0.001    -1.684585   -.4460717
+            lnpop |   1.613771   .4163872     3.88   0.000     .7976674    2.429875
+ lnprincipal_amnt |  -.4519032   .1510963    -2.99   0.003    -.7480466   -.1557598
+         matyears |   .0813281   .0462955     1.76   0.079    -.0094095    .1720656
+     guaranty_yes |   2.777527   1.052727     2.64   0.008     .7142201    4.840834
+       source_tax |   1.839543   .8989522     2.05   0.041     .0776296    3.601457
+       source_rev |   -1.36266     .81507    -1.67   0.095    -2.960168    .2348479
+     source_other |  -6.624078   1.494628    -4.43   0.000    -9.553495   -3.694661
+         callable |    .366452   1.168165     0.31   0.754    -1.923109    2.656013
+       fedtaxable |  -1.565977   .6864483    -2.28   0.023    -2.911391   -.2205632
+           fy2014 |  -4.957869   3.249872    -1.53   0.127     -11.3275    1.411764
+           fy2015 |  -2.015254   1.184014    -1.70   0.089    -4.335879    .3053707
+           fy2016 |   -2.50464   1.139073    -2.20   0.028    -4.737181   -.2720992
+           fy2017 |  -1.869598   1.533157    -1.22   0.223    -4.874531    1.135334
+------------------+----------------------------------------------------------------
+            /cut1 |  -1.468159    6.19929                     -13.61854    10.68223
+            /cut2 |  -.9483792   6.204714                      -13.1094    11.21264
+            /cut3 |  -.3578548   6.179914                     -12.47026    11.75455
+            /cut4 |    1.77838   6.199799                       -10.373    13.92976
+            /cut5 |   4.504851   6.334103                     -7.909762    16.91946
+            /cut6 |   7.966769   6.405104                     -4.587004    20.52054
+-----------------------------------------------------------------------------------
+
+. eststo M9crateCat
+
+. 
+. *regressions for 10 resilienceproact Dynamic Resilience where risk management & preparedness combined
+. 
+. set more off
+
+. ologit crate_deal resilienceproact mrp_ideology_mean ///
+>         lnbalance unemp_rate lnpop  ///
+>         lnprincipal_amnt matyears guaranty_yes ///
+>         source_tax source_rev source_other callable fedtaxable ///
+>         fy2014 fy2015 fy2016 fy2017 if crate_deal > 0, vce(robust)
+
+Iteration 0:   log pseudolikelihood = -178.63356  
+Iteration 1:   log pseudolikelihood = -128.21414  
+Iteration 2:   log pseudolikelihood = -118.57246  
+Iteration 3:   log pseudolikelihood =  -117.9035  
+Iteration 4:   log pseudolikelihood = -117.90149  
+Iteration 5:   log pseudolikelihood = -117.90149  
+
+Ordered logistic regression                             Number of obs =    111
+                                                        Wald chi2(17) =  68.96
+                                                        Prob > chi2   = 0.0000
+Log pseudolikelihood = -117.90149                       Pseudo R2     = 0.3400
+
+-----------------------------------------------------------------------------------
+                  |               Robust
+       crate_deal | Coefficient  std. err.      z    P>|z|     [95% conf. interval]
+------------------+----------------------------------------------------------------
+ resilienceproact |   16.79868    7.79916     2.15   0.031     1.512609    32.08476
+mrp_ideology_mean |   3.902372   1.406401     2.77   0.006     1.145878    6.658867
+        lnbalance |   .3833627    .176733     2.17   0.030     .0369724    .7297529
+       unemp_rate |  -1.076183   .3549859    -3.03   0.002    -1.771942   -.3804234
+            lnpop |   1.412685   .3797981     3.72   0.000     .6682949    2.157076
+ lnprincipal_amnt |  -.3236613   .1425338    -2.27   0.023    -.6030224   -.0443002
+         matyears |   .0639414   .0413774     1.55   0.122    -.0171568    .1450396
+     guaranty_yes |   2.576956   1.047254     2.46   0.014     .5243747    4.629536
+       source_tax |   1.799255   .8832231     2.04   0.042     .0681694     3.53034
+       source_rev |  -1.521851   .8757969    -1.74   0.082    -3.238382    .1946793
+     source_other |   -6.25243   1.469707    -4.25   0.000    -9.133003   -3.371856
+         callable |   .3679003   1.133038     0.32   0.745    -1.852814    2.588614
+       fedtaxable |  -1.384378   .7262246    -1.91   0.057    -2.807752    .0389962
+           fy2014 |  -5.679918   3.474432    -1.63   0.102    -12.48968    1.129844
+           fy2015 |  -2.347225   1.306348    -1.80   0.072    -4.907619    .2131687
+           fy2016 |  -3.037533   1.319457    -2.30   0.021    -5.623622   -.4514451
+           fy2017 |  -2.176586   1.643415    -1.32   0.185     -5.39762    1.044448
+------------------+----------------------------------------------------------------
+            /cut1 |   14.46312   8.209541                     -1.627286    30.55352
+            /cut2 |   14.94945   8.268473                     -1.256455    31.15536
+            /cut3 |   15.48464   8.352183                      -.885334    31.85462
+            /cut4 |   17.59168   8.452753                       1.02459    34.15877
+            /cut5 |   20.36366   8.665858                      3.378891    37.34843
+            /cut6 |   23.78154   8.691886                      6.745757    40.81733
+-----------------------------------------------------------------------------------
+
+. eststo M10crateCat
+
+. 
+. 
+. *Table 5. Ordered Logistic Models for the Covariates of County Deal Level ///
+> *       Credit Ratings, Collapsed Resilience Signal Measures. 
+. 
+. esttab M9crateCat M10crateCat, ///
+>         mtitles(M9crateCat M10crateCat) ///
+>     aic bic sca(ll) p star(* 0.05 ** 0.01 *** 0.001)
+
+--------------------------------------------
+                      (1)             (2)   
+               M9crateCat     M10crateCat   
+--------------------------------------------
+crate_deal                                  
+resilie~eact       -24.67*                  
+                  (0.011)                   
+
+mrp_ideolo~n        3.577*          3.902** 
+                  (0.010)         (0.006)   
+
+lnbalance           0.395*          0.383*  
+                  (0.027)         (0.030)   
+
+unemp_rate         -1.065***       -1.076** 
+                  (0.001)         (0.002)   
+
+lnpop               1.614***        1.413***
+                  (0.000)         (0.000)   
+
+lnprincipa~t       -0.452**        -0.324*  
+                  (0.003)         (0.023)   
+
+matyears           0.0813          0.0639   
+                  (0.079)         (0.122)   
+
+guaranty_yes        2.778**         2.577*  
+                  (0.008)         (0.014)   
+
+source_tax          1.840*          1.799*  
+                  (0.041)         (0.042)   
+
+source_rev         -1.363          -1.522   
+                  (0.095)         (0.082)   
+
+source_other       -6.624***       -6.252***
+                  (0.000)         (0.000)   
+
+callable            0.366           0.368   
+                  (0.754)         (0.745)   
+
+fedtaxable         -1.566*         -1.384   
+                  (0.023)         (0.057)   
+
+fy2014             -4.958          -5.680   
+                  (0.127)         (0.102)   
+
+fy2015             -2.015          -2.347   
+                  (0.089)         (0.072)   
+
+fy2016             -2.505*         -3.038*  
+                  (0.028)         (0.021)   
+
+fy2017             -1.870          -2.177   
+                  (0.223)         (0.185)   
+
+resilie~oact                        16.80*  
+                                  (0.031)   
+--------------------------------------------
+/                                           
+cut1               -1.468           14.46   
+                  (0.813)         (0.078)   
+
+cut2               -0.948           14.95   
+                  (0.879)         (0.071)   
+
+cut3               -0.358           15.48   
+                  (0.954)         (0.064)   
+
+cut4                1.778           17.59*  
+                  (0.774)         (0.037)   
+
+cut5                4.505           20.36*  
+                  (0.477)         (0.019)   
+
+cut6                7.967           23.78** 
+                  (0.214)         (0.006)   
+--------------------------------------------
+N                     111             111   
+AIC                 279.8           281.8   
+BIC                 342.1           344.1   
+ll                 -116.9          -117.9   
+--------------------------------------------
+p-values in parentheses
+* p<0.05, ** p<0.01, *** p<0.001
+
+. 
+. 
+. 
+. *****************Deal level Ratings********************************
+. 
+. histogram crate_deal if crate_deal > 0, discrete frequency ///
+>         graphregion(color(white)) fcolor(blue) ///
+>         xtitle("Deal Credit Ratings=highest score, if multiple") ///
+>         title("Deal Credit Ratings") ///
+>         scheme(economist)
+(start=1, width=1)
+
+. graph export Hist_highestdealratings.png, replace
+file /Volumes/TimaSSD/ResearchCurrent/Local_FinResilience_Projects/APPAM2019_ResilienceRatings/Analysis/Hist_highestdealratings.png saved as PNG format
+
+. 
+. 
+. 
+. *Table 2. Descriptive Statistics: Deal Ratings Part
+. 
+. sum crate_deal crisismanagement  security resiliencereact /// 
+>         preparedness riskmanagement resilienceproact ///
+>         mrp_ideology_mean lnbalance unemp_rate lnpop ///
+>         lnprincipal_amnt matyears guaranty_yes ///
+>         source_tax source_rev source_other callable fedtaxable /// 
+>         fy2013 fy2014 fy2015 fy2016 fy2017 ///
+>         if _est_M5crateCat == 1
+
+    Variable |        Obs        Mean    Std. dev.       Min        Max
+-------------+---------------------------------------------------------
+  crate_deal |        111    6.018018    1.495338          2          8
+crisismana~t |        111    .2564054     .019363     .20093    .294795
+    security |        111    .1076642    .0322975    .054045    .172781
+resilie~eact |        111    .3640695    .0426038    .268689    .429147
+preparedness |        111    .2066387    .0255533    .134733    .276828
+-------------+---------------------------------------------------------
+riskmanage~t |        111    .3024526    .0422863     .24337    .365689
+resilie~oact |        111    .5090913    .0558411    .386483    .620301
+mrp_ideolo~n |        111   -.4187616    .4291208  -1.098037    .279209
+   lnbalance |        111    18.87093    2.109054   13.92808    22.9216
+  unemp_rate |        111    7.242342    2.559245        3.3       14.4
+-------------+---------------------------------------------------------
+       lnpop |        111    14.18356    1.437615   10.70967   16.10739
+lnprincipa~t |        111    16.81318    2.018413   10.81978   20.19836
+    matyears |        111    16.78468     8.99441       1.47      35.81
+guaranty_yes |        111    .2522523    .4362749          0          1
+  source_tax |        111    .0990991    .3001501          0          1
+-------------+---------------------------------------------------------
+  source_rev |        111    .3963964    .4913669          0          1
+source_other |        111    .1531532    .3617683          0          1
+    callable |        111    .6216216    .4871821          0          1
+  fedtaxable |        111    .1801802    .3860805          0          1
+      fy2013 |        103    .3980583    .4918912          0          1
+-------------+---------------------------------------------------------
+      fy2014 |        111    .0540541    .2271498          0          1
+      fy2015 |        111    .1261261    .3334971          0          1
+      fy2016 |        111    .2612613    .4413144          0          1
+      fy2017 |        111    .1171171    .3230181          0          1
+
+. 
+. 
+. *close and keep the log file
+. log close
+      name:  <unnamed>
+       log:  /Volumes/TimaSSD/ResearchCurrent/Local_FinResilience_Projects/APPAM2019_ResilienceRatings/Analysis/Output_DealRatings.log
+  log type:  text
+ closed on:   1 Mar 2022, 13:01:24
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Merced.2014.txt	0.0820746019741398
+input/Macro/Merced.2014.txt	0.254046532433322
+input/Macro/Merced.2014.txt	0.231666886261135
+input/Macro/Merced.2014.txt	0.334290623210064

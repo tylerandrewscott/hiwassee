@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Stanislaus.2016.txt	0.112019814625359
+input/Micro/Stanislaus.2016.txt	0.228839139580972
+input/Micro/Stanislaus.2016.txt	0.181348974111393
+input/Micro/Stanislaus.2016.txt	0.345071380252841

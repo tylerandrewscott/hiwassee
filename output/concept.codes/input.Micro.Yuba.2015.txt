@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Yuba.2015.txt	0.0937101025606487
+input/Micro/Yuba.2015.txt	0.238097159119133
+input/Micro/Yuba.2015.txt	0.193598344794656
+input/Micro/Yuba.2015.txt	0.350333743757577

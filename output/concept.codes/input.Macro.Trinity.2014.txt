@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Trinity.2014.txt	0.0958745523965947
+input/Macro/Trinity.2014.txt	0.217126537643017
+input/Macro/Trinity.2014.txt	0.224113007233523
+input/Macro/Trinity.2014.txt	0.274729057567527

@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/SantaCruz.2012.txt	0.087991365195388
+input/Macro/SantaCruz.2012.txt	0.233325347910854
+input/Macro/SantaCruz.2012.txt	0.227208011570469
+input/Macro/SantaCruz.2012.txt	0.326811273634181

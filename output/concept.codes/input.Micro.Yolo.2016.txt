@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Yolo.2016.txt	0.106458115263525
+input/Micro/Yolo.2016.txt	0.236343528328535
+input/Micro/Yolo.2016.txt	0.173873248253207
+input/Micro/Yolo.2016.txt	0.369385010169615

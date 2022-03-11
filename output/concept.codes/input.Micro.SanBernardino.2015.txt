@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/SanBernardino.2015.txt	0.116514305256561
+input/Micro/SanBernardino.2015.txt	0.242957731430906
+input/Micro/SanBernardino.2015.txt	0.164398194955976
+input/Micro/SanBernardino.2015.txt	0.351880550817871

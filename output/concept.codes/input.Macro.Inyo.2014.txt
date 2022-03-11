@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Inyo.2014.txt	0.0849145404021083
+input/Macro/Inyo.2014.txt	0.2313330347333
+input/Macro/Inyo.2014.txt	0.19288784174348
+input/Macro/Inyo.2014.txt	0.34220443456701

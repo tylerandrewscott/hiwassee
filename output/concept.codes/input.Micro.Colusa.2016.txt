@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Colusa.2016.txt	0.134938283094576
+input/Micro/Colusa.2016.txt	0.25064443587017
+input/Micro/Colusa.2016.txt	0.136316028961184
+input/Micro/Colusa.2016.txt	0.211617594726803

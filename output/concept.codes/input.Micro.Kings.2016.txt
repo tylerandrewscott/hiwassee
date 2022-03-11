@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Kings.2016.txt	0.108051094340158
+input/Micro/Kings.2016.txt	0.23593642558811
+input/Micro/Kings.2016.txt	0.155500752575615
+input/Micro/Kings.2016.txt	0.344041126202647

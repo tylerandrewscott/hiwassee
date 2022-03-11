@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/ElDorado.2014.txt	0.0646167355096748
+input/Macro/ElDorado.2014.txt	0.211937561846952
+input/Macro/ElDorado.2014.txt	0.220788219120502
+input/Macro/ElDorado.2014.txt	0.344117577287106

@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/SantaClara.2016.txt	0.114946364930998
+input/Macro/SantaClara.2016.txt	0.278096850447304
+input/Macro/SantaClara.2016.txt	0.190559514664486
+input/Macro/SantaClara.2016.txt	0.301614297843929

@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Butte.2012.txt	0.0925098104380647
+input/Macro/Butte.2012.txt	0.276211716060644
+input/Macro/Butte.2012.txt	0.216046532298796
+input/Macro/Butte.2012.txt	0.310895634320242

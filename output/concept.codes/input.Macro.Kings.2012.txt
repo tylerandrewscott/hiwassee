@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Kings.2012.txt	0.0983020258246713
+input/Macro/Kings.2012.txt	0.250541103062882
+input/Macro/Kings.2012.txt	0.174558984446432
+input/Macro/Kings.2012.txt	0.287496269812175

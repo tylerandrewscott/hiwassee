@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Kern.2012.txt	0.114917623916962
+input/Macro/Kern.2012.txt	0.255652767363191
+input/Macro/Kern.2012.txt	0.185760257987933
+input/Macro/Kern.2012.txt	0.304563211935632

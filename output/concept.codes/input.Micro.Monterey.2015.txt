@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Monterey.2015.txt	0.0997396799115152
+input/Micro/Monterey.2015.txt	0.247690057825281
+input/Micro/Monterey.2015.txt	0.151114221225147
+input/Micro/Monterey.2015.txt	0.351974968703181

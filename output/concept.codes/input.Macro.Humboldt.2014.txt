@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Humboldt.2014.txt	0.0667567232160108
+input/Macro/Humboldt.2014.txt	0.248262435035195
+input/Macro/Humboldt.2014.txt	0.256774713456741
+input/Macro/Humboldt.2014.txt	0.302586033890721

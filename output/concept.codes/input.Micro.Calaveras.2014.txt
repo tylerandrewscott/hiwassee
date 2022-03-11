@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Calaveras.2014.txt	0.0789962726725434
+input/Micro/Calaveras.2014.txt	0.235138681692253
+input/Micro/Calaveras.2014.txt	0.174635500291773
+input/Micro/Calaveras.2014.txt	0.327976899922789

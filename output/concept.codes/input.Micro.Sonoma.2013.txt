@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Sonoma.2013.txt	0.118471466273525
+input/Micro/Sonoma.2013.txt	0.234754130282918
+input/Micro/Sonoma.2013.txt	0.174783989567229
+input/Micro/Sonoma.2013.txt	0.337351968415

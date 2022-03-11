@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Nevada.2016.txt	0.0902991264937066
+input/Macro/Nevada.2016.txt	0.274781835287122
+input/Macro/Nevada.2016.txt	0.165756143981018
+input/Macro/Nevada.2016.txt	0.281068604432754

@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/SanJoaquin.2012.txt	0.107525882119884
+input/Macro/SanJoaquin.2012.txt	0.29251354862933
+input/Macro/SanJoaquin.2012.txt	0.173194372597191
+input/Macro/SanJoaquin.2012.txt	0.333530078764503

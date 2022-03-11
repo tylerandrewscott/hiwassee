@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Kings.2014.txt	0.100991588789751
+input/Micro/Kings.2014.txt	0.242133736873365
+input/Micro/Kings.2014.txt	0.160639212427158
+input/Micro/Kings.2014.txt	0.337476527743918

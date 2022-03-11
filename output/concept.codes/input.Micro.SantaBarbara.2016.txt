@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/SantaBarbara.2016.txt	0.123355520404799
+input/Micro/SantaBarbara.2016.txt	0.2420411114741
+input/Micro/SantaBarbara.2016.txt	0.172652762364871
+input/Micro/SantaBarbara.2016.txt	0.353765248268864

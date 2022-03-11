@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Mono.2012.txt	0.0853146040447433
+input/Micro/Mono.2012.txt	0.210938634905761
+input/Micro/Mono.2012.txt	0.204438130169099
+input/Micro/Mono.2012.txt	0.347641660601064

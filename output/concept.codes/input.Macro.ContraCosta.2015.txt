@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/ContraCosta.2015.txt	0.100607585013393
+input/Macro/ContraCosta.2015.txt	0.263231321823078
+input/Macro/ContraCosta.2015.txt	0.205589419496751
+input/Macro/ContraCosta.2015.txt	0.338130465118231

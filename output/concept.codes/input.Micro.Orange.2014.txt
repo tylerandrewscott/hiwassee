@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Orange.2014.txt	0.106512914363313
+input/Micro/Orange.2014.txt	0.247144330063959
+input/Micro/Orange.2014.txt	0.162828259600809
+input/Micro/Orange.2014.txt	0.329682800023648

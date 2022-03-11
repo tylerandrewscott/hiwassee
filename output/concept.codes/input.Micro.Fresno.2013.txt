@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Fresno.2013.txt	0.0748039384636584
+input/Micro/Fresno.2013.txt	0.227389670723353
+input/Micro/Fresno.2013.txt	0.158792104581162
+input/Micro/Fresno.2013.txt	0.321646418132296

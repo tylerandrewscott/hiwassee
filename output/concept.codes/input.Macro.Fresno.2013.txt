@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Fresno.2013.txt	0.101305369628418
+input/Macro/Fresno.2013.txt	0.231802420164087
+input/Macro/Fresno.2013.txt	0.223480817240331
+input/Macro/Fresno.2013.txt	0.314473706439311

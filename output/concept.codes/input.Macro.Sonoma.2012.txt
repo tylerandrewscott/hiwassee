@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Sonoma.2012.txt	0.100259354054323
+input/Macro/Sonoma.2012.txt	0.250158449739889
+input/Macro/Sonoma.2012.txt	0.204663026753537
+input/Macro/Sonoma.2012.txt	0.344859234653883

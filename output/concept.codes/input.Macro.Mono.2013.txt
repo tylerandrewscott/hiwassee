@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Mono.2013.txt	0.0711195700514264
+input/Macro/Mono.2013.txt	0.265727814628142
+input/Macro/Mono.2013.txt	0.196852799208493
+input/Macro/Mono.2013.txt	0.324255642149666

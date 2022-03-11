@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/SanFrancisco.2012.txt	0.104352854757908
+input/Macro/SanFrancisco.2012.txt	0.24952022989975
+input/Macro/SanFrancisco.2012.txt	0.230245181099398
+input/Macro/SanFrancisco.2012.txt	0.259960825473353

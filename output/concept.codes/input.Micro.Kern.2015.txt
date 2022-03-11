@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Kern.2015.txt	0.0841441852407749
+input/Micro/Kern.2015.txt	0.240775102190585
+input/Micro/Kern.2015.txt	0.17082133868278
+input/Micro/Kern.2015.txt	0.33206680817729

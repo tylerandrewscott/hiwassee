@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Kern.2012.txt	0.102714975788917
+input/Micro/Kern.2012.txt	0.249725915964979
+input/Micro/Kern.2012.txt	0.152970206458714
+input/Micro/Kern.2012.txt	0.331925198615653

@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/Mariposa.2015.txt	0.0849804239241802
+input/Micro/Mariposa.2015.txt	0.237946405320204
+input/Micro/Mariposa.2015.txt	0.170211762670125
+input/Micro/Mariposa.2015.txt	0.32361257433726

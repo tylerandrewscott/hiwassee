@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Mariposa.2013.txt	0.0973209349304924
+input/Macro/Mariposa.2013.txt	0.263781259311755
+input/Macro/Mariposa.2013.txt	0.197485139200855
+input/Macro/Mariposa.2013.txt	0.322657145151625

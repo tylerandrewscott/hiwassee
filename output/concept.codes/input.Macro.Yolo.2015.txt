@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Yolo.2015.txt	0.0741071032784335
+input/Macro/Yolo.2015.txt	0.234630750446311
+input/Macro/Yolo.2015.txt	0.23976240472397
+input/Macro/Yolo.2015.txt	0.345109157975509

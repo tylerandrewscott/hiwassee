@@ -1,0 +1,5 @@
+doc	cos
+input/Micro/ContraCosta.2013.txt	0.1045146329023
+input/Micro/ContraCosta.2013.txt	0.246044368068034
+input/Micro/ContraCosta.2013.txt	0.184865493532424
+input/Micro/ContraCosta.2013.txt	0.328281688032276

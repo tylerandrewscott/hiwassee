@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Alameda.2015.txt	0.0996268045817723
+input/Macro/Alameda.2015.txt	0.265400219264432
+input/Macro/Alameda.2015.txt	0.191871756285707
+input/Macro/Alameda.2015.txt	0.30337075824624
