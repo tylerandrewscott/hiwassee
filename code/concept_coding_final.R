@@ -111,23 +111,25 @@ dir.create(filefolderpath)
 ######BY ENTIRE BUDGET
 ###drop because:
 drop <- "input/Macro/Inyo.2016.txt"
-templist2<-lapply(as.character(files[!files %in% drop]), function(BIGID) {
+library(pbapply)
+templist2<-pblapply(files[!files %in% drop], function(BIGID) {
   txtf1<-readtext::readtext(BIGID)
   txtf1<-iconv(txtf1, "UTF-8", "UTF-8",sub='')
   customstops<-tibble(word=c("dropthis"),lexicon="CUSTOM")
   txtf1<-data.frame("uniqid"=BIGID,"txt"=as.character(txtf1),stringsAsFactors=FALSE)
   word_counts <- unnest_tokens(txtf1,word,txt,token="words")
   word_counts<-word_counts  %>%  anti_join(bind_rows(stop_words,customstops))
-  tf<-data.frame("doc"=BIGID,"cos"=sapply(nmods,function(X) cosineSimilarity(X,vsm[[word_counts$word]])))
-  fwrite(data.table(tf),file.path(filefolderpath, gsub("/",".",BIGID)),sep = '\t')
+  tf<-data.table("doc"=BIGID,"cos"=sapply(nmods,function(X) cosineSimilarity(X,vsm[[word_counts$word]])))
+  fwrite(tf,file.path(filefolderpath, gsub("/",".",BIGID)),sep = '\t')
+  tf
 })
 
 macros<-files[stringr::str_which(files,".txt")][stringr::str_which(files[stringr::str_which(files,".txt")],"Macro")]
 
 # with no paragraphs(budgetonly)
-templist3<-bind_rows(templist2)
+templist3<-rbindlist(templist2)
 templist3$concept<-rep(reses,nrow(templist3)/length(reses))
 
-fwrite(data.table(templist3),file = 'output/concept_results.txt',sep = '\t')
+fwrite(templist3,file = 'output/concept_results.txt',sep = '\t')
 #saveRDS(templist3,"output/concept_result_jpart.rds")
 
