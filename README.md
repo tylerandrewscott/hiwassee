@@ -23,7 +23,9 @@ The directory has 5 folders:
       - concept_results.txt, which has estimated resilience emphases by county and year
       - county_demographics.txt, which has population, unemployment, political ideology, and median household income by county and year (excepting political ideology, which is based on https://americanideologyproject.com/ and only estimated once per county)
       - SOMETHING HERE ABOUT PREPARED FINANCIAL DATA
-  - raw_county_input: these files are the raw ingredients for the project, with the exception of files that are read directly in from online locations (e.g., Wikipedia articles on resilience). 
+  - raw_county_input: these files are the raw ingredients for the project, with the exception of files that are read directly in from online locations (e.g., Wikipedia articles on resilience).
+  - Macro/ and Micro/, which are the raw budget .txt files
+  - wiki/ which contains snapshots of the original wikipedia articles used to measure the resilience emphases
 
   
   
