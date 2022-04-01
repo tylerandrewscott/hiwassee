@@ -18,7 +18,15 @@ Local governments consider a wide range of policies to increase resilience in th
 
 The directory has 5 folders:
 - code: scripts for replicating the project
-- input: these files are the raw ingredients for the project, with the exception of files that are read directly in from online locations (e.g., Wikipedia articles on resilience). In some case, the files have been curated/cleaned already or hand-developed by the authors. If you make use of the data inputs, please be sure to cite the relevant source (either this project or those who developed the data that we draw from and cite).
+- input: 
+  - prepped_county_input: these files are the prepared ingredients for the regression analysis, and include:
+      - concept_results.txt, which has estimated resilience emphases by county and year
+      - county_demographics.txt, which has population, unemployment, political ideology, and median household income by county and year (excepting political ideology, which is based on https://americanideologyproject.com/ and only estimated once per county)
+      - SOMETHING HERE ABOUT PREPARED FINANCIAL DATA
+  - raw_county_input: these files are the raw ingredients for the project, with the exception of files that are read directly in from online locations (e.g., Wikipedia articles on resilience). 
+
+  
+  
 -output: log files, calculations, processed text, and figures/tables
 -scratch: items in this folder are not synced to github. this folder is where the word embeddings file is downloaded if not already stored locally on the machine
 

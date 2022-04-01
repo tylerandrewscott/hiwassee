@@ -130,6 +130,16 @@ macros<-files[stringr::str_which(files,".txt")][stringr::str_which(files[stringr
 templist3<-rbindlist(templist2)
 templist3$concept<-rep(reses,nrow(templist3)/length(reses))
 
-fwrite(templist3,file = 'output/concept_results.txt',sep = '\t')
+temp <- dcast(templist3,doc~concept,value.var = 'cos')
+
+temp$County <- str_remove_all(str_remove_all(temp$doc,'.*\\/'),'\\..*')
+temp$Year <- str_extract(temp$doc,'[0-9]{4}')
+temp$County <- str_remove_all(temp$County,'\\s')
+temp$County[temp$County=='Modera']<-'Madera'
+cacount = tigris::counties(state = 'CA')
+cacount$NAME <- str_remove_all(cacount$NAME,'\\s')
+
+temp$CFIPS <- cacount$GEOID[match(tolower(temp$County),tolower(cacount$NAME))]
+fwrite(temp,file = 'input/prepped_county_input/concept_results.txt',sep = '\t')
 #saveRDS(templist3,"output/concept_result_jpart.rds")
 
