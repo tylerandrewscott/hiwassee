@@ -1,12 +1,10 @@
 library(data.table)
-ca = fread('~/Downloads/county_covariates_1994-2017.csv')
-ca = ca[State==6,]
-fwrite(ca,file = 'input/ca_county_data/county_covariates_1994-2017.csv')
-names(ca)
-ca[,.(County, COUNTY_FIPS,Year,Unemp_Rate,Population)]
-
 library(tidycensus)
 source('../census_key')
+library(tigris)
+counties <- tigris::list_counties('CA')
+
+
 tidycensus::census_api_key(key = k)
 acs2012 = tidycensus::load_variables(year = '2012',dataset = 'acs5')
 
@@ -30,15 +28,16 @@ library(tidyverse)
 
 county_dt <- left_join(median_income,pop_melt)
 
-lau_links <- paste0('https://www.bls.gov/lau/laucnty',12:17,'.txt')
-lau_list <- lapply(lau_links,function(x) {
-temp = fread(x,skip = 4,fill = T)  %>% filter(V6=='CA')
-temp$CFIPS = paste0(temp$V2,temp$V3)
-setnames(temp,c('V7','V11'),c('Year','Unemp_Rate'))
-temp[,.(CFIPS,Year,Unemp_Rate)]
-})
+lau <- fread('https://data.edd.ca.gov/api/views/7jbb-3rb8/rows.csv?accessType=DOWNLOAD')
+lau <- lau[`Area Type`=='County',]
+lau$`Area Name` <- str_remove_all(lau$`Area Name`,'\\sCounty$')
 
-county_dt <- left_join(county_dt,rbindlist(lau_list))
+lau$CFIPS <- paste0('06',counties$county_code[match(lau$`Area Name`,counties$county)])
+lau <- lau[,.(Year,CFIPS,`Unemployment Rate`)]
+setnames(lau,'Unemployment Rate','Unemp_Rate')
+lau$Year <- as.character(lau$Year)
+
+county_dt <- left_join(county_dt,lau)
 
 ideo = fread('https://americanideologyproject.com/estimates/county_TW_ideology_estimates.csv')
 ideo$county_fips <- formatC(ideo$county_fips,width = 5,flag = '0')
