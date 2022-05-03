@@ -26,28 +26,8 @@ dt_all <- Reduce(function(x, y) merge(x, y,all = T), list(d1,d2,d3,d4))
 fwrite(dt_all,'input/Data_Clean_CountyRatings_V2.txt',sep='\t')
 
 
-
-dt_all <- dt_all[Year>=2012,]
-
-library(haven)
-old <- read_dta('input/Data_Clean_CountyRatings.dta')
-old <- data.table(old)
-old <- old[year>=2012,]
-old$cfips <- as.character(old$cfips)
-names(dt_all) <- tolower(names(dt_all))
-common = intersect(names(dt_all),names(old))
-
-
-old <- old[,common,with = F]
-dt_all <- dt_all[,common,with = F]
-
-library(tidyverse)
-
-dt_all <- dt_all %>% mutate_if(is.numeric,as.numeric) %>% data.table()
-old <- old %>% mutate_if(is.numeric,as.numeric) %>% data.table()
-old <- old[order(cfips,year),]
-dt_all <- dt_all[order(cfips,year),]
-
-
-
+deals <- fread('input/prepped_county_input/CAdeal_ratings.csv')
+deals$CFIPS <- paste0('06',counties$county_code[match(deals$IssuerCounty,counties$county)])
+deals <- left_join(deals,dt_all)
+fwrite(deals,'input/Data_Clean_DealRatings_V2.txt',sep='\t')
 
