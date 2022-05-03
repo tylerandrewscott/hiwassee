@@ -23,6 +23,10 @@ d4$CFIPS <- as.character(d4$CFIPS)
 
 dt_all <- Reduce(function(x, y) merge(x, y,all = T), list(d1,d2,d3,d4))
 
+fwrite(dt_all,'input/Data_Clean_CountyRatings_V2.txt',sep='\t')
+
+
+
 dt_all <- dt_all[Year>=2012,]
 
 library(haven)
@@ -44,6 +48,6 @@ old <- old %>% mutate_if(is.numeric,as.numeric) %>% data.table()
 old <- old[order(cfips,year),]
 dt_all <- dt_all[order(cfips,year),]
 
-fwrite(dt_all,'input/Data_Clean_CountyRatings_V2.txt',sep='\t')
+
 
 
