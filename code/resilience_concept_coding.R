@@ -112,7 +112,7 @@ dir.create(filefolderpath)
 ###drop because:
 drop <- "input/Macro/Inyo.2016.txt"
 library(pbapply)
-templist2<-pblapply(files[!files %in% drop], function(BIGID) {
+templist2<-pblapply(files, function(BIGID) {
   txtf1<-readtext::readtext(BIGID)
   txtf1<-iconv(txtf1, "UTF-8", "UTF-8",sub='')
   customstops<-tibble(word=c("dropthis"),lexicon="CUSTOM")
@@ -143,3 +143,4 @@ temp$CFIPS <- cacount$GEOID[match(tolower(temp$County),tolower(cacount$NAME))]
 fwrite(temp,file = 'input/prepped_county_input/concept_results.txt',sep = '\t')
 #saveRDS(templist3,"output/concept_result_jpart.rds")
 
+ggplot(temp) + geom_tile(aes(y = County,x = as.factor(Year)))
