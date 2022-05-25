@@ -1,0 +1,133 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div style="margin: 0 auto; display: table; margin-top: 1em;">
+<table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
+<thead>
+<tr><td colspan='5' style='text-align: left;'>
+Table 3. Ordered Logistic Models for the Covariates of Underlying County Credit Ratings.</td></tr>
+<tr>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Coef</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>crisis_management</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>security</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>preparedness</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>risk_management</th>
+</tr>
+</thead>
+<tbody> 
+<tr><td colspan='5' style='font-weight: 900;'>linear predictors</td></tr>
+<tr>
+<td style='text-align: center;'>scale(resilience signal)</td>
+<td style='text-align: center;'>-0.409 (0.450)</td>
+<td style='text-align: center;'>0.116 (0.809)</td>
+<td style='text-align: center;'>0.127 (0.766)</td>
+<td style='text-align: center;'>-0.141 (0.784)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(ln_ag_market_value)</td>
+<td style='text-align: center;'>1.134 (0.465)</td>
+<td style='text-align: center;'>1.110 (0.476)</td>
+<td style='text-align: center;'>1.149 (0.462)</td>
+<td style='text-align: center;'>1.159 (0.455)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(ln_median_income)</td>
+<td style='text-align: center;'>9.397 (0.000)</td>
+<td style='text-align: center;'>9.508 (0.000)</td>
+<td style='text-align: center;'>9.497 (0.000)</td>
+<td style='text-align: center;'>9.511 (0.000)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(lnpop)</td>
+<td style='text-align: center;'>4.113 (0.036)</td>
+<td style='text-align: center;'>3.958 (0.042)</td>
+<td style='text-align: center;'>4.079 (0.038)</td>
+<td style='text-align: center;'>3.922 (0.043)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(lntotalliabilities_generallongterm)</td>
+<td style='text-align: center;'>-1.042 (0.353)</td>
+<td style='text-align: center;'>-1.086 (0.330)</td>
+<td style='text-align: center;'>-1.109 (0.326)</td>
+<td style='text-align: center;'>-1.069 (0.336)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(mrp_ideology_mean)</td>
+<td style='text-align: center;'>-1.099 (0.487)</td>
+<td style='text-align: center;'>-1.029 (0.511)</td>
+<td style='text-align: center;'>-1.077 (0.496)</td>
+<td style='text-align: center;'>-1.001 (0.520)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(unemp_rate)</td>
+<td style='text-align: center;'>-0.929 (0.651)</td>
+<td style='text-align: center;'>-0.754 (0.715)</td>
+<td style='text-align: center;'>-0.851 (0.682)</td>
+<td style='text-align: center;'>-0.796 (0.697)</td>
+</tr> 
+<tr><td colspan='5' style='font-weight: 900;'>additional model terms</td></tr>
+<tr>
+<td style='text-align: center;'>cut points</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+</tr>
+<tr>
+<td style='text-align: center;'>year fixed effect</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+</tr>
+<tr>
+<td style='text-align: center;'>county random effect</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+</tr> 
+<tr><td colspan='5' style='font-weight: 900;'>goodness-of-fit</td></tr>
+<tr>
+<td style='text-align: center;'>AIC</td>
+<td style='text-align: center;'>279.745</td>
+<td style='text-align: center;'>279.728</td>
+<td style='text-align: center;'>279.714</td>
+<td style='text-align: center;'>279.229</td>
+</tr>
+<tr>
+<td style='text-align: center;'>BIC</td>
+<td style='text-align: center;'>338.291</td>
+<td style='text-align: center;'>338.275</td>
+<td style='text-align: center;'>338.261</td>
+<td style='text-align: center;'>337.776</td>
+</tr>
+<tr>
+<td style='text-align: center;'>log-likelihood</td>
+<td style='text-align: center;'>-120.872</td>
+<td style='text-align: center;'>-120.864</td>
+<td style='text-align: center;'>-120.857</td>
+<td style='text-align: center;'>-120.615</td>
+</tr> 
+<tr><td colspan='5' style='font-weight: 900;'>observations</td></tr>
+<tr>
+<td style='text-align: center;'>N (county-year)</td>
+<td style='text-align: center;'>161</td>
+<td style='text-align: center;'>161</td>
+<td style='text-align: center;'>161</td>
+<td style='text-align: center;'>161</td>
+</tr>
+<tr>
+<td style='border-bottom: 2px solid grey; text-align: center;'># groups (counties)</td>
+<td style='border-bottom: 2px solid grey; text-align: center;'>38</td>
+<td style='border-bottom: 2px solid grey; text-align: center;'>38</td>
+<td style='border-bottom: 2px solid grey; text-align: center;'>38</td>
+<td style='border-bottom: 2px solid grey; text-align: center;'>38</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
