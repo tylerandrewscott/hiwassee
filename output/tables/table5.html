@@ -1,0 +1,161 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<div style="margin: 0 auto; display: table; margin-top: 1em;">
+<table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
+<thead>
+<tr><td colspan='5' style='text-align: left;'>
+Table 3. Ordered Logistic Models for the Covariates of Deal Ratings.</td></tr>
+<tr>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Coef</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>crisis_management</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>security</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>preparedness</th>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>risk_management</th>
+</tr>
+</thead>
+<tbody> 
+<tr><td colspan='5' style='font-weight: 900;'>linear predictors</td></tr>
+<tr>
+<td style='text-align: center;'>scale(resilience signal)</td>
+<td style='text-align: center;'>0.034 (0.911)</td>
+<td style='text-align: center;'>-0.785 (0.014)</td>
+<td style='text-align: center;'>0.111 (0.667)</td>
+<td style='text-align: center;'>-0.430 (0.517)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>callable</td>
+<td style='text-align: center;'>2.689 (0.003)</td>
+<td style='text-align: center;'>3.042 (0.000)</td>
+<td style='text-align: center;'>2.684 (0.003)</td>
+<td style='text-align: center;'>2.634 (0.004)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>fedtaxable</td>
+<td style='text-align: center;'>-1.827 (0.006)</td>
+<td style='text-align: center;'>-1.750 (0.003)</td>
+<td style='text-align: center;'>-1.811 (0.006)</td>
+<td style='text-align: center;'>-1.891 (0.005)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>guarantee_yes</td>
+<td style='text-align: center;'>0.057 (0.946)</td>
+<td style='text-align: center;'>-0.843 (0.210)</td>
+<td style='text-align: center;'>0.057 (0.946)</td>
+<td style='text-align: center;'>0.099 (0.908)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(ln_ag_market_value)</td>
+<td style='text-align: center;'>-1.159 (0.010)</td>
+<td style='text-align: center;'>-1.224 (0.000)</td>
+<td style='text-align: center;'>-1.181 (0.005)</td>
+<td style='text-align: center;'>-1.221 (0.011)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(lnpop)</td>
+<td style='text-align: center;'>1.558 (0.002)</td>
+<td style='text-align: center;'>1.309 (0.000)</td>
+<td style='text-align: center;'>1.590 (0.001)</td>
+<td style='text-align: center;'>1.632 (0.002)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(lnprincipal_amt)</td>
+<td style='text-align: center;'>-0.324 (0.264)</td>
+<td style='text-align: center;'>-0.198 (0.435)</td>
+<td style='text-align: center;'>-0.310 (0.281)</td>
+<td style='text-align: center;'>-0.340 (0.244)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(matyears)</td>
+<td style='text-align: center;'>-0.586 (0.129)</td>
+<td style='text-align: center;'>-0.899 (0.007)</td>
+<td style='text-align: center;'>-0.614 (0.115)</td>
+<td style='text-align: center;'>-0.549 (0.164)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(mrp_ideology_mean)</td>
+<td style='text-align: center;'>0.450 (0.433)</td>
+<td style='text-align: center;'>0.294 (0.365)</td>
+<td style='text-align: center;'>0.430 (0.433)</td>
+<td style='text-align: center;'>0.473 (0.459)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>scale(unemp_rate)</td>
+<td style='text-align: center;'>0.629 (0.354)</td>
+<td style='text-align: center;'>0.492 (0.103)</td>
+<td style='text-align: center;'>0.662 (0.307)</td>
+<td style='text-align: center;'>0.767 (0.309)</td>
+</tr>
+<tr>
+<td style='text-align: center;'>source_tax</td>
+<td style='text-align: center;'>4.239 (0.000)</td>
+<td style='text-align: center;'>3.029 (0.000)</td>
+<td style='text-align: center;'>4.153 (0.000)</td>
+<td style='text-align: center;'>4.570 (0.000)</td>
+</tr> 
+<tr><td colspan='5' style='font-weight: 900;'>additional model terms</td></tr>
+<tr>
+<td style='text-align: center;'>cut points</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+</tr>
+<tr>
+<td style='text-align: center;'>year fixed effect</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+</tr>
+<tr>
+<td style='text-align: center;'>county random effect</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+<td style='text-align: center;'>yes</td>
+</tr> 
+<tr><td colspan='5' style='font-weight: 900;'>goodness-of-fit</td></tr>
+<tr>
+<td style='text-align: center;'>AIC</td>
+<td style='text-align: center;'>321.755</td>
+<td style='text-align: center;'>324.028</td>
+<td style='text-align: center;'>324.324</td>
+<td style='text-align: center;'>324.494</td>
+</tr>
+<tr>
+<td style='text-align: center;'>BIC</td>
+<td style='text-align: center;'>379.399</td>
+<td style='text-align: center;'>381.671</td>
+<td style='text-align: center;'>381.968</td>
+<td style='text-align: center;'>382.138</td>
+</tr>
+<tr>
+<td style='text-align: center;'>log-likelihood</td>
+<td style='text-align: center;'>-139.878</td>
+<td style='text-align: center;'>-141.014</td>
+<td style='text-align: center;'>-141.162</td>
+<td style='text-align: center;'>-141.247</td>
+</tr> 
+<tr><td colspan='5' style='font-weight: 900;'>observations</td></tr>
+<tr>
+<td style='text-align: center;'>N (deals)</td>
+<td style='text-align: center;'>115</td>
+<td style='text-align: center;'>115</td>
+<td style='text-align: center;'>115</td>
+<td style='text-align: center;'>115</td>
+</tr>
+<tr>
+<td style='border-bottom: 2px solid grey; text-align: center;'># groups (counties)</td>
+<td style='border-bottom: 2px solid grey; text-align: center;'>22</td>
+<td style='border-bottom: 2px solid grey; text-align: center;'>22</td>
+<td style='border-bottom: 2px solid grey; text-align: center;'>22</td>
+<td style='border-bottom: 2px solid grey; text-align: center;'>22</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html>
