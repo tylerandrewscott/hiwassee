@@ -9,9 +9,10 @@ d1 <- fread('input/prepped_county_input/county_demographs.txt')
 d1$CFIPS <- as.character(d1$CFIPS)
 
 # concept measures
-d2 <- fread('input/prepped_county_input/concept_results.txt')
+d2 <- fread('input/prepped_county_input/newconcepttrial.csv')
+d2$CFIPS <- paste0('6',counties$county_code[match(str_extract(basename(d2$doc),'^[^\\.]+'),str_replace_all(counties$county,'\\s',''))])
+d2$Year <- as.numeric(str_extract(d2$doc,'[0-9]{4}'))
 
-d2$CFIPS <- as.character(d2$CFIPS)
 d2 <- d2[grepl('Macro',doc),]
 # credit ratings
 d3 <- fread('input/prepped_county_input/CAcounty_ratings.csv')
@@ -22,6 +23,7 @@ d3[,County:=NULL]
 # financial data
 d4 <- fread('input/prepped_county_input/Combined_DIVER_Data.csv')
 d4$CFIPS <- paste0('6',counties$county_code[match(d4$me,counties$county)])
+
 
 dt_all <- Reduce(function(x, y) merge(x, y,all = T), list(d1,d2,d3,d4))
 
