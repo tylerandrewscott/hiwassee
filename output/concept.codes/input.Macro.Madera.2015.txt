@@ -1,0 +1,5 @@
+doc	cos
+input/Macro/Madera.2015.txt	0.0700031808757777
+input/Macro/Madera.2015.txt	0.223989559827903
+input/Macro/Madera.2015.txt	0.244062930510458
+input/Macro/Madera.2015.txt	0.31829872457878

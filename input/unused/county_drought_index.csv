@@ -1,0 +1,349 @@
+County,Year,Drought_Weighted,Drought_Weighted_Prior_Year
+Alameda County,2016,255.98,418.96000000000004
+Alameda County,2015,418.96000000000004,418.96000000000004
+Alameda County,2014,418.96000000000004,306.90999999999997
+Alameda County,2013,306.90999999999997,15.58
+Alameda County,2012,15.58,0
+Alameda County,2011,0,0
+Alpine County,2016,292.34000000000003,500
+Alpine County,2015,500,478.02
+Alpine County,2014,478.02,342.33
+Alpine County,2013,342.33,90.7
+Alpine County,2012,90.7,100
+Alpine County,2011,100,0
+Amador County,2016,289.77,500
+Amador County,2015,500,494.96
+Amador County,2014,494.96,399.65000000000003
+Amador County,2013,399.65000000000003,0
+Amador County,2012,0,51.84
+Amador County,2011,51.84,0
+Butte County,2016,117.28,496.06
+Butte County,2015,496.06,400
+Butte County,2014,400,300
+Butte County,2013,300,0
+Butte County,2012,0,58.05
+Butte County,2011,58.05,0
+Calaveras County,2016,370.33,500
+Calaveras County,2015,500,500
+Calaveras County,2014,500,400
+Calaveras County,2013,400,26.459999999999997
+Calaveras County,2012,26.459999999999997,41.67
+Calaveras County,2011,41.67,0
+Colusa County,2016,193.57999999999998,428.42
+Colusa County,2015,428.42,400
+Colusa County,2014,400,300
+Colusa County,2013,300,0
+Colusa County,2012,0,0
+Colusa County,2011,0,0
+Contra Costa County,2016,253.86,409.94999999999993
+Contra Costa County,2015,409.94999999999993,407.63
+Contra Costa County,2014,407.63,319.01
+Contra Costa County,2013,319.01,16.22
+Contra Costa County,2012,16.22,0
+Contra Costa County,2011,0,0
+Del Norte County,2016,0,199.70000000000002
+Del Norte County,2015,199.70000000000002,155.88
+Del Norte County,2014,155.88,200
+Del Norte County,2013,200,0
+Del Norte County,2012,0,0
+Del Norte County,2011,0,0
+El Dorado County,2016,186.64999999999998,500
+El Dorado County,2015,500,449.63
+El Dorado County,2014,449.63,332.61
+El Dorado County,2013,332.61,7.66
+El Dorado County,2012,7.66,82.48
+El Dorado County,2011,82.48,0
+Fresno County,2016,459.7,500
+Fresno County,2015,500,499.73
+Fresno County,2014,499.73,398.84999999999997
+Fresno County,2013,398.84999999999997,198.96
+Fresno County,2012,198.96,0
+Fresno County,2011,0,9.16
+Glenn County,2016,175.06,409.57000000000005
+Glenn County,2015,409.57000000000005,400
+Glenn County,2014,400,300
+Glenn County,2013,300,0
+Glenn County,2012,0,0
+Glenn County,2011,0,0
+Humboldt County,2016,0,268.12
+Humboldt County,2015,268.12,385.05
+Humboldt County,2014,385.05,233.57000000000002
+Humboldt County,2013,233.57000000000002,0
+Humboldt County,2012,0,0
+Humboldt County,2011,0,0
+Imperial County,2016,300,229.44
+Imperial County,2015,229.44,270.48999999999995
+Imperial County,2014,270.48999999999995,127.46000000000001
+Imperial County,2013,127.46000000000001,197.5
+Imperial County,2012,197.5,43.99
+Imperial County,2011,43.99,12.22
+Inyo County,2016,332.8,381.07
+Inyo County,2015,381.07,384.52000000000004
+Inyo County,2014,384.52000000000004,304.93
+Inyo County,2013,304.93,292.62
+Inyo County,2012,292.62,0
+Inyo County,2011,0,7.37
+Kern County,2016,473.06,473.7
+Kern County,2015,473.7,477.68000000000006
+Kern County,2014,477.68000000000006,397.7
+Kern County,2013,397.7,273.79
+Kern County,2012,273.79,0
+Kern County,2011,0,0
+Kings County,2016,494,500
+Kings County,2015,500,500
+Kings County,2014,500,400
+Kings County,2013,400,200
+Kings County,2012,200,0
+Kings County,2011,0,0
+Lake County,2016,106.31,353.19
+Lake County,2015,353.19,400
+Lake County,2014,400,300
+Lake County,2013,300,0
+Lake County,2012,0,0
+Lake County,2011,0,0
+Lassen County,2016,130.17000000000002,492.58
+Lassen County,2015,492.58,421.66
+Lassen County,2014,421.66,300
+Lassen County,2013,300,244.61
+Lassen County,2012,244.61,100
+Lassen County,2011,100,43.62
+Los Angeles County,2016,485.59000000000003,487.92
+Los Angeles County,2015,487.92,487.92
+Los Angeles County,2014,487.92,298.41999999999996
+Los Angeles County,2013,298.41999999999996,202.78
+Los Angeles County,2012,202.78,0
+Los Angeles County,2011,0,0
+Madera County,2016,402.61,500
+Madera County,2015,500,499.15
+Madera County,2014,499.15,400
+Madera County,2013,400,170.89999999999998
+Madera County,2012,170.89999999999998,0
+Madera County,2011,0,0.03
+Marin County,2016,0.53,300
+Marin County,2015,300,400
+Marin County,2014,400,300
+Marin County,2013,300,0
+Marin County,2012,0,0
+Marin County,2011,0,0
+Mariposa County,2016,400,500
+Mariposa County,2015,500,500
+Mariposa County,2014,500,400
+Mariposa County,2013,400,114.84
+Mariposa County,2012,114.84,0
+Mariposa County,2011,0,0
+Mendocino County,2016,51.27,300
+Mendocino County,2015,300,400
+Mendocino County,2014,400,300
+Mendocino County,2013,300,0
+Mendocino County,2012,0,0
+Mendocino County,2011,0,0
+Merced County,2016,400,500
+Merced County,2015,500,500
+Merced County,2014,500,399.55
+Merced County,2013,399.55,199.79000000000002
+Merced County,2012,199.79000000000002,0
+Merced County,2011,0,15.42
+Modoc County,2016,86.62,412.73
+Modoc County,2015,412.73,400
+Modoc County,2014,400,300
+Modoc County,2013,300,289.26
+Modoc County,2012,289.26,100
+Modoc County,2011,100,0
+Mono County,2016,380.43,468.76
+Mono County,2015,468.76,400.97
+Mono County,2014,400.97,306.01
+Mono County,2013,306.01,275.95000000000005
+Mono County,2012,275.95000000000005,50.4
+Mono County,2011,50.4,1.88
+Monterey County,2016,401.75,446.63
+Monterey County,2015,446.63,456.86
+Monterey County,2014,456.86,349.15999999999997
+Monterey County,2013,349.15999999999997,140.23000000000002
+Monterey County,2012,140.23000000000002,0
+Monterey County,2011,0,4.7
+Napa County,2016,92.05,386.8
+Napa County,2015,386.8,400
+Napa County,2014,400,300
+Napa County,2013,300,0
+Napa County,2012,0,0
+Napa County,2011,0,0
+Nevada County,2016,117.02000000000001,500
+Nevada County,2015,500,414.71000000000004
+Nevada County,2014,414.71000000000004,300
+Nevada County,2013,300,16.8
+Nevada County,2012,16.8,96.96
+Nevada County,2011,96.96,0
+Orange County,2016,473.4599999999999,475.55
+Orange County,2015,475.55,475.55
+Orange County,2014,475.55,300
+Orange County,2013,300,125.63
+Orange County,2012,125.63,0
+Orange County,2011,0,0
+Placer County,2016,140.54,500
+Placer County,2015,500,425.67999999999995
+Placer County,2014,425.67999999999995,300
+Placer County,2013,300,11.97
+Placer County,2012,11.97,71.63
+Placer County,2011,71.63,0
+Plumas County,2016,119.95,500
+Plumas County,2015,500,415.81
+Plumas County,2014,415.81,300
+Plumas County,2013,300,56.05
+Plumas County,2012,56.05,100
+Plumas County,2011,100,0
+Riverside County,2016,316.49,269.14
+Riverside County,2015,269.14,297.21999999999997
+Riverside County,2014,297.21999999999997,217.60000000000002
+Riverside County,2013,217.60000000000002,169.26
+Riverside County,2012,169.26,58.76
+Riverside County,2011,58.76,6.59
+Sacramento County,2016,290.04999999999995,497.17
+Sacramento County,2015,497.17,419.52
+Sacramento County,2014,419.52,358.24
+Sacramento County,2013,358.24,0.28
+Sacramento County,2012,0.28,0
+Sacramento County,2011,0,0
+San Benito County,2016,453.03999999999996,486.7099999999999
+San Benito County,2015,486.7099999999999,486.7099999999999
+San Benito County,2014,486.7099999999999,324.86
+San Benito County,2013,324.86,185.73000000000002
+San Benito County,2012,185.73000000000002,0
+San Benito County,2011,0,64.5
+San Bernardino County,2016,283.98999999999995,296.1
+San Bernardino County,2015,296.1,288.57000000000005
+San Bernardino County,2014,288.57000000000005,223.47
+San Bernardino County,2013,223.47,236.23
+San Bernardino County,2012,236.23,38.18
+San Bernardino County,2011,38.18,11.49
+San Diego County,2016,366.61,366.61
+San Diego County,2015,366.61,367.23
+San Diego County,2014,367.23,264.84999999999997
+San Diego County,2013,264.84999999999997,100
+San Diego County,2012,100,1.4
+San Diego County,2011,1.4,0
+San Francisco County,2016,30.38,300.99
+San Francisco County,2015,300.99,400
+San Francisco County,2014,400,300
+San Francisco County,2013,300,0
+San Francisco County,2012,0,0
+San Francisco County,2011,0,0
+San Joaquin County,2016,359.71000000000004,500
+San Joaquin County,2015,500,499.24
+San Joaquin County,2014,499.24,399.54
+San Joaquin County,2013,399.54,118.47
+San Joaquin County,2012,118.47,0
+San Joaquin County,2011,0,0
+San Luis Obispo County,2016,487.06,499.97
+San Luis Obispo County,2015,499.97,499.97
+San Luis Obispo County,2014,499.97,400
+San Luis Obispo County,2013,400,197.70999999999998
+San Luis Obispo County,2012,197.70999999999998,0
+San Luis Obispo County,2011,0,0
+San Mateo County,2016,14.86,388.29999999999995
+San Mateo County,2015,388.29999999999995,400
+San Mateo County,2014,400,300
+San Mateo County,2013,300,0
+San Mateo County,2012,0,0
+San Mateo County,2011,0,0
+Santa Barbara County,2016,500,500
+Santa Barbara County,2015,500,500
+Santa Barbara County,2014,500,384.71999999999997
+Santa Barbara County,2013,384.71999999999997,193.91
+Santa Barbara County,2012,193.91,0
+Santa Barbara County,2011,0,0
+Santa Clara County,2016,246.23000000000002,413.28000000000003
+Santa Clara County,2015,413.28000000000003,424.67
+Santa Clara County,2014,424.67,301.22
+Santa Clara County,2013,301.22,37
+Santa Clara County,2012,37,0
+Santa Clara County,2011,0,0
+Santa Cruz County,2016,64.38000000000001,364.33
+Santa Cruz County,2015,364.33,400
+Santa Cruz County,2014,400,300
+Santa Cruz County,2013,300,2.52
+Santa Cruz County,2012,2.52,0
+Santa Cruz County,2011,0,0
+Shasta County,2016,0.02,383.27
+Shasta County,2015,383.27,400
+Shasta County,2014,400,300
+Shasta County,2013,300,4.41
+Shasta County,2012,4.41,83.4
+Shasta County,2011,83.4,0
+Sierra County,2016,134.94,500
+Sierra County,2015,500,429.30999999999995
+Sierra County,2014,429.30999999999995,300
+Sierra County,2013,300,62.17
+Sierra County,2012,62.17,100
+Sierra County,2011,100,0
+Siskiyou County,2016,0,317.31
+Siskiyou County,2015,317.31,338.27
+Siskiyou County,2014,338.27,267.89
+Siskiyou County,2013,267.89,20.22
+Siskiyou County,2012,20.22,81.02
+Siskiyou County,2011,81.02,0
+Solano County,2016,242.27999999999997,409.82000000000005
+Solano County,2015,409.82000000000005,400
+Solano County,2014,400,300
+Solano County,2013,300,0
+Solano County,2012,0,0
+Solano County,2011,0,0
+Sonoma County,2016,15.72,308.65
+Sonoma County,2015,308.65,400
+Sonoma County,2014,400,300
+Sonoma County,2013,300,0
+Sonoma County,2012,0,0
+Sonoma County,2011,0,0
+Stanislaus County,2016,388.48,500
+Stanislaus County,2015,500,500
+Stanislaus County,2014,500,396.71999999999997
+Stanislaus County,2013,396.71999999999997,178.17000000000002
+Stanislaus County,2012,178.17000000000002,0
+Stanislaus County,2011,0,0
+Sutter County,2016,200,500
+Sutter County,2015,500,400
+Sutter County,2014,400,300
+Sutter County,2013,300,0
+Sutter County,2012,0,0
+Sutter County,2011,0,0
+Tehama County,2016,64.45,400.80999999999995
+Tehama County,2015,400.80999999999995,400
+Tehama County,2014,400,300
+Tehama County,2013,300,0
+Tehama County,2012,0,24.96
+Tehama County,2011,24.96,0
+Trinity County,2016,10.15,300
+Trinity County,2015,300,399.40000000000003
+Trinity County,2014,399.40000000000003,299.64000000000004
+Trinity County,2013,299.64000000000004,0
+Trinity County,2012,0,20.38
+Trinity County,2011,20.38,0
+Tulare County,2016,495.7,500
+Tulare County,2015,500,500
+Tulare County,2014,500,399.63
+Tulare County,2013,399.63,271.81
+Tulare County,2012,271.81,0
+Tulare County,2011,0,0
+Tuolumne County,2016,398.17,500
+Tuolumne County,2015,500,493.37
+Tuolumne County,2014,493.37,399.93
+Tuolumne County,2013,399.93,44.03
+Tuolumne County,2012,44.03,35.73
+Tuolumne County,2011,35.73,0
+Ventura County,2016,500,500
+Ventura County,2015,500,500
+Ventura County,2014,500,312.6
+Ventura County,2013,312.6,197.5
+Ventura County,2012,197.5,0
+Ventura County,2011,0,0
+Yolo County,2016,219.34000000000003,490.45
+Yolo County,2015,490.45,400
+Yolo County,2014,400,300
+Yolo County,2013,300,0
+Yolo County,2012,0,0
+Yolo County,2011,0,0
+Yuba County,2016,153.25,500
+Yuba County,2015,500,400
+Yuba County,2014,400,300
+Yuba County,2013,300,0
+Yuba County,2012,0,50.4
+Yuba County,2011,50.4,0

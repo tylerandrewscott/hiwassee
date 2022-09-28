@@ -1,7 +1,7 @@
 library(data.table)
 library(tidyverse)
 
-dt = fread('input/Data_Clean_CountyRatings_V2.txt',na.strings = '')
+dt = fread('input/county_year_panel.txt',na.strings = '')
 names(dt) <- tolower(names(dt))
 setnames(dt,'median_household_income','median_income')
 # 
@@ -43,27 +43,19 @@ dt$transfers_total <- dt$totalstate + dt$totalfederal
 dt$lntransferstotal <- log(dt$transfers_total+1)
 dt$ln_median_home_value <- log(dt$median_home_value)
 dt$ln_totalliabilities_generallongterm_percapita <- log({dt$totalliabilities_generallongterm+1}/dt$population)
-
-
 res_signals <- c('security','risk_management','preparedness','crisis_management','static','dynamic')
 names(dt) <- gsub('\\s','_',names(dt))
 
 mdt <- dt[year %in% 2012:2017 & !is.na(crate) & !is.na(security),]
 
 linear_terms <- "scale(unemp_rate) + scale(lnpop) + scale(ln_median_home_value) + scale(ln_totalliabilities_generallongterm_percapita)" 
-
 mdt$cfips <- as.character(mdt$cfips)
 mdt$year <- as.character(mdt$year)
-
-
 library(lme4)
-library(INLA)
 library(ordinal)
 mdt$crate <- as.factor(mdt$crate)
 mdt$year <- as.factor(mdt$year)
 mdt$cfips <- as.factor(mdt$cfips)
-
-
 
 ggplot(mdt,aes(x=year,y = cfips,fill = crate)) + 
   geom_tile() + scale_fill_viridis_d()
@@ -72,8 +64,57 @@ g1 <- ggplot(data = mdt) + geom_bar(aes(x = crate)) + theme_bw() +
   scale_y_continuous(name = '# county-year rating observations')+
   ggtitle('Distribution of credit ratings by county and year in sample')+
   scale_x_discrete(name = 'Highest rating') # labels = rev(c('AAA','AA+','AA','AA-','A+','<=A'))) 
+
+
 saveRDS(object = g1,
    file = 'scratch/panel1_figure2.rds')
+
+
+ggsave(plot = fplot,filename = 'output/figures/fig2.png',dpi = 300,width = 6,height = 3.5,units = 'in')
+
+ggsave(plot = fplot,filename = 'output/figures/fig2.tiff',dpi = 300,width = 6,height = 3.5,units = 'in')
+
+
+p1 <- p1 + scale_y_continuous(name = '# observations',breaks = seq(0, 41, by = 5),limits = c(0,41))
+p2 <- p2 + scale_y_continuous(breaks = seq(0, 41, by = 5),limits = c(0,41))
+p1 <- p1 + ggtitle('County-year ratings')
+p2 <- p2 + ggtitle('Deal-level ratings')
+library(cowplot)
+plot_row <- plot_grid(p1 ,p2)
+
+# now add the title
+title <- ggdraw() + 
+  draw_label(
+    "Distribution of county-year and deal-level ratings",
+    fontface = 'bold',
+    x = 0,
+    hjust = 0
+  ) +
+  theme(plot.background = element_rect(fill = 'white',color = NA),
+        # add margin on the left of the drawing canvas,
+        # so title is aligned with left edge of first plot
+        plot.margin = margin(0, 0, 0, 7)
+  )
+
+sub <- ggdraw() + 
+  draw_label('*AAA:AA+; AA+:(AA+,AA1); AA:(AA,AA2); AA-:(AA-,AA3);\nA+:(A+,A1); <=A:(A,A2,A-,A3,BBB+,BAA1,BBB,BAA2,BBB-,Baa3)',
+             x = 0,
+             hjust = -0.75,size = 8
+  ) +
+  theme(plot.background = element_rect(fill = 'white',color = NA),
+        # add margin on the left of the drawing canvas,
+        # so title is aligned with left edge of first plot
+        plot.margin = margin(0, 0, 0, 7)
+  )
+
+fplot = plot_grid(
+  title, plot_row,sub,
+  ncol = 1,
+  # rel_heights values control vertical title margins
+  rel_heights = c(0.1, 1,0.1))
+
+
+
 
 model_equations <- sapply(res_signals, function(x) 
   paste0("crate ~ 1 + year +", linear_terms,"+ scale(",x,")"))

@@ -1,0 +1,1567 @@
+Area Type,Area Name,Year,Period,Labor Force,Employment,Unemployment,Unemployment Rate,Seasonally Adjusted (Y N),Status
+County,Alameda County,2016,Annual,837900,802400,35500,4.2%,N,Final
+County,Alpine County,2016,Annual,560,520,40,6.5%,N,Final
+County,Amador County,2016,Annual,14650,13780,860,5.9%,N,Final
+County,Butte County,2016,Annual,102300,95600,6700,6.5%,N,Final
+County,Calaveras County,2016,Annual,20910,19740,1180,5.6%,N,Final
+County,Colusa County,2016,Annual,10890,9200,1690,15.5%,N,Final
+County,Contra Costa County,2016,Annual,556500,531800,24600,4.4%,N,Final
+County,Del Norte County,2016,Annual,9810,9080,730,7.5%,N,Final
+County,El Dorado County,2016,Annual,89700,85200,4500,5.1%,N,Final
+County,Fresno County,2016,Annual,446200,404100,42100,9.4%,N,Final
+County,Glenn County,2016,Annual,13090,12020,1080,8.2%,N,Final
+County,Humboldt County,2016,Annual,62700,59600,3100,4.9%,N,Final
+County,Imperial County,2016,Annual,76900,58800,18100,23.5%,N,Final
+County,Inyo County,2016,Annual,8980,8510,470,5.2%,N,Final
+County,Kern County,2016,Annual,389100,348900,40200,10.3%,N,Final
+County,Kings County,2016,Annual,57200,51500,5700,10%,N,Final
+County,Lake County,2016,Annual,29380,27430,1950,6.6%,N,Final
+County,Lassen County,2016,Annual,10520,9790,720,6.9%,N,Final
+County,Los Angeles County,2016,Annual,5043300,4778800,264500,5.2%,N,Final
+County,Madera County,2016,Annual,61500,55800,5600,9.2%,N,Final
+County,Marin County,2016,Annual,141100,136500,4600,3.2%,N,Final
+County,Mariposa County,2016,Annual,7550,7030,520,6.9%,N,Final
+County,Mendocino County,2016,Annual,39870,37780,2080,5.2%,N,Final
+County,Merced County,2016,Annual,115000,103000,12100,10.5%,N,Final
+County,Modoc County,2016,Annual,3330,3070,260,7.8%,N,Final
+County,Mono County,2016,Annual,8410,7960,450,5.3%,N,Final
+County,Monterey County,2016,Annual,220400,203800,16700,7.6%,N,Final
+County,Napa County,2016,Annual,73400,70300,3100,4.3%,N,Final
+County,Nevada County,2016,Annual,48420,46120,2300,4.7%,N,Final
+County,Orange County,2016,Annual,1602400,1538000,64300,4%,N,Final
+County,Placer County,2016,Annual,179800,171800,8000,4.4%,N,Final
+County,Plumas County,2016,Annual,7870,7110,760,9.6%,N,Final
+County,Riverside County,2016,Annual,1051800,988000,63800,6.1%,N,Final
+County,Sacramento County,2016,Annual,697400,660100,37300,5.4%,N,Final
+County,San Benito County,2016,Annual,29800,27800,2000,6.8%,N,Final
+County,San Bernardino County,2016,Annual,935600,882200,53400,5.7%,N,Final
+County,San Diego County,2016,Annual,1570400,1497000,73500,4.7%,N,Final
+County,San Francisco County,2016,Annual,559800,541600,18200,3.3%,N,Final
+County,San Joaquin County,2016,Annual,319200,293500,25700,8.1%,N,Final
+County,San Luis Obispo County,2016,Annual,140400,134400,6000,4.3%,N,Final
+County,San Mateo County,2016,Annual,448600,435200,13400,3%,N,Final
+County,Santa Barbara County,2016,Annual,216600,205800,10800,5%,N,Final
+County,Santa Clara County,2016,Annual,1026500,987900,38600,3.8%,N,Final
+County,Santa Cruz County,2016,Annual,144500,134600,10000,6.9%,N,Final
+County,Shasta County,2016,Annual,74700,69500,5200,6.9%,N,Final
+County,Sierra County,2016,Annual,1350,1250,100,7.6%,N,Final
+County,Siskiyou County,2016,Annual,17920,16400,1520,8.5%,N,Final
+County,Solano County,2016,Annual,207900,196500,11400,5.5%,N,Final
+County,Sonoma County,2016,Annual,260500,250200,10300,4%,N,Final
+County,Stanislaus County,2016,Annual,244500,223700,20800,8.5%,N,Final
+County,Sutter County,2016,Annual,45300,41000,4300,9.6%,N,Final
+County,Tehama County,2016,Annual,25200,23410,1790,7.1%,N,Final
+County,Trinity County,2016,Annual,5070,4710,360,7.1%,N,Final
+County,Tulare County,2016,Annual,205900,183300,22600,11%,N,Final
+County,Tuolumne County,2016,Annual,21860,20510,1350,6.2%,N,Final
+County,Ventura County,2016,Annual,427800,405600,22100,5.2%,N,Final
+County,Yolo County,2016,Annual,106300,100100,6100,5.8%,N,Final
+County,Yuba County,2016,Annual,28300,25900,2400,8.5%,N,Final
+County,Alameda County,2015,Annual,823100,784300,38800,4.7%,N,Final
+County,Alpine County,2015,Annual,550,510,40,7.3%,N,Final
+County,Amador County,2015,Annual,14340,13400,940,6.6%,N,Final
+County,Butte County,2015,Annual,101300,94100,7200,7.1%,N,Final
+County,Calaveras County,2015,Annual,20580,19270,1310,6.4%,N,Final
+County,Colusa County,2015,Annual,11070,9370,1700,15.3%,N,Final
+County,Contra Costa County,2015,Annual,547400,520100,27400,5%,N,Final
+County,Del Norte County,2015,Annual,9870,9030,840,8.5%,N,Final
+County,El Dorado County,2015,Annual,88300,83300,5000,5.7%,N,Final
+County,Fresno County,2015,Annual,441300,396500,44800,10.2%,N,Final
+County,Glenn County,2015,Annual,12990,11860,1130,8.7%,N,Final
+County,Humboldt County,2015,Annual,62400,59000,3500,5.6%,N,Final
+County,Imperial County,2015,Annual,78100,59400,18700,24%,N,Final
+County,Inyo County,2015,Annual,9110,8580,520,5.8%,N,Final
+County,Kern County,2015,Annual,390800,351000,39800,10.2%,N,Final
+County,Kings County,2015,Annual,57900,51800,6100,10.5%,N,Final
+County,Lake County,2015,Annual,29050,26850,2200,7.6%,N,Final
+County,Lassen County,2015,Annual,10780,10010,780,7.2%,N,Final
+County,Los Angeles County,2015,Annual,5000600,4668200,332400,6.6%,N,Final
+County,Madera County,2015,Annual,60000,53700,6300,10.5%,N,Final
+County,Marin County,2015,Annual,139500,134600,4900,3.5%,N,Final
+County,Mariposa County,2015,Annual,8030,7460,570,7.1%,N,Final
+County,Mendocino County,2015,Annual,39930,37610,2310,5.8%,N,Final
+County,Merced County,2015,Annual,114300,101400,12900,11.3%,N,Final
+County,Modoc County,2015,Annual,3300,3020,280,8.5%,N,Final
+County,Mono County,2015,Annual,8260,7760,500,6.1%,N,Final
+County,Monterey County,2015,Annual,218800,201100,17600,8.1%,N,Final
+County,Napa County,2015,Annual,73900,70500,3400,4.6%,N,Final
+County,Nevada County,2015,Annual,48140,45540,2600,5.4%,N,Final
+County,Orange County,2015,Annual,1588700,1518000,70700,4.4%,N,Final
+County,Placer County,2015,Annual,176800,167900,8900,5%,N,Final
+County,Plumas County,2015,Annual,7900,7090,810,10.2%,N,Final
+County,Riverside County,2015,Annual,1035500,966400,69100,6.7%,N,Final
+County,Sacramento County,2015,Annual,685900,644900,41000,6%,N,Final
+County,San Benito County,2015,Annual,29300,27100,2200,7.7%,N,Final
+County,San Bernardino County,2015,Annual,921000,862000,59100,6.4%,N,Final
+County,San Diego County,2015,Annual,1554800,1474400,80400,5.2%,N,Final
+County,San Francisco County,2015,Annual,545700,526000,19700,3.6%,N,Final
+County,San Joaquin County,2015,Annual,315200,287300,27900,8.9%,N,Final
+County,San Luis Obispo County,2015,Annual,139600,133000,6600,4.7%,N,Final
+County,San Mateo County,2015,Annual,437700,422900,14800,3.4%,N,Final
+County,Santa Barbara County,2015,Annual,217800,206300,11500,5.3%,N,Final
+County,Santa Clara County,2015,Annual,1009800,967800,41900,4.2%,N,Final
+County,Santa Cruz County,2015,Annual,143400,132700,10700,7.5%,N,Final
+County,Shasta County,2015,Annual,74300,68600,5800,7.7%,N,Final
+County,Sierra County,2015,Annual,1360,1240,120,8.8%,N,Final
+County,Siskiyou County,2015,Annual,17920,16240,1670,9.3%,N,Final
+County,Solano County,2015,Annual,205300,192800,12500,6.1%,N,Final
+County,Sonoma County,2015,Annual,258400,246900,11500,4.5%,N,Final
+County,Stanislaus County,2015,Annual,241600,218700,22800,9.5%,N,Final
+County,Sutter County,2015,Annual,44700,39900,4800,10.7%,N,Final
+County,Tehama County,2015,Annual,25070,23100,1980,7.9%,N,Final
+County,Trinity County,2015,Annual,5140,4740,400,7.8%,N,Final
+County,Tulare County,2015,Annual,204000,180600,23500,11.5%,N,Final
+County,Tuolumne County,2015,Annual,21580,20060,1520,7%,N,Final
+County,Ventura County,2015,Annual,428400,404300,24100,5.6%,N,Final
+County,Yolo County,2015,Annual,104700,98000,6700,6.4%,N,Final
+County,Yuba County,2015,Annual,27900,25300,2600,9.2%,N,Final
+County,Alameda County,2014,Annual,809600,762500,47100,5.8%,N,Final
+County,Alpine County,2014,Annual,510,470,40,8.2%,N,Final
+County,Amador County,2014,Annual,14380,13180,1190,8.3%,N,Final
+County,Butte County,2014,Annual,101400,92700,8800,8.6%,N,Final
+County,Calaveras County,2014,Annual,20280,18660,1620,8%,N,Final
+County,Colusa County,2014,Annual,11110,9180,1930,17.4%,N,Final
+County,Contra Costa County,2014,Annual,540600,507300,33300,6.2%,N,Final
+County,Del Norte County,2014,Annual,9950,8950,1000,10.1%,N,Final
+County,El Dorado County,2014,Annual,88100,81900,6100,7%,N,Final
+County,Fresno County,2014,Annual,439100,388300,50800,11.6%,N,Final
+County,Glenn County,2014,Annual,12830,11460,1370,10.6%,N,Final
+County,Humboldt County,2014,Annual,62500,58300,4200,6.7%,N,Final
+County,Imperial County,2014,Annual,78400,59600,18800,24%,N,Final
+County,Inyo County,2014,Annual,9230,8600,630,6.8%,N,Final
+County,Kern County,2014,Annual,393300,352400,40900,10.4%,N,Final
+County,Kings County,2014,Annual,57600,50700,6900,11.9%,N,Final
+County,Lake County,2014,Annual,29340,26720,2620,8.9%,N,Final
+County,Lassen County,2014,Annual,10840,9850,990,9.1%,N,Final
+County,Los Angeles County,2014,Annual,5006800,4593900,412900,8.2%,N,Final
+County,Madera County,2014,Annual,61900,55000,6900,11.2%,N,Final
+County,Marin County,2014,Annual,139100,133100,5900,4.3%,N,Final
+County,Mariposa County,2014,Annual,8110,7400,710,8.8%,N,Final
+County,Mendocino County,2014,Annual,40460,37630,2830,7%,N,Final
+County,Merced County,2014,Annual,114500,99800,14700,12.8%,N,Final
+County,Modoc County,2014,Annual,3370,3030,350,10.3%,N,Final
+County,Mono County,2014,Annual,8260,7680,580,7%,N,Final
+County,Monterey County,2014,Annual,218100,198400,19700,9%,N,Final
+County,Napa County,2014,Annual,73600,69400,4200,5.7%,N,Final
+County,Nevada County,2014,Annual,47940,44800,3140,6.5%,N,Final
+County,Orange County,2014,Annual,1572000,1485700,86200,5.5%,N,Final
+County,Placer County,2014,Annual,175800,164800,11000,6.3%,N,Final
+County,Plumas County,2014,Annual,8120,7180,940,11.5%,N,Final
+County,Riverside County,2014,Annual,1013000,930000,83000,8.2%,N,Final
+County,Sacramento County,2014,Annual,680400,630700,49700,7.3%,N,Final
+County,San Benito County,2014,Annual,29200,26500,2700,9.3%,N,Final
+County,San Bernardino County,2014,Annual,907100,834500,72600,8%,N,Final
+County,San Diego County,2014,Annual,1543700,1444500,99300,6.4%,N,Final
+County,San Francisco County,2014,Annual,529600,506500,23100,4.4%,N,Final
+County,San Joaquin County,2014,Annual,312600,279700,32900,10.5%,N,Final
+County,San Luis Obispo County,2014,Annual,140500,132700,7800,5.6%,N,Final
+County,San Mateo County,2014,Annual,427700,409700,18000,4.2%,N,Final
+County,Santa Barbara County,2014,Annual,218200,204900,13300,6.1%,N,Final
+County,Santa Clara County,2014,Annual,991800,940700,51100,5.2%,N,Final
+County,Santa Cruz County,2014,Annual,142600,130100,12500,8.8%,N,Final
+County,Shasta County,2014,Annual,75000,67800,7200,9.6%,N,Final
+County,Sierra County,2014,Annual,1420,1270,140,10.1%,N,Final
+County,Siskiyou County,2014,Annual,18040,16040,2000,11.1%,N,Final
+County,Solano County,2014,Annual,203200,187900,15300,7.5%,N,Final
+County,Sonoma County,2014,Annual,256600,242200,14400,5.6%,N,Final
+County,Stanislaus County,2014,Annual,241000,214100,26900,11.2%,N,Final
+County,Sutter County,2014,Annual,44400,38800,5600,12.6%,N,Final
+County,Tehama County,2014,Annual,25130,22720,2420,9.6%,N,Final
+County,Trinity County,2014,Annual,5180,4690,490,9.4%,N,Final
+County,Tulare County,2014,Annual,198500,172500,26100,13.1%,N,Final
+County,Tuolumne County,2014,Annual,21620,19750,1870,8.7%,N,Final
+County,Ventura County,2014,Annual,430900,402300,28600,6.6%,N,Final
+County,Yolo County,2014,Annual,102400,94700,7700,7.5%,N,Final
+County,Yuba County,2014,Annual,27900,24800,3100,11.2%,N,Final
+County,Alameda County,2013,Annual,802800,744800,58000,7.2%,N,Final
+County,Alpine County,2013,Annual,530,480,50,9.7%,N,Final
+County,Amador County,2013,Annual,14450,12960,1490,10.3%,N,Final
+County,Butte County,2013,Annual,101700,91300,10500,10.3%,N,Final
+County,Calaveras County,2013,Annual,20250,18240,2010,9.9%,N,Final
+County,Colusa County,2013,Annual,11290,9160,2130,18.9%,N,Final
+County,Contra Costa County,2013,Annual,538000,497700,40300,7.5%,N,Final
+County,Del Norte County,2013,Annual,10330,9110,1220,11.8%,N,Final
+County,El Dorado County,2013,Annual,88600,81100,7500,8.5%,N,Final
+County,Fresno County,2013,Annual,437900,379900,58000,13.2%,N,Final
+County,Glenn County,2013,Annual,12990,11420,1570,12.1%,N,Final
+County,Humboldt County,2013,Annual,63100,58000,5100,8.1%,N,Final
+County,Imperial County,2013,Annual,78300,58700,19600,25%,N,Final
+County,Inyo County,2013,Annual,9390,8660,740,7.8%,N,Final
+County,Kern County,2013,Annual,393400,347200,46200,11.7%,N,Final
+County,Kings County,2013,Annual,58200,50400,7800,13.4%,N,Final
+County,Lake County,2013,Annual,29260,26070,3190,10.9%,N,Final
+County,Lassen County,2013,Annual,11000,9840,1170,10.6%,N,Final
+County,Los Angeles County,2013,Annual,4967000,4482100,485000,9.8%,N,Final
+County,Madera County,2013,Annual,62300,54400,7800,12.6%,N,Final
+County,Marin County,2013,Annual,138400,131200,7100,5.2%,N,Final
+County,Mariposa County,2013,Annual,8230,7360,870,10.5%,N,Final
+County,Mendocino County,2013,Annual,40840,37430,3410,8.3%,N,Final
+County,Merced County,2013,Annual,114600,98000,16600,14.5%,N,Final
+County,Modoc County,2013,Annual,3500,3070,430,12.3%,N,Final
+County,Mono County,2013,Annual,8370,7660,710,8.5%,N,Final
+County,Monterey County,2013,Annual,216400,194100,22300,10.3%,N,Final
+County,Napa County,2013,Annual,72800,67800,5000,6.9%,N,Final
+County,Nevada County,2013,Annual,48170,44270,3900,8.1%,N,Final
+County,Orange County,2013,Annual,1565300,1462400,102900,6.6%,N,Final
+County,Placer County,2013,Annual,175800,162300,13600,7.7%,N,Final
+County,Plumas County,2013,Annual,8260,7110,1140,13.8%,N,Final
+County,Riverside County,2013,Annual,996300,897800,98600,9.9%,N,Final
+County,Sacramento County,2013,Annual,680200,619900,60300,8.9%,N,Final
+County,San Benito County,2013,Annual,28900,25700,3200,11.1%,N,Final
+County,San Bernardino County,2013,Annual,896600,809100,87500,9.8%,N,Final
+County,San Diego County,2013,Annual,1543200,1422500,120700,7.8%,N,Final
+County,San Francisco County,2013,Annual,516300,488200,28100,5.5%,N,Final
+County,San Joaquin County,2013,Annual,313100,274600,38500,12.3%,N,Final
+County,San Luis Obispo County,2013,Annual,138300,128800,9400,6.8%,N,Final
+County,San Mateo County,2013,Annual,418100,396100,22000,5.3%,N,Final
+County,Santa Barbara County,2013,Annual,217300,201700,15600,7.2%,N,Final
+County,Santa Clara County,2013,Annual,971800,909100,62700,6.5%,N,Final
+County,Santa Cruz County,2013,Annual,142100,127500,14600,10.3%,N,Final
+County,Shasta County,2013,Annual,75300,66400,8900,11.8%,N,Final
+County,Sierra County,2013,Annual,1450,1270,190,12.7%,N,Final
+County,Siskiyou County,2013,Annual,18290,15890,2400,13.1%,N,Final
+County,Solano County,2013,Annual,203000,184600,18400,9.1%,N,Final
+County,Sonoma County,2013,Annual,250000,232200,17700,7.1%,N,Final
+County,Stanislaus County,2013,Annual,241000,209800,31200,12.9%,N,Final
+County,Sutter County,2013,Annual,44800,38200,6500,14.6%,N,Final
+County,Tehama County,2013,Annual,25080,22170,2910,11.6%,N,Final
+County,Trinity County,2013,Annual,5190,4570,620,11.9%,N,Final
+County,Tulare County,2013,Annual,201000,172200,28800,14.3%,N,Final
+County,Tuolumne County,2013,Annual,21750,19410,2340,10.8%,N,Final
+County,Ventura County,2013,Annual,434000,399800,34200,7.9%,N,Final
+County,Yolo County,2013,Annual,101800,92700,9200,9%,N,Final
+County,Yuba County,2013,Annual,28200,24500,3700,13.1%,N,Final
+County,Alameda County,2012,Annual,798400,729000,69400,8.7%,N,Final
+County,Alpine County,2012,Annual,540,480,60,11.2%,N,Final
+County,Amador County,2012,Annual,14670,12870,1800,12.3%,N,Final
+County,Butte County,2012,Annual,101000,88700,12300,12.2%,N,Final
+County,Calaveras County,2012,Annual,20200,17710,2500,12.4%,N,Final
+County,Colusa County,2012,Annual,11270,8940,2340,20.7%,N,Final
+County,Contra Costa County,2012,Annual,535800,487900,47900,8.9%,N,Final
+County,Del Norte County,2012,Annual,10500,9080,1420,13.5%,N,Final
+County,El Dorado County,2012,Annual,89100,80000,9100,10.2%,N,Final
+County,Fresno County,2012,Annual,440000,373500,66600,15.1%,N,Final
+County,Glenn County,2012,Annual,13150,11280,1870,14.2%,N,Final
+County,Humboldt County,2012,Annual,64300,58100,6200,9.6%,N,Final
+County,Imperial County,2012,Annual,79300,57600,21700,27.4%,N,Final
+County,Inyo County,2012,Annual,9560,8690,870,9.1%,N,Final
+County,Kern County,2012,Annual,391900,340400,51500,13.1%,N,Final
+County,Kings County,2012,Annual,58800,50000,8800,14.9%,N,Final
+County,Lake County,2012,Annual,29510,25740,3770,12.8%,N,Final
+County,Lassen County,2012,Annual,11470,10040,1430,12.5%,N,Final
+County,Los Angeles County,2012,Annual,4915300,4378400,536900,10.9%,N,Final
+County,Madera County,2012,Annual,62500,53500,9000,14.4%,N,Final
+County,Marin County,2012,Annual,136900,128300,8600,6.3%,N,Final
+County,Mariposa County,2012,Annual,8380,7350,1020,12.2%,N,Final
+County,Mendocino County,2012,Annual,40950,36840,4110,10%,N,Final
+County,Merced County,2012,Annual,115000,96200,18800,16.3%,N,Final
+County,Modoc County,2012,Annual,3610,3090,520,14.4%,N,Final
+County,Mono County,2012,Annual,8400,7530,870,10.3%,N,Final
+County,Monterey County,2012,Annual,217800,192600,25200,11.6%,N,Final
+County,Napa County,2012,Annual,71800,65800,6100,8.4%,N,Final
+County,Nevada County,2012,Annual,48360,43650,4710,9.7%,N,Final
+County,Orange County,2012,Annual,1562100,1439300,122900,7.9%,N,Final
+County,Placer County,2012,Annual,174900,158500,16400,9.4%,N,Final
+County,Plumas County,2012,Annual,8490,7120,1370,16.1%,N,Final
+County,Riverside County,2012,Annual,987100,872300,114800,11.6%,N,Final
+County,Sacramento County,2012,Annual,681300,609700,71600,10.5%,N,Final
+County,San Benito County,2012,Annual,28700,24900,3700,13%,N,Final
+County,San Bernardino County,2012,Annual,892200,790400,101800,11.4%,N,Final
+County,San Diego County,2012,Annual,1540400,1399900,140600,9.1%,N,Final
+County,San Francisco County,2012,Annual,509400,474900,34500,6.8%,N,Final
+County,San Joaquin County,2012,Annual,311800,267100,44800,14.4%,N,Final
+County,San Luis Obispo County,2012,Annual,137400,126000,11300,8.2%,N,Final
+County,San Mateo County,2012,Annual,412100,385700,26400,6.4%,N,Final
+County,Santa Barbara County,2012,Annual,216000,197900,18100,8.4%,N,Final
+County,Santa Clara County,2012,Annual,958300,883000,75300,7.9%,N,Final
+County,Santa Cruz County,2012,Annual,142100,125300,16800,11.8%,N,Final
+County,Shasta County,2012,Annual,76000,65200,10800,14.2%,N,Final
+County,Sierra County,2012,Annual,1470,1260,210,14.4%,N,Final
+County,Siskiyou County,2012,Annual,18880,15930,2950,15.6%,N,Final
+County,Solano County,2012,Annual,202700,181000,21700,10.7%,N,Final
+County,Sonoma County,2012,Annual,246300,224500,21800,8.9%,N,Final
+County,Stanislaus County,2012,Annual,242000,205900,36000,14.9%,N,Final
+County,Sutter County,2012,Annual,45600,37900,7700,16.8%,N,Final
+County,Tehama County,2012,Annual,25250,21780,3470,13.7%,N,Final
+County,Trinity County,2012,Annual,5330,4550,780,14.6%,N,Final
+County,Tulare County,2012,Annual,201300,168800,32500,16.2%,N,Final
+County,Tuolumne County,2012,Annual,22320,19420,2900,13%,N,Final
+County,Ventura County,2012,Annual,434700,395200,39500,9.1%,N,Final
+County,Yolo County,2012,Annual,102600,91700,10900,10.6%,N,Final
+County,Yuba County,2012,Annual,28800,24400,4400,15.4%,N,Final
+County,Alameda County,2011,Annual,786800,707400,79400,10.1%,N,Final
+County,Alpine County,2011,Annual,590,520,80,12.8%,N,Final
+County,Amador County,2011,Annual,15100,13040,2060,13.6%,N,Final
+County,Butte County,2011,Annual,100600,86900,13800,13.7%,N,Final
+County,Calaveras County,2011,Annual,20670,17770,2900,14%,N,Final
+County,Colusa County,2011,Annual,11380,8960,2420,21.2%,N,Final
+County,Contra Costa County,2011,Annual,529600,475000,54500,10.3%,N,Final
+County,Del Norte County,2011,Annual,10900,9450,1450,13.3%,N,Final
+County,El Dorado County,2011,Annual,89700,79200,10500,11.7%,N,Final
+County,Fresno County,2011,Annual,443500,370200,73300,16.5%,N,Final
+County,Glenn County,2011,Annual,13170,11120,2040,15.5%,N,Final
+County,Humboldt County,2011,Annual,65100,58200,6900,10.6%,N,Final
+County,Imperial County,2011,Annual,79500,56500,22900,28.9%,N,Final
+County,Inyo County,2011,Annual,9680,8740,940,9.7%,N,Final
+County,Kern County,2011,Annual,382400,325700,56700,14.8%,N,Final
+County,Kings County,2011,Annual,59100,49700,9400,15.9%,N,Final
+County,Lake County,2011,Annual,29610,25310,4300,14.5%,N,Final
+County,Lassen County,2011,Annual,11790,10190,1600,13.5%,N,Final
+County,Los Angeles County,2011,Annual,4928500,4327900,600500,12.2%,N,Final
+County,Madera County,2011,Annual,62000,52000,10000,16.2%,N,Final
+County,Marin County,2011,Annual,134600,124800,9800,7.3%,N,Final
+County,Mariposa County,2011,Annual,8660,7520,1140,13.2%,N,Final
+County,Mendocino County,2011,Annual,40950,36280,4670,11.4%,N,Final
+County,Merced County,2011,Annual,114700,94500,20200,17.6%,N,Final
+County,Modoc County,2011,Annual,3620,3040,580,16%,N,Final
+County,Mono County,2011,Annual,8830,7940,890,10.1%,N,Final
+County,Monterey County,2011,Annual,216600,189100,27400,12.7%,N,Final
+County,Napa County,2011,Annual,70800,63800,6900,9.8%,N,Final
+County,Nevada County,2011,Annual,49020,43590,5430,11.1%,N,Final
+County,Orange County,2011,Annual,1546400,1406400,140000,9.1%,N,Final
+County,Placer County,2011,Annual,173700,154900,18800,10.8%,N,Final
+County,Plumas County,2011,Annual,8890,7330,1560,17.6%,N,Final
+County,Riverside County,2011,Annual,978500,849600,128900,13.2%,N,Final
+County,Sacramento County,2011,Annual,680000,597700,82300,12.1%,N,Final
+County,San Benito County,2011,Annual,28300,24200,4100,14.5%,N,Final
+County,San Bernardino County,2011,Annual,888500,774200,114300,12.9%,N,Final
+County,San Diego County,2011,Annual,1524600,1367300,157300,10.3%,N,Final
+County,San Francisco County,2011,Annual,494800,454900,39900,8.1%,N,Final
+County,San Joaquin County,2011,Annual,311400,261000,50400,16.2%,N,Final
+County,San Luis Obispo County,2011,Annual,134400,121500,12900,9.6%,N,Final
+County,San Mateo County,2011,Annual,399900,369800,30000,7.5%,N,Final
+County,Santa Barbara County,2011,Annual,213000,193000,20000,9.4%,N,Final
+County,Santa Clara County,2011,Annual,939900,852400,87400,9.3%,N,Final
+County,Santa Cruz County,2011,Annual,141300,122900,18500,13.1%,N,Final
+County,Shasta County,2011,Annual,77000,64800,12300,15.9%,N,Final
+County,Sierra County,2011,Annual,1600,1360,240,14.9%,N,Final
+County,Siskiyou County,2011,Annual,19440,16130,3300,17%,N,Final
+County,Solano County,2011,Annual,202200,177600,24600,12.2%,N,Final
+County,Sonoma County,2011,Annual,246200,221000,25200,10.2%,N,Final
+County,Stanislaus County,2011,Annual,242300,202400,40000,16.5%,N,Final
+County,Sutter County,2011,Annual,45900,37600,8300,18.2%,N,Final
+County,Tehama County,2011,Annual,25570,21740,3830,15%,N,Final
+County,Trinity County,2011,Annual,5390,4490,900,16.7%,N,Final
+County,Tulare County,2011,Annual,203500,168700,34800,17.1%,N,Final
+County,Tuolumne County,2011,Annual,22730,19440,3290,14.5%,N,Final
+County,Ventura County,2011,Annual,431700,387500,44200,10.2%,N,Final
+County,Yolo County,2011,Annual,101800,89800,12000,11.8%,N,Final
+County,Yuba County,2011,Annual,28900,24000,4900,17%,N,Final
+County,Alameda County,2010,Annual,782500,697100,85400,10.9%,N,Final
+County,Alpine County,2010,Annual,540,470,70,12.9%,N,Final
+County,Amador County,2010,Annual,15510,13330,2180,14.1%,N,Final
+County,Butte County,2010,Annual,102600,88300,14200,13.9%,N,Final
+County,Calaveras County,2010,Annual,21010,17980,3040,14.4%,N,Final
+County,Colusa County,2010,Annual,11520,9120,2400,20.8%,N,Final
+County,Contra Costa County,2010,Annual,525500,467900,57600,11%,N,Final
+County,Del Norte County,2010,Annual,10930,9490,1440,13.2%,N,Final
+County,El Dorado County,2010,Annual,91100,80000,11100,12.2%,N,Final
+County,Fresno County,2010,Annual,439600,366200,73400,16.7%,N,Final
+County,Glenn County,2010,Annual,13220,11180,2040,15.4%,N,Final
+County,Humboldt County,2010,Annual,66100,59100,7000,10.6%,N,Final
+County,Imperial County,2010,Annual,78700,56000,22700,28.8%,N,Final
+County,Inyo County,2010,Annual,9750,8810,950,9.7%,N,Final
+County,Kern County,2010,Annual,371500,313400,58200,15.7%,N,Final
+County,Kings County,2010,Annual,59400,49900,9600,16.1%,N,Final
+County,Lake County,2010,Annual,29850,25340,4500,15.1%,N,Final
+County,Lassen County,2010,Annual,12100,10400,1700,14%,N,Final
+County,Los Angeles County,2010,Annual,4917400,4302300,615100,12.5%,N,Final
+County,Madera County,2010,Annual,61600,51400,10200,16.6%,N,Final
+County,Marin County,2010,Annual,133000,122600,10400,7.9%,N,Final
+County,Mariposa County,2010,Annual,8710,7580,1130,12.9%,N,Final
+County,Mendocino County,2010,Annual,41600,36770,4830,11.6%,N,Final
+County,Merced County,2010,Annual,113600,93200,20400,18%,N,Final
+County,Modoc County,2010,Annual,3820,3240,580,15.2%,N,Final
+County,Mono County,2010,Annual,8890,7980,910,10.2%,N,Final
+County,Monterey County,2010,Annual,215800,188300,27400,12.7%,N,Final
+County,Napa County,2010,Annual,70200,63000,7200,10.3%,N,Final
+County,Nevada County,2010,Annual,48920,43180,5740,11.7%,N,Final
+County,Orange County,2010,Annual,1537200,1387400,149700,9.7%,N,Final
+County,Placer County,2010,Annual,173300,153200,20100,11.6%,N,Final
+County,Plumas County,2010,Annual,9150,7480,1670,18.2%,N,Final
+County,Riverside County,2010,Annual,976400,841300,135200,13.8%,N,Final
+County,Sacramento County,2010,Annual,683100,597000,86100,12.6%,N,Final
+County,San Benito County,2010,Annual,27900,23700,4200,15.1%,N,Final
+County,San Bernardino County,2010,Annual,890300,769900,120400,13.5%,N,Final
+County,San Diego County,2010,Annual,1515200,1352300,162900,10.8%,N,Final
+County,San Francisco County,2010,Annual,486000,442700,43300,8.9%,N,Final
+County,San Joaquin County,2010,Annual,311400,260000,51400,16.5%,N,Final
+County,San Luis Obispo County,2010,Annual,133700,120200,13400,10.1%,N,Final
+County,San Mateo County,2010,Annual,393000,360200,32800,8.4%,N,Final
+County,Santa Barbara County,2010,Annual,212300,191700,20600,9.7%,N,Final
+County,Santa Clara County,2010,Annual,926500,830100,96400,10.4%,N,Final
+County,Santa Cruz County,2010,Annual,141700,122900,18800,13.3%,N,Final
+County,Shasta County,2010,Annual,78500,65300,13200,16.8%,N,Final
+County,Sierra County,2010,Annual,1610,1360,250,15.3%,N,Final
+County,Siskiyou County,2010,Annual,19630,16330,3300,16.8%,N,Final
+County,Solano County,2010,Annual,202400,177000,25400,12.6%,N,Final
+County,Sonoma County,2010,Annual,244600,218100,26500,10.8%,N,Final
+County,Stanislaus County,2010,Annual,243300,202200,41100,16.9%,N,Final
+County,Sutter County,2010,Annual,46000,37500,8400,18.4%,N,Final
+County,Tehama County,2010,Annual,25710,21750,3960,15.4%,N,Final
+County,Trinity County,2010,Annual,5420,4500,920,17%,N,Final
+County,Tulare County,2010,Annual,203000,168100,34900,17.2%,N,Final
+County,Tuolumne County,2010,Annual,22620,19170,3440,15.2%,N,Final
+County,Ventura County,2010,Annual,430000,383400,46600,10.8%,N,Final
+County,Yolo County,2010,Annual,102200,89800,12400,12.1%,N,Final
+County,Yuba County,2010,Annual,29100,23900,5200,17.8%,N,Final
+County,Alameda County,2009,Annual,760900,682900,78000,10.3%,N,Final
+County,Alpine County,2009,Annual,450,380,60,14.1%,N,Final
+County,Amador County,2009,Annual,17820,15780,2040,11.4%,N,Final
+County,Butte County,2009,Annual,103700,91000,12700,12.3%,N,Final
+County,Calaveras County,2009,Annual,20330,17560,2760,13.6%,N,Final
+County,Colusa County,2009,Annual,11520,9490,2030,17.6%,N,Final
+County,Contra Costa County,2009,Annual,524800,472600,52200,10%,N,Final
+County,Del Norte County,2009,Annual,11680,10300,1380,11.8%,N,Final
+County,El Dorado County,2009,Annual,91700,81700,10000,10.9%,N,Final
+County,Fresno County,2009,Annual,434000,370300,63700,14.7%,N,Final
+County,Glenn County,2009,Annual,12580,10800,1780,14.1%,N,Final
+County,Humboldt County,2009,Annual,60800,54300,6500,10.7%,N,Final
+County,Imperial County,2009,Annual,75600,54900,20700,27.4%,N,Final
+County,Inyo County,2009,Annual,9390,8550,840,9%,N,Final
+County,Kern County,2009,Annual,362700,311700,51000,14.1%,N,Final
+County,Kings County,2009,Annual,60500,51900,8600,14.2%,N,Final
+County,Lake County,2009,Annual,25370,21570,3810,15%,N,Final
+County,Lassen County,2009,Annual,13560,11890,1670,12.3%,N,Final
+County,Los Angeles County,2009,Annual,4914700,4345200,569500,11.6%,N,Final
+County,Madera County,2009,Annual,66500,57600,8900,13.4%,N,Final
+County,Marin County,2009,Annual,132000,122100,9900,7.5%,N,Final
+County,Mariposa County,2009,Annual,9400,8430,970,10.3%,N,Final
+County,Mendocino County,2009,Annual,43310,38960,4350,10%,N,Final
+County,Merced County,2009,Annual,105400,87900,17500,16.6%,N,Final
+County,Modoc County,2009,Annual,4040,3560,490,12.1%,N,Final
+County,Mono County,2009,Annual,8740,7970,770,8.8%,N,Final
+County,Monterey County,2009,Annual,215400,190600,24800,11.5%,N,Final
+County,Napa County,2009,Annual,75600,69200,6300,8.4%,N,Final
+County,Nevada County,2009,Annual,50380,45210,5170,10.3%,N,Final
+County,Orange County,2009,Annual,1589300,1451700,137600,8.7%,N,Final
+County,Placer County,2009,Annual,179700,161400,18300,10.2%,N,Final
+County,Plumas County,2009,Annual,10020,8480,1540,15.4%,N,Final
+County,Riverside County,2009,Annual,915800,795800,120000,13.1%,N,Final
+County,Sacramento County,2009,Annual,681100,606100,75000,11%,N,Final
+County,San Benito County,2009,Annual,24900,21400,3500,14%,N,Final
+County,San Bernardino County,2009,Annual,857700,749100,108600,12.7%,N,Final
+County,San Diego County,2009,Annual,1554300,1408300,146000,9.4%,N,Final
+County,San Francisco County,2009,Annual,459400,419500,39900,8.7%,N,Final
+County,San Joaquin County,2009,Annual,297800,253300,44500,14.9%,N,Final
+County,San Luis Obispo County,2009,Annual,136400,124400,12000,8.8%,N,Final
+County,San Mateo County,2009,Annual,374200,343500,30700,8.2%,N,Final
+County,Santa Barbara County,2009,Annual,220000,201900,18100,8.2%,N,Final
+County,Santa Clara County,2009,Annual,875000,782400,92600,10.6%,N,Final
+County,Santa Cruz County,2009,Annual,147700,131300,16400,11.1%,N,Final
+County,Shasta County,2009,Annual,84000,71900,12000,14.3%,N,Final
+County,Sierra County,2009,Annual,1600,1360,240,14.9%,N,Final
+County,Siskiyou County,2009,Annual,19630,16840,2800,14.2%,N,Final
+County,Solano County,2009,Annual,214500,192200,22300,10.4%,N,Final
+County,Sonoma County,2009,Annual,256500,232400,24100,9.4%,N,Final
+County,Stanislaus County,2009,Annual,234500,198100,36400,15.5%,N,Final
+County,Sutter County,2009,Annual,41900,35000,6900,16.5%,N,Final
+County,Tehama County,2009,Annual,25340,21890,3460,13.6%,N,Final
+County,Trinity County,2009,Annual,4990,4150,840,16.8%,N,Final
+County,Tulare County,2009,Annual,203200,173000,30200,14.9%,N,Final
+County,Tuolumne County,2009,Annual,25720,22590,3130,12.2%,N,Final
+County,Ventura County,2009,Annual,430300,388800,41500,9.6%,N,Final
+County,Yolo County,2009,Annual,98700,87900,10900,11%,N,Final
+County,Yuba County,2009,Annual,28300,23600,4800,16.8%,N,Final
+County,Alameda County,2008,Annual,756400,709400,47000,6.2%,N,Final
+County,Alpine County,2008,Annual,470,420,50,10.5%,N,Final
+County,Amador County,2008,Annual,17800,16430,1370,7.7%,N,Final
+County,Butte County,2008,Annual,102800,94100,8700,8.5%,N,Final
+County,Calaveras County,2008,Annual,20620,18830,1790,8.7%,N,Final
+County,Colusa County,2008,Annual,10500,9040,1450,13.8%,N,Final
+County,Contra Costa County,2008,Annual,523700,491100,32600,6.2%,N,Final
+County,Del Norte County,2008,Annual,11360,10360,1000,8.8%,N,Final
+County,El Dorado County,2008,Annual,90600,84300,6300,7%,N,Final
+County,Fresno County,2008,Annual,429700,384300,45400,10.6%,N,Final
+County,Glenn County,2008,Annual,12180,10900,1280,10.5%,N,Final
+County,Humboldt County,2008,Annual,60000,55600,4400,7.3%,N,Final
+County,Imperial County,2008,Annual,72400,56100,16300,22.6%,N,Final
+County,Inyo County,2008,Annual,9090,8490,600,6.6%,N,Final
+County,Kern County,2008,Annual,359100,323800,35300,9.8%,N,Final
+County,Kings County,2008,Annual,58700,52500,6200,10.6%,N,Final
+County,Lake County,2008,Annual,24530,21910,2620,10.7%,N,Final
+County,Lassen County,2008,Annual,12820,11590,1230,9.6%,N,Final
+County,Los Angeles County,2008,Annual,4929000,4555100,373900,7.6%,N,Final
+County,Madera County,2008,Annual,65000,58900,6200,9.5%,N,Final
+County,Marin County,2008,Annual,132200,126000,6200,4.7%,N,Final
+County,Mariposa County,2008,Annual,9270,8570,700,7.5%,N,Final
+County,Mendocino County,2008,Annual,43210,40230,2980,6.9%,N,Final
+County,Merced County,2008,Annual,102200,89200,12900,12.6%,N,Final
+County,Modoc County,2008,Annual,3940,3560,380,9.7%,N,Final
+County,Mono County,2008,Annual,8610,8100,510,5.9%,N,Final
+County,Monterey County,2008,Annual,212100,194100,17900,8.5%,N,Final
+County,Napa County,2008,Annual,75500,71700,3900,5.1%,N,Final
+County,Nevada County,2008,Annual,50350,47030,3320,6.6%,N,Final
+County,Orange County,2008,Annual,1615500,1529700,85800,5.3%,N,Final
+County,Placer County,2008,Annual,177000,165500,11500,6.5%,N,Final
+County,Plumas County,2008,Annual,9810,8770,1040,10.6%,N,Final
+County,Riverside County,2008,Annual,911500,833300,78200,8.6%,N,Final
+County,Sacramento County,2008,Annual,679400,630300,49100,7.2%,N,Final
+County,San Benito County,2008,Annual,24800,22400,2400,9.7%,N,Final
+County,San Bernardino County,2008,Annual,862100,792800,69300,8%,N,Final
+County,San Diego County,2008,Annual,1545800,1452600,93200,6%,N,Final
+County,San Francisco County,2008,Annual,457000,433000,24000,5.3%,N,Final
+County,San Joaquin County,2008,Annual,292800,262300,30600,10.4%,N,Final
+County,San Luis Obispo County,2008,Annual,136400,128500,7900,5.8%,N,Final
+County,San Mateo County,2008,Annual,372400,354200,18200,4.9%,N,Final
+County,Santa Barbara County,2008,Annual,218100,206100,12000,5.5%,N,Final
+County,Santa Clara County,2008,Annual,868900,816600,52300,6%,N,Final
+County,Santa Cruz County,2008,Annual,146100,135300,10800,7.4%,N,Final
+County,Shasta County,2008,Annual,82600,74300,8300,10.1%,N,Final
+County,Sierra County,2008,Annual,1590,1420,170,10.6%,N,Final
+County,Siskiyou County,2008,Annual,19200,17240,1960,10.2%,N,Final
+County,Solano County,2008,Annual,211100,196500,14600,6.9%,N,Final
+County,Sonoma County,2008,Annual,259600,244700,15000,5.8%,N,Final
+County,Stanislaus County,2008,Annual,231700,206000,25700,11.1%,N,Final
+County,Sutter County,2008,Annual,41100,36000,5100,12.4%,N,Final
+County,Tehama County,2008,Annual,25150,22830,2320,9.2%,N,Final
+County,Trinity County,2008,Annual,4850,4230,620,12.8%,N,Final
+County,Tulare County,2008,Annual,198900,177400,21500,10.8%,N,Final
+County,Tuolumne County,2008,Annual,25770,23700,2060,8%,N,Final
+County,Ventura County,2008,Annual,428800,401800,27000,6.3%,N,Final
+County,Yolo County,2008,Annual,98300,91000,7300,7.4%,N,Final
+County,Yuba County,2008,Annual,27700,24400,3300,11.9%,N,Final
+County,Alameda County,2007,Annual,745200,710100,35100,4.7%,N,Final
+County,Alpine County,2007,Annual,490,450,40,7.9%,N,Final
+County,Amador County,2007,Annual,17700,16680,1030,5.8%,N,Final
+County,Butte County,2007,Annual,101200,94500,6700,6.7%,N,Final
+County,Calaveras County,2007,Annual,20730,19390,1330,6.4%,N,Final
+County,Colusa County,2007,Annual,10220,9020,1200,11.8%,N,Final
+County,Contra Costa County,2007,Annual,514300,490200,24100,4.7%,N,Final
+County,Del Norte County,2007,Annual,11030,10200,830,7.5%,N,Final
+County,El Dorado County,2007,Annual,90400,85700,4700,5.2%,N,Final
+County,Fresno County,2007,Annual,418600,382800,35800,8.6%,N,Final
+County,Glenn County,2007,Annual,11980,10920,1050,8.8%,N,Final
+County,Humboldt County,2007,Annual,59300,55800,3500,5.9%,N,Final
+County,Imperial County,2007,Annual,66000,54100,11900,18.1%,N,Final
+County,Inyo County,2007,Annual,8890,8450,440,4.9%,N,Final
+County,Kern County,2007,Annual,345200,317000,28200,8.2%,N,Final
+County,Kings County,2007,Annual,57300,52400,5000,8.7%,N,Final
+County,Lake County,2007,Annual,24040,22010,2030,8.4%,N,Final
+County,Lassen County,2007,Annual,12440,11420,1010,8.2%,N,Final
+County,Los Angeles County,2007,Annual,4864200,4614800,249400,5.1%,N,Final
+County,Madera County,2007,Annual,63400,58600,4700,7.5%,N,Final
+County,Marin County,2007,Annual,131900,127100,4800,3.7%,N,Final
+County,Mariposa County,2007,Annual,9060,8520,550,6%,N,Final
+County,Mendocino County,2007,Annual,43120,40740,2370,5.5%,N,Final
+County,Merced County,2007,Annual,99800,89800,10000,10.1%,N,Final
+County,Modoc County,2007,Annual,3900,3580,310,8.1%,N,Final
+County,Mono County,2007,Annual,8130,7740,390,4.8%,N,Final
+County,Monterey County,2007,Annual,205500,190800,14700,7.1%,N,Final
+County,Napa County,2007,Annual,73200,70300,2900,4%,N,Final
+County,Nevada County,2007,Annual,50130,47720,2410,4.8%,N,Final
+County,Orange County,2007,Annual,1606200,1543700,62500,3.9%,N,Final
+County,Placer County,2007,Annual,172500,164200,8200,4.8%,N,Final
+County,Plumas County,2007,Annual,9950,9100,850,8.5%,N,Final
+County,Riverside County,2007,Annual,902000,847600,54400,6%,N,Final
+County,Sacramento County,2007,Annual,675800,639100,36700,5.4%,N,Final
+County,San Benito County,2007,Annual,24000,22300,1700,7.2%,N,Final
+County,San Bernardino County,2007,Annual,862200,813900,48300,5.6%,N,Final
+County,San Diego County,2007,Annual,1515400,1446300,69000,4.6%,N,Final
+County,San Francisco County,2007,Annual,432600,414200,18400,4.2%,N,Final
+County,San Joaquin County,2007,Annual,288600,265300,23400,8.1%,N,Final
+County,San Luis Obispo County,2007,Annual,134000,128300,5800,4.3%,N,Final
+County,San Mateo County,2007,Annual,369500,355400,14100,3.8%,N,Final
+County,Santa Barbara County,2007,Annual,213500,204200,9300,4.4%,N,Final
+County,Santa Clara County,2007,Annual,843400,803900,39600,4.7%,N,Final
+County,Santa Cruz County,2007,Annual,144700,136200,8600,5.9%,N,Final
+County,Shasta County,2007,Annual,82500,76400,6200,7.5%,N,Final
+County,Sierra County,2007,Annual,1610,1480,130,8%,N,Final
+County,Siskiyou County,2007,Annual,18790,17190,1590,8.5%,N,Final
+County,Solano County,2007,Annual,208200,197200,11000,5.3%,N,Final
+County,Sonoma County,2007,Annual,257300,246100,11200,4.3%,N,Final
+County,Stanislaus County,2007,Annual,226900,207200,19700,8.7%,N,Final
+County,Sutter County,2007,Annual,41000,37000,4000,9.7%,N,Final
+County,Tehama County,2007,Annual,24860,23060,1800,7.2%,N,Final
+County,Trinity County,2007,Annual,5020,4500,530,10.4%,N,Final
+County,Tulare County,2007,Annual,191600,173900,17700,9.2%,N,Final
+County,Tuolumne County,2007,Annual,25780,24180,1600,6.2%,N,Final
+County,Ventura County,2007,Annual,423100,402400,20700,4.9%,N,Final
+County,Yolo County,2007,Annual,97500,91900,5600,5.7%,N,Final
+County,Yuba County,2007,Annual,27300,24800,2500,9.3%,N,Final
+County,Alameda County,2006,Annual,733800,701300,32600,4.4%,N,Final
+County,Alpine County,2006,Annual,480,450,30,6.4%,N,Final
+County,Amador County,2006,Annual,17240,16320,920,5.3%,N,Final
+County,Butte County,2006,Annual,99800,93600,6200,6.2%,N,Final
+County,Calaveras County,2006,Annual,20600,19390,1210,5.9%,N,Final
+County,Colusa County,2006,Annual,9920,8700,1210,12.2%,N,Final
+County,Contra Costa County,2006,Annual,510400,488600,21800,4.3%,N,Final
+County,Del Norte County,2006,Annual,10790,10050,740,6.9%,N,Final
+County,El Dorado County,2006,Annual,91600,87300,4200,4.6%,N,Final
+County,Fresno County,2006,Annual,410400,377500,32900,8%,N,Final
+County,Glenn County,2006,Annual,11610,10680,930,8%,N,Final
+County,Humboldt County,2006,Annual,59400,56100,3300,5.5%,N,Final
+County,Imperial County,2006,Annual,63000,53300,9700,15.4%,N,Final
+County,Inyo County,2006,Annual,9010,8600,410,4.6%,N,Final
+County,Kern County,2006,Annual,336100,310700,25400,7.5%,N,Final
+County,Kings County,2006,Annual,55000,50400,4600,8.4%,N,Final
+County,Lake County,2006,Annual,24270,22410,1860,7.7%,N,Final
+County,Lassen County,2006,Annual,12220,11250,960,7.9%,N,Final
+County,Los Angeles County,2006,Annual,4807900,4577600,230300,4.8%,N,Final
+County,Madera County,2006,Annual,62700,58400,4400,7%,N,Final
+County,Marin County,2006,Annual,130600,126000,4600,3.5%,N,Final
+County,Mariposa County,2006,Annual,9010,8500,510,5.7%,N,Final
+County,Mendocino County,2006,Annual,43240,40990,2250,5.2%,N,Final
+County,Merced County,2006,Annual,97900,88700,9200,9.4%,N,Final
+County,Modoc County,2006,Annual,3980,3670,310,7.8%,N,Final
+County,Mono County,2006,Annual,8240,7870,360,4.4%,N,Final
+County,Monterey County,2006,Annual,203100,189000,14000,6.9%,N,Final
+County,Napa County,2006,Annual,71700,68900,2800,3.9%,N,Final
+County,Nevada County,2006,Annual,49610,47440,2170,4.4%,N,Final
+County,Orange County,2006,Annual,1597800,1543500,54300,3.4%,N,Final
+County,Placer County,2006,Annual,168900,161800,7000,4.2%,N,Final
+County,Plumas County,2006,Annual,10090,9310,770,7.7%,N,Final
+County,Riverside County,2006,Annual,881200,836900,44400,5%,N,Final
+County,Sacramento County,2006,Annual,668800,637000,31800,4.8%,N,Final
+County,San Benito County,2006,Annual,24200,22400,1700,7.2%,N,Final
+County,San Bernardino County,2006,Annual,860000,818600,41400,4.8%,N,Final
+County,San Diego County,2006,Annual,1496100,1436800,59300,4%,N,Final
+County,San Francisco County,2006,Annual,415700,398300,17500,4.2%,N,Final
+County,San Joaquin County,2006,Annual,283600,262600,21000,7.4%,N,Final
+County,San Luis Obispo County,2006,Annual,132400,127200,5200,3.9%,N,Final
+County,San Mateo County,2006,Annual,364000,350600,13400,3.7%,N,Final
+County,Santa Barbara County,2006,Annual,210900,202400,8500,4%,N,Final
+County,Santa Clara County,2006,Annual,821600,784800,36800,4.5%,N,Final
+County,Santa Cruz County,2006,Annual,143100,135000,8100,5.6%,N,Final
+County,Shasta County,2006,Annual,82400,77000,5400,6.6%,N,Final
+County,Sierra County,2006,Annual,1590,1470,120,7.4%,N,Final
+County,Siskiyou County,2006,Annual,18600,17110,1490,8%,N,Final
+County,Solano County,2006,Annual,207800,197700,10100,4.9%,N,Final
+County,Sonoma County,2006,Annual,254000,243800,10200,4%,N,Final
+County,Stanislaus County,2006,Annual,224300,206400,17800,8%,N,Final
+County,Sutter County,2006,Annual,40400,36800,3600,8.9%,N,Final
+County,Tehama County,2006,Annual,25050,23430,1620,6.5%,N,Final
+County,Trinity County,2006,Annual,5060,4560,500,9.9%,N,Final
+County,Tulare County,2006,Annual,187400,171500,15900,8.5%,N,Final
+County,Tuolumne County,2006,Annual,25810,24320,1490,5.8%,N,Final
+County,Ventura County,2006,Annual,419600,401500,18100,4.3%,N,Final
+County,Yolo County,2006,Annual,93600,88800,4800,5.2%,N,Final
+County,Yuba County,2006,Annual,26600,24200,2300,8.8%,N,Final
+County,Alameda County,2005,Annual,734300,696800,37500,5.1%,N,Final
+County,Alpine County,2005,Annual,530,480,40,8%,N,Final
+County,Amador County,2005,Annual,17200,16240,960,5.6%,N,Final
+County,Butte County,2005,Annual,98300,91700,6600,6.7%,N,Final
+County,Calaveras County,2005,Annual,20530,19250,1280,6.2%,N,Final
+County,Colusa County,2005,Annual,9880,8630,1250,12.7%,N,Final
+County,Contra Costa County,2005,Annual,509900,485200,24700,4.8%,N,Final
+County,Del Norte County,2005,Annual,10740,9940,800,7.4%,N,Final
+County,El Dorado County,2005,Annual,91100,86700,4400,4.8%,N,Final
+County,Fresno County,2005,Annual,407200,370600,36600,9%,N,Final
+County,Glenn County,2005,Annual,11540,10570,970,8.4%,N,Final
+County,Humboldt County,2005,Annual,59500,55900,3600,6.1%,N,Final
+County,Imperial County,2005,Annual,60600,50900,9700,16%,N,Final
+County,Inyo County,2005,Annual,9280,8830,450,4.9%,N,Final
+County,Kern County,2005,Annual,326700,299400,27300,8.4%,N,Final
+County,Kings County,2005,Annual,53800,48800,5100,9.4%,N,Final
+County,Lake County,2005,Annual,25990,23930,2060,7.9%,N,Final
+County,Lassen County,2005,Annual,12250,11270,980,8%,N,Final
+County,Los Angeles County,2005,Annual,4781600,4525200,256400,5.4%,N,Final
+County,Madera County,2005,Annual,61900,57000,4900,7.9%,N,Final
+County,Marin County,2005,Annual,129100,124100,5000,3.9%,N,Final
+County,Mariposa County,2005,Annual,8790,8230,560,6.4%,N,Final
+County,Mendocino County,2005,Annual,43840,41330,2520,5.7%,N,Final
+County,Merced County,2005,Annual,98700,88900,9900,10%,N,Final
+County,Modoc County,2005,Annual,4000,3680,320,7.9%,N,Final
+County,Mono County,2005,Annual,8340,7940,400,4.8%,N,Final
+County,Monterey County,2005,Annual,206600,191500,15000,7.3%,N,Final
+County,Napa County,2005,Annual,71300,68200,3100,4.4%,N,Final
+County,Nevada County,2005,Annual,49240,46880,2350,4.8%,N,Final
+County,Orange County,2005,Annual,1585900,1526600,59300,3.7%,N,Final
+County,Placer County,2005,Annual,164200,157200,7100,4.3%,N,Final
+County,Plumas County,2005,Annual,10130,9280,850,8.4%,N,Final
+County,Riverside County,2005,Annual,852600,806900,45700,5.4%,N,Final
+County,Sacramento County,2005,Annual,664300,631500,32800,4.9%,N,Final
+County,San Benito County,2005,Annual,24500,22500,2000,8.1%,N,Final
+County,San Bernardino County,2005,Annual,851500,807200,44300,5.2%,N,Final
+County,San Diego County,2005,Annual,1489800,1425700,64100,4.3%,N,Final
+County,San Francisco County,2005,Annual,413300,392700,20600,5%,N,Final
+County,San Joaquin County,2005,Annual,283600,261300,22300,7.9%,N,Final
+County,San Luis Obispo County,2005,Annual,131500,125900,5600,4.3%,N,Final
+County,San Mateo County,2005,Annual,360300,345000,15300,4.2%,N,Final
+County,Santa Barbara County,2005,Annual,213200,204000,9200,4.3%,N,Final
+County,Santa Clara County,2005,Annual,815400,772000,43300,5.3%,N,Final
+County,Santa Cruz County,2005,Annual,143000,134000,9000,6.3%,N,Final
+County,Shasta County,2005,Annual,81700,75800,5900,7.2%,N,Final
+County,Sierra County,2005,Annual,1580,1450,130,8.3%,N,Final
+County,Siskiyou County,2005,Annual,18650,16970,1680,9%,N,Final
+County,Solano County,2005,Annual,208500,197300,11100,5.3%,N,Final
+County,Sonoma County,2005,Annual,253400,242200,11200,4.4%,N,Final
+County,Stanislaus County,2005,Annual,226600,207600,19000,8.4%,N,Final
+County,Sutter County,2005,Annual,40000,36100,3900,9.6%,N,Final
+County,Tehama County,2005,Annual,25200,23470,1730,6.9%,N,Final
+County,Trinity County,2005,Annual,5170,4640,530,10.2%,N,Final
+County,Tulare County,2005,Annual,183300,166000,17300,9.4%,N,Final
+County,Tuolumne County,2005,Annual,25980,24310,1670,6.4%,N,Final
+County,Ventura County,2005,Annual,416000,396200,19700,4.7%,N,Final
+County,Yolo County,2005,Annual,92400,87200,5100,5.5%,N,Final
+County,Yuba County,2005,Annual,25700,23400,2300,9%,N,Final
+County,Alameda County,2004,Annual,741600,698200,43400,5.9%,N,Final
+County,Alpine County,2004,Annual,530,490,40,8.1%,N,Final
+County,Amador County,2004,Annual,16910,15930,970,5.8%,N,Final
+County,Butte County,2004,Annual,97400,90300,7200,7.4%,N,Final
+County,Calaveras County,2004,Annual,19960,18610,1350,6.8%,N,Final
+County,Colusa County,2004,Annual,9510,8220,1300,13.6%,N,Final
+County,Contra Costa County,2004,Annual,507800,480300,27500,5.4%,N,Final
+County,Del Norte County,2004,Annual,10630,9770,850,8%,N,Final
+County,El Dorado County,2004,Annual,88800,84200,4700,5.3%,N,Final
+County,Fresno County,2004,Annual,404300,362200,42100,10.4%,N,Final
+County,Glenn County,2004,Annual,11450,10390,1070,9.3%,N,Final
+County,Humboldt County,2004,Annual,60400,56500,3900,6.5%,N,Final
+County,Imperial County,2004,Annual,59400,49300,10100,17%,N,Final
+County,Inyo County,2004,Annual,9250,8760,490,5.3%,N,Final
+County,Kern County,2004,Annual,314400,283400,31000,9.9%,N,Final
+County,Kings County,2004,Annual,53200,47300,5800,11%,N,Final
+County,Lake County,2004,Annual,25760,23440,2320,9%,N,Final
+County,Lassen County,2004,Annual,12180,11260,920,7.6%,N,Final
+County,Los Angeles County,2004,Annual,4753500,4445400,308100,6.5%,N,Final
+County,Madera County,2004,Annual,61100,55500,5600,9.1%,N,Final
+County,Marin County,2004,Annual,129200,123500,5700,4.4%,N,Final
+County,Mariposa County,2004,Annual,8570,8000,570,6.7%,N,Final
+County,Mendocino County,2004,Annual,43860,41050,2810,6.4%,N,Final
+County,Merced County,2004,Annual,97600,87000,10600,10.9%,N,Final
+County,Modoc County,2004,Annual,4050,3700,350,8.7%,N,Final
+County,Mono County,2004,Annual,8290,7870,420,5%,N,Final
+County,Monterey County,2004,Annual,207200,190100,17100,8.3%,N,Final
+County,Napa County,2004,Annual,71200,67800,3400,4.7%,N,Final
+County,Nevada County,2004,Annual,48700,46120,2580,5.3%,N,Final
+County,Orange County,2004,Annual,1569100,1502700,66400,4.2%,N,Final
+County,Placer County,2004,Annual,158500,151000,7600,4.8%,N,Final
+County,Plumas County,2004,Annual,10400,9380,1020,9.8%,N,Final
+County,Riverside County,2004,Annual,817700,768900,48800,6%,N,Final
+County,Sacramento County,2004,Annual,659100,622200,36900,5.6%,N,Final
+County,San Benito County,2004,Annual,25100,22700,2400,9.5%,N,Final
+County,San Bernardino County,2004,Annual,829200,781600,47600,5.7%,N,Final
+County,San Diego County,2004,Annual,1478500,1408900,69600,4.7%,N,Final
+County,San Francisco County,2004,Annual,418500,394400,24100,5.8%,N,Final
+County,San Joaquin County,2004,Annual,281400,256900,24500,8.7%,N,Final
+County,San Luis Obispo County,2004,Annual,129600,123700,5900,4.6%,N,Final
+County,San Mateo County,2004,Annual,361500,344000,17500,4.8%,N,Final
+County,Santa Barbara County,2004,Annual,211000,201000,9900,4.7%,N,Final
+County,Santa Clara County,2004,Annual,821600,769000,52600,6.4%,N,Final
+County,Santa Cruz County,2004,Annual,143500,133400,10000,7%,N,Final
+County,Shasta County,2004,Annual,82400,76200,6300,7.6%,N,Final
+County,Sierra County,2004,Annual,1580,1430,150,9.7%,N,Final
+County,Siskiyou County,2004,Annual,18970,17180,1790,9.4%,N,Final
+County,Solano County,2004,Annual,206300,194300,12000,5.8%,N,Final
+County,Sonoma County,2004,Annual,254000,241500,12500,4.9%,N,Final
+County,Stanislaus County,2004,Annual,223700,203100,20600,9.2%,N,Final
+County,Sutter County,2004,Annual,40000,35800,4200,10.6%,N,Final
+County,Tehama County,2004,Annual,25290,23420,1870,7.4%,N,Final
+County,Trinity County,2004,Annual,5240,4660,570,10.9%,N,Final
+County,Tulare County,2004,Annual,179800,159000,20800,11.6%,N,Final
+County,Tuolumne County,2004,Annual,25550,23790,1760,6.9%,N,Final
+County,Ventura County,2004,Annual,412300,390300,22000,5.3%,N,Final
+County,Yolo County,2004,Annual,91900,86300,5600,6.1%,N,Final
+County,Yuba County,2004,Annual,25200,22800,2400,9.7%,N,Final
+County,Alameda County,2003,Annual,754400,703000,51400,6.8%,N,Final
+County,Alpine County,2003,Annual,550,510,50,8.3%,N,Final
+County,Amador County,2003,Annual,16390,15380,1010,6.1%,N,Final
+County,Butte County,2003,Annual,98300,90900,7400,7.5%,N,Final
+County,Calaveras County,2003,Annual,19850,18400,1460,7.3%,N,Final
+County,Colusa County,2003,Annual,9430,8090,1350,14.3%,N,Final
+County,Contra Costa County,2003,Annual,508400,477600,30800,6.1%,N,Final
+County,Del Norte County,2003,Annual,10310,9440,870,8.5%,N,Final
+County,El Dorado County,2003,Annual,87500,82600,4800,5.5%,N,Final
+County,Fresno County,2003,Annual,403700,356600,47100,11.7%,N,Final
+County,Glenn County,2003,Annual,11120,9990,1130,10.2%,N,Final
+County,Humboldt County,2003,Annual,60600,56500,4100,6.8%,N,Final
+County,Imperial County,2003,Annual,58600,49600,9100,15.5%,N,Final
+County,Inyo County,2003,Annual,9100,8580,520,5.7%,N,Final
+County,Kern County,2003,Annual,311300,279400,31900,10.3%,N,Final
+County,Kings County,2003,Annual,53100,46800,6300,11.9%,N,Final
+County,Lake County,2003,Annual,25860,23510,2350,9.1%,N,Final
+County,Lassen County,2003,Annual,12310,11370,940,7.6%,N,Final
+County,Los Angeles County,2003,Annual,4739500,4409900,329600,7%,N,Final
+County,Madera County,2003,Annual,59000,52900,6100,10.3%,N,Final
+County,Marin County,2003,Annual,130600,124300,6400,4.9%,N,Final
+County,Mariposa County,2003,Annual,8420,7840,580,6.9%,N,Final
+County,Mendocino County,2003,Annual,44970,41900,3070,6.8%,N,Final
+County,Merced County,2003,Annual,96800,85800,11100,11.4%,N,Final
+County,Modoc County,2003,Annual,4200,3840,360,8.7%,N,Final
+County,Mono County,2003,Annual,8270,7860,420,5%,N,Final
+County,Monterey County,2003,Annual,208700,190100,18600,8.9%,N,Final
+County,Napa County,2003,Annual,70700,67300,3400,4.8%,N,Final
+County,Nevada County,2003,Annual,48280,45600,2680,5.5%,N,Final
+County,Orange County,2003,Annual,1545800,1472500,73300,4.7%,N,Final
+County,Placer County,2003,Annual,152700,145000,7700,5.1%,N,Final
+County,Plumas County,2003,Annual,10440,9420,1020,9.8%,N,Final
+County,Riverside County,2003,Annual,776000,725700,50300,6.5%,N,Final
+County,Sacramento County,2003,Annual,652200,614100,38100,5.8%,N,Final
+County,San Benito County,2003,Annual,25500,23000,2500,9.9%,N,Final
+County,San Bernardino County,2003,Annual,802200,752300,49900,6.2%,N,Final
+County,San Diego County,2003,Annual,1457500,1382300,75300,5.2%,N,Final
+County,San Francisco County,2003,Annual,429300,400600,28700,6.7%,N,Final
+County,San Joaquin County,2003,Annual,278800,253400,25400,9.1%,N,Final
+County,San Luis Obispo County,2003,Annual,127900,121900,6000,4.7%,N,Final
+County,San Mateo County,2003,Annual,366900,345600,21200,5.8%,N,Final
+County,Santa Barbara County,2003,Annual,207900,197400,10400,5%,N,Final
+County,Santa Clara County,2003,Annual,843700,773900,69800,8.3%,N,Final
+County,Santa Cruz County,2003,Annual,144200,133100,11100,7.7%,N,Final
+County,Shasta County,2003,Annual,82400,76200,6200,7.5%,N,Final
+County,Sierra County,2003,Annual,1640,1480,150,9.3%,N,Final
+County,Siskiyou County,2003,Annual,19220,17400,1820,9.5%,N,Final
+County,Solano County,2003,Annual,205400,192600,12800,6.3%,N,Final
+County,Sonoma County,2003,Annual,252900,239200,13700,5.4%,N,Final
+County,Stanislaus County,2003,Annual,221700,200000,21700,9.8%,N,Final
+County,Sutter County,2003,Annual,39400,35000,4400,11.1%,N,Final
+County,Tehama County,2003,Annual,25610,23660,1960,7.6%,N,Final
+County,Trinity County,2003,Annual,5380,4820,560,10.4%,N,Final
+County,Tulare County,2003,Annual,181200,159100,22100,12.2%,N,Final
+County,Tuolumne County,2003,Annual,25300,23530,1770,7%,N,Final
+County,Ventura County,2003,Annual,409700,386200,23500,5.7%,N,Final
+County,Yolo County,2003,Annual,91300,85500,5800,6.3%,N,Final
+County,Yuba County,2003,Annual,25200,22500,2700,10.7%,N,Final
+County,Alameda County,2002,Annual,771400,720100,51300,6.7%,N,Final
+County,Alpine County,2002,Annual,560,520,40,7.5%,N,Final
+County,Amador County,2002,Annual,16510,15570,950,5.7%,N,Final
+County,Butte County,2002,Annual,97100,90000,7100,7.3%,N,Final
+County,Calaveras County,2002,Annual,19680,18410,1270,6.5%,N,Final
+County,Colusa County,2002,Annual,9400,8100,1290,13.8%,N,Final
+County,Contra Costa County,2002,Annual,510900,482000,29000,5.7%,N,Final
+County,Del Norte County,2002,Annual,10220,9330,890,8.7%,N,Final
+County,El Dorado County,2002,Annual,86200,81700,4500,5.2%,N,Final
+County,Fresno County,2002,Annual,401100,355200,45900,11.4%,N,Final
+County,Glenn County,2002,Annual,11220,10150,1070,9.5%,N,Final
+County,Humboldt County,2002,Annual,60700,56700,4100,6.7%,N,Final
+County,Imperial County,2002,Annual,57200,48700,8500,14.9%,N,Final
+County,Inyo County,2002,Annual,9210,8710,490,5.4%,N,Final
+County,Kern County,2002,Annual,305300,275600,29700,9.7%,N,Final
+County,Kings County,2002,Annual,51700,45700,6000,11.6%,N,Final
+County,Lake County,2002,Annual,25690,23570,2120,8.3%,N,Final
+County,Lassen County,2002,Annual,12190,11260,930,7.7%,N,Final
+County,Los Angeles County,2002,Annual,4751600,4430900,320600,6.7%,N,Final
+County,Madera County,2002,Annual,55500,49700,5900,10.5%,N,Final
+County,Marin County,2002,Annual,134500,128000,6500,4.8%,N,Final
+County,Mariposa County,2002,Annual,8720,8160,560,6.4%,N,Final
+County,Mendocino County,2002,Annual,45730,42710,3020,6.6%,N,Final
+County,Merced County,2002,Annual,95700,85300,10400,10.9%,N,Final
+County,Modoc County,2002,Annual,4090,3780,320,7.8%,N,Final
+County,Mono County,2002,Annual,7880,7480,400,5.1%,N,Final
+County,Monterey County,2002,Annual,207800,189300,18400,8.9%,N,Final
+County,Napa County,2002,Annual,71100,67900,3200,4.5%,N,Final
+County,Nevada County,2002,Annual,48350,45810,2540,5.3%,N,Final
+County,Orange County,2002,Annual,1524800,1449500,75300,4.9%,N,Final
+County,Placer County,2002,Annual,146200,139100,7200,4.9%,N,Final
+County,Plumas County,2002,Annual,10200,9350,850,8.3%,N,Final
+County,Riverside County,2002,Annual,746300,698500,47900,6.4%,N,Final
+County,Sacramento County,2002,Annual,642100,606100,36000,5.6%,N,Final
+County,San Benito County,2002,Annual,26300,24000,2300,8.8%,N,Final
+County,San Bernardino County,2002,Annual,786800,739600,47200,6%,N,Final
+County,San Diego County,2002,Annual,1442900,1369200,73600,5.1%,N,Final
+County,San Francisco County,2002,Annual,448100,417300,30900,6.9%,N,Final
+County,San Joaquin County,2002,Annual,274100,250000,24100,8.8%,N,Final
+County,San Luis Obispo County,2002,Annual,128400,122400,5900,4.6%,N,Final
+County,San Mateo County,2002,Annual,377800,356500,21200,5.6%,N,Final
+County,Santa Barbara County,2002,Annual,205100,194600,10500,5.1%,N,Final
+County,Santa Clara County,2002,Annual,886600,813000,73600,8.3%,N,Final
+County,Santa Cruz County,2002,Annual,147500,136600,10800,7.3%,N,Final
+County,Shasta County,2002,Annual,81300,75500,5800,7.1%,N,Final
+County,Sierra County,2002,Annual,1640,1500,140,8.6%,N,Final
+County,Siskiyou County,2002,Annual,18990,17300,1690,8.9%,N,Final
+County,Solano County,2002,Annual,202200,190500,11600,5.8%,N,Final
+County,Sonoma County,2002,Annual,256700,243800,12900,5%,N,Final
+County,Stanislaus County,2002,Annual,219100,198000,21000,9.6%,N,Final
+County,Sutter County,2002,Annual,39000,34800,4300,10.9%,N,Final
+County,Tehama County,2002,Annual,25490,23670,1820,7.1%,N,Final
+County,Trinity County,2002,Annual,5390,4850,540,10%,N,Final
+County,Tulare County,2002,Annual,180500,159000,21400,11.9%,N,Final
+County,Tuolumne County,2002,Annual,24750,23120,1630,6.6%,N,Final
+County,Ventura County,2002,Annual,406100,382800,23300,5.7%,N,Final
+County,Yolo County,2002,Annual,90500,85100,5400,6%,N,Final
+County,Yuba County,2002,Annual,25000,22600,2400,9.8%,N,Final
+County,Alameda County,2001,Annual,777700,740600,37200,4.8%,N,Final
+County,Alpine County,2001,Annual,570,530,40,7.3%,N,Final
+County,Amador County,2001,Annual,16130,15320,820,5.1%,N,Final
+County,Butte County,2001,Annual,95100,88900,6300,6.6%,N,Final
+County,Calaveras County,2001,Annual,19030,17990,1040,5.5%,N,Final
+County,Colusa County,2001,Annual,9120,7950,1170,12.8%,N,Final
+County,Contra Costa County,2001,Annual,508300,487700,20600,4%,N,Final
+County,Del Norte County,2001,Annual,10210,9400,820,8%,N,Final
+County,El Dorado County,2001,Annual,84000,80400,3600,4.3%,N,Final
+County,Fresno County,2001,Annual,389500,347900,41600,10.7%,N,Final
+County,Glenn County,2001,Annual,11230,10250,980,8.8%,N,Final
+County,Humboldt County,2001,Annual,60400,56800,3600,6%,N,Final
+County,Imperial County,2001,Annual,55500,46700,8800,15.9%,N,Final
+County,Inyo County,2001,Annual,9030,8620,410,4.5%,N,Final
+County,Kern County,2001,Annual,297700,272200,25500,8.6%,N,Final
+County,Kings County,2001,Annual,50200,44800,5400,10.7%,N,Final
+County,Lake County,2001,Annual,24770,23030,1740,7%,N,Final
+County,Lassen County,2001,Annual,11670,10810,860,7.3%,N,Final
+County,Los Angeles County,2001,Annual,4740500,4471500,269000,5.7%,N,Final
+County,Madera County,2001,Annual,53900,48800,5200,9.6%,N,Final
+County,Marin County,2001,Annual,140000,135100,4900,3.5%,N,Final
+County,Mariposa County,2001,Annual,8480,7990,490,5.7%,N,Final
+County,Mendocino County,2001,Annual,44630,41980,2650,5.9%,N,Final
+County,Merced County,2001,Annual,91700,82400,9300,10.2%,N,Final
+County,Modoc County,2001,Annual,3910,3640,270,6.9%,N,Final
+County,Mono County,2001,Annual,7610,7250,360,4.7%,N,Final
+County,Monterey County,2001,Annual,204600,188700,16000,7.8%,N,Final
+County,Napa County,2001,Annual,70400,67800,2600,3.6%,N,Final
+County,Nevada County,2001,Annual,46900,44850,2060,4.4%,N,Final
+County,Orange County,2001,Annual,1511900,1452100,59800,4%,N,Final
+County,Placer County,2001,Annual,139000,133400,5600,4%,N,Final
+County,Plumas County,2001,Annual,9950,9190,760,7.6%,N,Final
+County,Riverside County,2001,Annual,710500,671400,39000,5.5%,N,Final
+County,Sacramento County,2001,Annual,624100,595900,28200,4.5%,N,Final
+County,San Benito County,2001,Annual,27400,25700,1700,6.3%,N,Final
+County,San Bernardino County,2001,Annual,762500,723900,38600,5.1%,N,Final
+County,San Diego County,2001,Annual,1408400,1349500,58900,4.2%,N,Final
+County,San Francisco County,2001,Annual,469000,445200,23800,5.1%,N,Final
+County,San Joaquin County,2001,Annual,266000,246200,19900,7.5%,N,Final
+County,San Luis Obispo County,2001,Annual,126100,121000,5100,4%,N,Final
+County,San Mateo County,2001,Annual,392500,377500,15000,3.8%,N,Final
+County,Santa Barbara County,2001,Annual,202900,193900,8900,4.4%,N,Final
+County,Santa Clara County,2001,Annual,938600,891100,47500,5.1%,N,Final
+County,Santa Cruz County,2001,Annual,150200,141600,8600,5.7%,N,Final
+County,Shasta County,2001,Annual,77600,72700,4900,6.3%,N,Final
+County,Sierra County,2001,Annual,1670,1540,130,7.6%,N,Final
+County,Siskiyou County,2001,Annual,18960,17430,1530,8.1%,N,Final
+County,Solano County,2001,Annual,197000,187900,9100,4.6%,N,Final
+County,Sonoma County,2001,Annual,257600,248200,9500,3.7%,N,Final
+County,Stanislaus County,2001,Annual,214100,196200,17900,8.4%,N,Final
+County,Sutter County,2001,Annual,38400,34700,3700,9.8%,N,Final
+County,Tehama County,2001,Annual,24550,22950,1610,6.5%,N,Final
+County,Trinity County,2001,Annual,5390,4890,500,9.3%,N,Final
+County,Tulare County,2001,Annual,175200,155200,20000,11.4%,N,Final
+County,Tuolumne County,2001,Annual,23940,22540,1400,5.9%,N,Final
+County,Ventura County,2001,Annual,399000,379600,19300,4.8%,N,Final
+County,Yolo County,2001,Annual,88300,83700,4500,5.1%,N,Final
+County,Yuba County,2001,Annual,24800,22700,2100,8.5%,N,Final
+County,Alameda County,2000,Annual,769700,741900,27800,3.6%,N,Final
+County,Alpine County,2000,Annual,560,520,40,6.3%,N,Final
+County,Amador County,2000,Annual,15280,14490,800,5.2%,N,Final
+County,Butte County,2000,Annual,93200,87400,5800,6.2%,N,Final
+County,Calaveras County,2000,Annual,18160,17150,1010,5.6%,N,Final
+County,Colusa County,2000,Annual,9270,8200,1070,11.6%,N,Final
+County,Contra Costa County,2000,Annual,501300,483500,17800,3.6%,N,Final
+County,Del Norte County,2000,Annual,10250,9490,760,7.4%,N,Final
+County,El Dorado County,2000,Annual,82200,78800,3400,4.1%,N,Final
+County,Fresno County,2000,Annual,388700,348200,40500,10.4%,N,Final
+County,Glenn County,2000,Annual,11300,10340,960,8.5%,N,Final
+County,Humboldt County,2000,Annual,60200,56700,3500,5.8%,N,Final
+County,Imperial County,2000,Annual,56100,46300,9800,17.5%,N,Final
+County,Inyo County,2000,Annual,8860,8450,410,4.7%,N,Final
+County,Kern County,2000,Annual,293900,269600,24300,8.3%,N,Final
+County,Kings County,2000,Annual,49300,44300,4900,10%,N,Final
+County,Lake County,2000,Annual,23100,21420,1680,7.3%,N,Final
+County,Lassen County,2000,Annual,11360,10550,810,7.2%,N,Final
+County,Los Angeles County,2000,Annual,4677400,4425600,251800,5.4%,N,Final
+County,Madera County,2000,Annual,55000,50200,4800,8.7%,N,Final
+County,Marin County,2000,Annual,141900,137900,4100,2.9%,N,Final
+County,Mariposa County,2000,Annual,7980,7490,490,6.2%,N,Final
+County,Mendocino County,2000,Annual,43610,41180,2430,5.6%,N,Final
+County,Merced County,2000,Annual,90400,81700,8700,9.6%,N,Final
+County,Modoc County,2000,Annual,3760,3470,280,7.5%,N,Final
+County,Mono County,2000,Annual,7400,7060,350,4.7%,N,Final
+County,Monterey County,2000,Annual,203400,188400,15000,7.4%,N,Final
+County,Napa County,2000,Annual,66700,64300,2400,3.6%,N,Final
+County,Nevada County,2000,Annual,45500,43610,1890,4.2%,N,Final
+County,Orange County,2000,Annual,1482300,1430100,52200,3.5%,N,Final
+County,Placer County,2000,Annual,132200,127500,4800,3.6%,N,Final
+County,Plumas County,2000,Annual,9770,9070,700,7.1%,N,Final
+County,Riverside County,2000,Annual,681300,644700,36600,5.4%,N,Final
+County,Sacramento County,2000,Annual,609300,582800,26500,4.3%,N,Final
+County,San Benito County,2000,Annual,27500,25800,1700,6%,N,Final
+County,San Bernardino County,2000,Annual,740000,704500,35500,4.8%,N,Final
+County,San Diego County,2000,Annual,1377100,1323200,53900,3.9%,N,Final
+County,San Francisco County,2000,Annual,473100,457000,16100,3.4%,N,Final
+County,San Joaquin County,2000,Annual,259200,241100,18100,7%,N,Final
+County,San Luis Obispo County,2000,Annual,122600,117600,5000,4%,N,Final
+County,San Mateo County,2000,Annual,398500,387000,11400,2.9%,N,Final
+County,Santa Barbara County,2000,Annual,202600,193700,8900,4.4%,N,Final
+County,Santa Clara County,2000,Annual,941500,912200,29300,3.1%,N,Final
+County,Santa Cruz County,2000,Annual,148500,140900,7600,5.1%,N,Final
+County,Shasta County,2000,Annual,74900,70400,4600,6.1%,N,Final
+County,Sierra County,2000,Annual,1800,1700,110,5.9%,N,Final
+County,Siskiyou County,2000,Annual,19160,17720,1450,7.5%,N,Final
+County,Solano County,2000,Annual,194400,185300,9000,4.6%,N,Final
+County,Sonoma County,2000,Annual,253500,244900,8500,3.4%,N,Final
+County,Stanislaus County,2000,Annual,208000,191700,16200,7.8%,N,Final
+County,Sutter County,2000,Annual,37900,34300,3600,9.4%,N,Final
+County,Tehama County,2000,Annual,23630,22090,1550,6.5%,N,Final
+County,Trinity County,2000,Annual,5120,4610,500,9.8%,N,Final
+County,Tulare County,2000,Annual,172000,154100,17900,10.4%,N,Final
+County,Tuolumne County,2000,Annual,22910,21560,1350,5.9%,N,Final
+County,Ventura County,2000,Annual,393000,375200,17800,4.5%,N,Final
+County,Yolo County,2000,Annual,86300,81900,4400,5%,N,Final
+County,Yuba County,2000,Annual,24300,22400,1900,8%,N,Final
+County,Alameda County,1999,Annual,714100,689200,24900,3.5%,N,Final
+County,Alpine County,1999,Annual,490,450,50,9.1%,N,Final
+County,Amador County,1999,Annual,13520,12890,630,4.6%,N,Final
+County,Butte County,1999,Annual,85500,79700,5800,6.8%,N,Final
+County,Calaveras County,1999,Annual,14460,13450,1010,7%,N,Final
+County,Colusa County,1999,Annual,8720,7320,1390,16%,N,Final
+County,Contra Costa County,1999,Annual,486200,471400,14800,3.1%,N,Final
+County,Del Norte County,1999,Annual,9870,9070,790,8%,N,Final
+County,El Dorado County,1999,Annual,79200,76100,3100,3.9%,N,Final
+County,Fresno County,1999,Annual,377400,326300,51100,13.5%,N,Final
+County,Glenn County,1999,Annual,10380,9210,1170,11.3%,N,Final
+County,Humboldt County,1999,Annual,59800,55900,3900,6.5%,N,Final
+County,Imperial County,1999,Annual,55200,42100,13000,23.6%,N,Final
+County,Inyo County,1999,Annual,7130,6720,410,5.7%,N,Final
+County,Kern County,1999,Annual,278600,246700,31900,11.4%,N,Final
+County,Kings County,1999,Annual,42800,37200,5600,13.2%,N,Final
+County,Lake County,1999,Annual,23530,21700,1840,7.8%,N,Final
+County,Lassen County,1999,Annual,11060,10280,780,7.1%,N,Final
+County,Los Angeles County,1999,Annual,4576400,4307000,269400,5.9%,N,Final
+County,Madera County,1999,Annual,52800,46600,6100,11.6%,N,Final
+County,Marin County,1999,Annual,134100,131500,2600,2%,N,Final
+County,Mariposa County,1999,Annual,6640,6150,490,7.4%,N,Final
+County,Mendocino County,1999,Annual,41530,38710,2820,6.8%,N,Final
+County,Merced County,1999,Annual,83600,72400,11200,13.4%,N,Final
+County,Modoc County,1999,Annual,3990,3650,340,8.6%,N,Final
+County,Mono County,1999,Annual,6130,5720,410,6.7%,N,Final
+County,Monterey County,1999,Annual,187400,169300,18100,9.6%,N,Final
+County,Napa County,1999,Annual,62200,60100,2100,3.3%,N,Final
+County,Nevada County,1999,Annual,43510,41730,1780,4.1%,N,Final
+County,Orange County,1999,Annual,1459900,1420900,39000,2.7%,N,Final
+County,Placer County,1999,Annual,119900,116000,3900,3.2%,N,Final
+County,Plumas County,1999,Annual,9430,8570,850,9%,N,Final
+County,Riverside County,1999,Annual,690900,653000,37900,5.5%,N,Final
+County,Sacramento County,1999,Annual,581600,556900,24700,4.2%,N,Final
+County,San Benito County,1999,Annual,26200,24100,2100,8.1%,N,Final
+County,San Bernardino County,1999,Annual,748400,712000,36300,4.9%,N,Final
+County,San Diego County,1999,Annual,1350700,1308700,42000,3.1%,N,Final
+County,San Francisco County,1999,Annual,417600,404700,12800,3.1%,N,Final
+County,San Joaquin County,1999,Annual,250100,227900,22100,8.8%,N,Final
+County,San Luis Obispo County,1999,Annual,111200,107500,3600,3.3%,N,Final
+County,San Mateo County,1999,Annual,395100,387200,7800,2%,N,Final
+County,Santa Barbara County,1999,Annual,197500,189800,7700,3.9%,N,Final
+County,Santa Clara County,1999,Annual,957800,928600,29200,3.1%,N,Final
+County,Santa Cruz County,1999,Annual,138700,129900,8800,6.4%,N,Final
+County,Shasta County,1999,Annual,72100,67000,5100,7.1%,N,Final
+County,Sierra County,1999,Annual,1620,1470,150,9.2%,N,Final
+County,Siskiyou County,1999,Annual,17580,15750,1830,10.4%,N,Final
+County,Solano County,1999,Annual,188800,180100,8700,4.6%,N,Final
+County,Sonoma County,1999,Annual,248800,242100,6700,2.7%,N,Final
+County,Stanislaus County,1999,Annual,202000,180600,21400,10.6%,N,Final
+County,Sutter County,1999,Annual,35600,30900,4700,13.1%,N,Final
+County,Tehama County,1999,Annual,24150,22510,1630,6.8%,N,Final
+County,Trinity County,1999,Annual,4850,4290,560,11.6%,N,Final
+County,Tulare County,1999,Annual,164700,137400,27300,16.6%,N,Final
+County,Tuolumne County,1999,Annual,19810,18510,1300,6.6%,N,Final
+County,Ventura County,1999,Annual,394300,375300,19000,4.8%,N,Final
+County,Yolo County,1999,Annual,90700,86700,4000,4.4%,N,Final
+County,Yuba County,1999,Annual,20500,18100,2400,11.7%,N,Final
+County,Alameda County,1998,Annual,703100,674000,29100,4.1%,N,Final
+County,Alpine County,1998,Annual,480,440,50,9.7%,N,Final
+County,Amador County,1998,Annual,13300,12570,730,5.5%,N,Final
+County,Butte County,1998,Annual,85000,77900,7100,8.3%,N,Final
+County,Calaveras County,1998,Annual,14120,12870,1250,8.8%,N,Final
+County,Colusa County,1998,Annual,8830,7050,1780,20.1%,N,Final
+County,Contra Costa County,1998,Annual,476700,459500,17300,3.6%,N,Final
+County,Del Norte County,1998,Annual,9950,8930,1030,10.3%,N,Final
+County,El Dorado County,1998,Annual,76900,73100,3800,5%,N,Final
+County,Fresno County,1998,Annual,375900,322300,53600,14.3%,N,Final
+County,Glenn County,1998,Annual,10490,9080,1410,13.4%,N,Final
+County,Humboldt County,1998,Annual,60600,56200,4400,7.2%,N,Final
+County,Imperial County,1998,Annual,55900,41300,14500,26%,N,Final
+County,Inyo County,1998,Annual,7260,6730,530,7.3%,N,Final
+County,Kern County,1998,Annual,278500,244700,33800,12.1%,N,Final
+County,Kings County,1998,Annual,43200,37200,6000,13.9%,N,Final
+County,Lake County,1998,Annual,23130,20910,2230,9.6%,N,Final
+County,Lassen County,1998,Annual,11290,10220,1060,9.4%,N,Final
+County,Los Angeles County,1998,Annual,4533300,4235400,297900,6.6%,N,Final
+County,Madera County,1998,Annual,52400,45700,6700,12.8%,N,Final
+County,Marin County,1998,Annual,132700,129600,3100,2.3%,N,Final
+County,Mariposa County,1998,Annual,6890,6360,530,7.7%,N,Final
+County,Mendocino County,1998,Annual,42320,38980,3340,7.9%,N,Final
+County,Merced County,1998,Annual,85100,72200,12900,15.1%,N,Final
+County,Modoc County,1998,Annual,3970,3520,450,11.2%,N,Final
+County,Mono County,1998,Annual,6120,5620,500,8.2%,N,Final
+County,Monterey County,1998,Annual,184100,164300,19800,10.8%,N,Final
+County,Napa County,1998,Annual,60500,58000,2400,4%,N,Final
+County,Nevada County,1998,Annual,42660,40340,2320,5.4%,N,Final
+County,Orange County,1998,Annual,1425500,1384200,41200,2.9%,N,Final
+County,Placer County,1998,Annual,113200,108600,4600,4.1%,N,Final
+County,Plumas County,1998,Annual,9680,8680,1000,10.3%,N,Final
+County,Riverside County,1998,Annual,659300,615400,43900,6.7%,N,Final
+County,Sacramento County,1998,Annual,564900,536600,28300,5%,N,Final
+County,San Benito County,1998,Annual,26100,23400,2800,10.6%,N,Final
+County,San Bernardino County,1998,Annual,720200,679500,40700,5.7%,N,Final
+County,San Diego County,1998,Annual,1312200,1266000,46300,3.5%,N,Final
+County,San Francisco County,1998,Annual,414300,399100,15200,3.7%,N,Final
+County,San Joaquin County,1998,Annual,247100,220900,26200,10.6%,N,Final
+County,San Luis Obispo County,1998,Annual,108100,103600,4500,4.2%,N,Final
+County,San Mateo County,1998,Annual,391400,381800,9600,2.5%,N,Final
+County,Santa Barbara County,1998,Annual,194600,186000,8600,4.4%,N,Final
+County,Santa Clara County,1998,Annual,952500,921600,30800,3.2%,N,Final
+County,Santa Cruz County,1998,Annual,140400,130000,10300,7.3%,N,Final
+County,Shasta County,1998,Annual,72100,65600,6500,9.1%,N,Final
+County,Sierra County,1998,Annual,1630,1440,190,11.8%,N,Final
+County,Siskiyou County,1998,Annual,18320,16010,2310,12.6%,N,Final
+County,Solano County,1998,Annual,182000,171900,10100,5.6%,N,Final
+County,Sonoma County,1998,Annual,245400,237200,8200,3.3%,N,Final
+County,Stanislaus County,1998,Annual,201300,176600,24700,12.3%,N,Final
+County,Sutter County,1998,Annual,35400,29900,5500,15.6%,N,Final
+County,Tehama County,1998,Annual,23940,21850,2090,8.7%,N,Final
+County,Trinity County,1998,Annual,4990,4320,670,13.4%,N,Final
+County,Tulare County,1998,Annual,162600,137100,25500,15.7%,N,Final
+County,Tuolumne County,1998,Annual,19530,17970,1560,8%,N,Final
+County,Ventura County,1998,Annual,385700,364300,21500,5.6%,N,Final
+County,Yolo County,1998,Annual,86800,82000,4700,5.4%,N,Final
+County,Yuba County,1998,Annual,20700,17900,2800,13.6%,N,Final
+County,Alameda County,1997,Annual,693300,662400,30900,4.5%,N,Final
+County,Alpine County,1997,Annual,500,450,50,9.3%,N,Final
+County,Amador County,1997,Annual,13190,12380,810,6.1%,N,Final
+County,Butte County,1997,Annual,83900,76600,7300,8.7%,N,Final
+County,Calaveras County,1997,Annual,14030,12760,1280,9.1%,N,Final
+County,Colusa County,1997,Annual,9090,7370,1720,18.9%,N,Final
+County,Contra Costa County,1997,Annual,469100,449500,19600,4.2%,N,Final
+County,Del Norte County,1997,Annual,10160,9120,1030,10.2%,N,Final
+County,El Dorado County,1997,Annual,75700,71500,4200,5.5%,N,Final
+County,Fresno County,1997,Annual,371900,321700,50200,13.5%,N,Final
+County,Glenn County,1997,Annual,10960,9490,1470,13.4%,N,Final
+County,Humboldt County,1997,Annual,60300,55900,4400,7.3%,N,Final
+County,Imperial County,1997,Annual,56100,41100,15100,26.8%,N,Final
+County,Inyo County,1997,Annual,7280,6690,600,8.2%,N,Final
+County,Kern County,1997,Annual,278100,243600,34500,12.4%,N,Final
+County,Kings County,1997,Annual,43600,37800,5800,13.2%,N,Final
+County,Lake County,1997,Annual,23000,20530,2470,10.7%,N,Final
+County,Lassen County,1997,Annual,11650,10520,1120,9.6%,N,Final
+County,Los Angeles County,1997,Annual,4420900,4116800,304100,6.9%,N,Final
+County,Madera County,1997,Annual,52000,45000,7000,13.5%,N,Final
+County,Marin County,1997,Annual,130800,127100,3800,2.9%,N,Final
+County,Mariposa County,1997,Annual,6860,6170,690,10.1%,N,Final
+County,Mendocino County,1997,Annual,42410,39010,3400,8%,N,Final
+County,Merced County,1997,Annual,83200,70200,13000,15.6%,N,Final
+County,Modoc County,1997,Annual,3910,3450,460,11.7%,N,Final
+County,Mono County,1997,Annual,6060,5430,630,10.4%,N,Final
+County,Monterey County,1997,Annual,181800,161900,19900,10.9%,N,Final
+County,Napa County,1997,Annual,59200,56100,3000,5.1%,N,Final
+County,Nevada County,1997,Annual,40770,38250,2520,6.2%,N,Final
+County,Orange County,1997,Annual,1374100,1328700,45400,3.3%,N,Final
+County,Placer County,1997,Annual,109800,104700,5100,4.6%,N,Final
+County,Plumas County,1997,Annual,9840,8800,1040,10.6%,N,Final
+County,Riverside County,1997,Annual,638100,589800,48300,7.6%,N,Final
+County,Sacramento County,1997,Annual,550500,519900,30600,5.6%,N,Final
+County,San Benito County,1997,Annual,26100,23200,2900,11.2%,N,Final
+County,San Bernardino County,1997,Annual,704100,658800,45200,6.4%,N,Final
+County,San Diego County,1997,Annual,1275100,1220500,54500,4.3%,N,Final
+County,San Francisco County,1997,Annual,408400,391600,16700,4.1%,N,Final
+County,San Joaquin County,1997,Annual,244400,218100,26400,10.8%,N,Final
+County,San Luis Obispo County,1997,Annual,105400,100300,5000,4.8%,N,Final
+County,San Mateo County,1997,Annual,384200,373800,10400,2.7%,N,Final
+County,Santa Barbara County,1997,Annual,194100,184300,9800,5.1%,N,Final
+County,Santa Clara County,1997,Annual,930100,901600,28500,3.1%,N,Final
+County,Santa Cruz County,1997,Annual,140700,129600,11100,7.9%,N,Final
+County,Shasta County,1997,Annual,72600,65900,6700,9.2%,N,Final
+County,Sierra County,1997,Annual,1720,1540,180,10.5%,N,Final
+County,Siskiyou County,1997,Annual,18530,16280,2250,12.1%,N,Final
+County,Solano County,1997,Annual,177800,166200,11600,6.5%,N,Final
+County,Sonoma County,1997,Annual,237700,228600,9100,3.8%,N,Final
+County,Stanislaus County,1997,Annual,197800,171700,26100,13.2%,N,Final
+County,Sutter County,1997,Annual,35300,29900,5400,15.2%,N,Final
+County,Tehama County,1997,Annual,24000,21780,2210,9.2%,N,Final
+County,Trinity County,1997,Annual,5150,4450,700,13.7%,N,Final
+County,Tulare County,1997,Annual,160000,135400,24600,15.4%,N,Final
+County,Tuolumne County,1997,Annual,19700,17970,1730,8.8%,N,Final
+County,Ventura County,1997,Annual,378600,353500,25100,6.6%,N,Final
+County,Yolo County,1997,Annual,85700,80600,5100,5.9%,N,Final
+County,Yuba County,1997,Annual,20900,18100,2800,13.3%,N,Final
+County,Alameda County,1996,Annual,678300,644100,34300,5.1%,N,Final
+County,Alpine County,1996,Annual,490,440,50,10%,N,Final
+County,Amador County,1996,Annual,13230,12340,890,6.7%,N,Final
+County,Butte County,1996,Annual,82700,75200,7500,9.1%,N,Final
+County,Calaveras County,1996,Annual,14070,12760,1310,9.3%,N,Final
+County,Colusa County,1996,Annual,8600,6890,1710,19.8%,N,Final
+County,Contra Costa County,1996,Annual,457800,435100,22800,5%,N,Final
+County,Del Norte County,1996,Annual,10160,9110,1050,10.4%,N,Final
+County,El Dorado County,1996,Annual,74000,69300,4700,6.3%,N,Final
+County,Fresno County,1996,Annual,369900,320800,49100,13.3%,N,Final
+County,Glenn County,1996,Annual,11390,9660,1730,15.2%,N,Final
+County,Humboldt County,1996,Annual,60000,55400,4600,7.7%,N,Final
+County,Imperial County,1996,Annual,57400,40300,17100,29.8%,N,Final
+County,Inyo County,1996,Annual,7260,6640,620,8.6%,N,Final
+County,Kern County,1996,Annual,277300,241500,35800,12.9%,N,Final
+County,Kings County,1996,Annual,42900,37300,5700,13.2%,N,Final
+County,Lake County,1996,Annual,23580,20840,2750,11.6%,N,Final
+County,Lassen County,1996,Annual,11730,10460,1270,10.8%,N,Final
+County,Los Angeles County,1996,Annual,4323600,3971500,352100,8.1%,N,Final
+County,Madera County,1996,Annual,52000,44700,7400,14.2%,N,Final
+County,Marin County,1996,Annual,128700,124200,4400,3.4%,N,Final
+County,Mariposa County,1996,Annual,7480,6820,670,8.9%,N,Final
+County,Mendocino County,1996,Annual,41970,38330,3630,8.7%,N,Final
+County,Merced County,1996,Annual,81700,68200,13500,16.6%,N,Final
+County,Modoc County,1996,Annual,4150,3650,500,12.1%,N,Final
+County,Mono County,1996,Annual,6050,5400,650,10.8%,N,Final
+County,Monterey County,1996,Annual,177800,157700,20000,11.3%,N,Final
+County,Napa County,1996,Annual,58100,54500,3500,6%,N,Final
+County,Nevada County,1996,Annual,40190,37410,2780,6.9%,N,Final
+County,Orange County,1996,Annual,1335200,1279600,55600,4.2%,N,Final
+County,Placer County,1996,Annual,105900,100200,5700,5.4%,N,Final
+County,Plumas County,1996,Annual,9910,8710,1210,12.2%,N,Final
+County,Riverside County,1996,Annual,613700,562700,51000,8.3%,N,Final
+County,Sacramento County,1996,Annual,539800,506500,33300,6.2%,N,Final
+County,San Benito County,1996,Annual,24700,21800,2900,11.8%,N,Final
+County,San Bernardino County,1996,Annual,684300,633900,50400,7.4%,N,Final
+County,San Diego County,1996,Annual,1236900,1170800,66100,5.3%,N,Final
+County,San Francisco County,1996,Annual,398100,379000,19100,4.8%,N,Final
+County,San Joaquin County,1996,Annual,240200,212900,27200,11.3%,N,Final
+County,San Luis Obispo County,1996,Annual,102100,96400,5700,5.6%,N,Final
+County,San Mateo County,1996,Annual,374600,361900,12800,3.4%,N,Final
+County,Santa Barbara County,1996,Annual,190400,179400,11000,5.8%,N,Final
+County,Santa Clara County,1996,Annual,891600,859000,32600,3.7%,N,Final
+County,Santa Cruz County,1996,Annual,138300,126600,11700,8.5%,N,Final
+County,Shasta County,1996,Annual,71900,64700,7200,10%,N,Final
+County,Sierra County,1996,Annual,1730,1540,190,11.2%,N,Final
+County,Siskiyou County,1996,Annual,18610,16070,2540,13.7%,N,Final
+County,Solano County,1996,Annual,173400,160000,13400,7.7%,N,Final
+County,Sonoma County,1996,Annual,229200,218900,10200,4.5%,N,Final
+County,Stanislaus County,1996,Annual,194600,166800,27900,14.3%,N,Final
+County,Sutter County,1996,Annual,34200,28800,5500,16%,N,Final
+County,Tehama County,1996,Annual,22870,20430,2440,10.7%,N,Final
+County,Trinity County,1996,Annual,5150,4400,750,14.6%,N,Final
+County,Tulare County,1996,Annual,159300,133500,25700,16.2%,N,Final
+County,Tuolumne County,1996,Annual,19540,17540,2000,10.2%,N,Final
+County,Ventura County,1996,Annual,376600,349400,27200,7.2%,N,Final
+County,Yolo County,1996,Annual,86200,80700,5500,6.4%,N,Final
+County,Yuba County,1996,Annual,20900,17900,3000,14.1%,N,Final
+County,Alameda County,1995,Annual,676200,637500,38700,5.7%,N,Final
+County,Alpine County,1995,Annual,480,430,50,10.6%,N,Final
+County,Amador County,1995,Annual,13070,12030,1040,8%,N,Final
+County,Butte County,1995,Annual,82200,74000,8200,9.9%,N,Final
+County,Calaveras County,1995,Annual,14090,12540,1550,11%,N,Final
+County,Colusa County,1995,Annual,8550,6860,1680,19.7%,N,Final
+County,Contra Costa County,1995,Annual,452200,426400,25700,5.7%,N,Final
+County,Del Norte County,1995,Annual,10070,8830,1240,12.3%,N,Final
+County,El Dorado County,1995,Annual,72100,67100,5000,6.9%,N,Final
+County,Fresno County,1995,Annual,369900,318000,51900,14%,N,Final
+County,Glenn County,1995,Annual,11460,9680,1780,15.5%,N,Final
+County,Humboldt County,1995,Annual,59700,54700,5000,8.3%,N,Final
+County,Imperial County,1995,Annual,57900,41000,16900,29.2%,N,Final
+County,Inyo County,1995,Annual,7090,6430,660,9.4%,N,Final
+County,Kern County,1995,Annual,270700,233400,37300,13.8%,N,Final
+County,Kings County,1995,Annual,41800,35700,6100,14.5%,N,Final
+County,Lake County,1995,Annual,23670,20890,2770,11.7%,N,Final
+County,Lassen County,1995,Annual,10980,9770,1210,11%,N,Final
+County,Los Angeles County,1995,Annual,4279500,3935600,343900,8%,N,Final
+County,Madera County,1995,Annual,50600,43100,7600,14.9%,N,Final
+County,Marin County,1995,Annual,127500,122100,5500,4.3%,N,Final
+County,Mariposa County,1995,Annual,7440,6740,690,9.3%,N,Final
+County,Mendocino County,1995,Annual,40960,37070,3890,9.5%,N,Final
+County,Merced County,1995,Annual,82700,68600,14100,17%,N,Final
+County,Modoc County,1995,Annual,4210,3660,560,13.2%,N,Final
+County,Mono County,1995,Annual,6130,5470,660,10.8%,N,Final
+County,Monterey County,1995,Annual,174400,152900,21500,12.3%,N,Final
+County,Napa County,1995,Annual,57200,53700,3500,6.2%,N,Final
+County,Nevada County,1995,Annual,40100,37070,3030,7.5%,N,Final
+County,Orange County,1995,Annual,1319700,1253000,66700,5.1%,N,Final
+County,Placer County,1995,Annual,101900,95700,6300,6.1%,N,Final
+County,Plumas County,1995,Annual,9730,8450,1280,13.2%,N,Final
+County,Riverside County,1995,Annual,606600,549300,57300,9.4%,N,Final
+County,Sacramento County,1995,Annual,534200,498000,36300,6.8%,N,Final
+County,San Benito County,1995,Annual,22900,19800,3100,13.6%,N,Final
+County,San Bernardino County,1995,Annual,674900,621800,53100,7.9%,N,Final
+County,San Diego County,1995,Annual,1223400,1145900,77500,6.3%,N,Final
+County,San Francisco County,1995,Annual,394800,371000,23800,6%,N,Final
+County,San Joaquin County,1995,Annual,239900,210500,29400,12.3%,N,Final
+County,San Luis Obispo County,1995,Annual,100700,94100,6600,6.6%,N,Final
+County,San Mateo County,1995,Annual,366700,351300,15400,4.2%,N,Final
+County,Santa Barbara County,1995,Annual,191500,178700,12800,6.7%,N,Final
+County,Santa Clara County,1995,Annual,859600,817500,42100,4.9%,N,Final
+County,Santa Cruz County,1995,Annual,138500,125700,12900,9.3%,N,Final
+County,Shasta County,1995,Annual,72000,63900,8100,11.3%,N,Final
+County,Sierra County,1995,Annual,1690,1530,160,9.7%,N,Final
+County,Siskiyou County,1995,Annual,18830,16140,2690,14.3%,N,Final
+County,Solano County,1995,Annual,171500,158000,13600,7.9%,N,Final
+County,Sonoma County,1995,Annual,223400,211100,12300,5.5%,N,Final
+County,Stanislaus County,1995,Annual,192000,162400,29600,15.4%,N,Final
+County,Sutter County,1995,Annual,34200,28400,5900,17.1%,N,Final
+County,Tehama County,1995,Annual,23040,20440,2590,11.3%,N,Final
+County,Trinity County,1995,Annual,5270,4500,770,14.6%,N,Final
+County,Tulare County,1995,Annual,159500,132900,26600,16.7%,N,Final
+County,Tuolumne County,1995,Annual,20110,17930,2180,10.8%,N,Final
+County,Ventura County,1995,Annual,378800,350700,28100,7.4%,N,Final
+County,Yolo County,1995,Annual,86500,80600,5900,6.9%,N,Final
+County,Yuba County,1995,Annual,21000,17800,3100,14.9%,N,Final
+County,Alameda County,1994,Annual,679900,638200,41600,6.1%,N,Final
+County,Alpine County,1994,Annual,450,400,50,10.3%,N,Final
+County,Amador County,1994,Annual,12740,11700,1040,8.1%,N,Final
+County,Butte County,1994,Annual,82800,74300,8500,10.3%,N,Final
+County,Calaveras County,1994,Annual,14630,13000,1640,11.2%,N,Final
+County,Colusa County,1994,Annual,8190,6640,1560,19%,N,Final
+County,Contra Costa County,1994,Annual,451800,423900,27900,6.2%,N,Final
+County,Del Norte County,1994,Annual,10030,8820,1210,12.1%,N,Final
+County,El Dorado County,1994,Annual,70500,65400,5100,7.2%,N,Final
+County,Fresno County,1994,Annual,356200,305400,50700,14.2%,N,Final
+County,Glenn County,1994,Annual,11510,9660,1850,16%,N,Final
+County,Humboldt County,1994,Annual,59900,54700,5200,8.6%,N,Final
+County,Imperial County,1994,Annual,57500,42400,15100,26.3%,N,Final
+County,Inyo County,1994,Annual,7180,6420,750,10.5%,N,Final
+County,Kern County,1994,Annual,265400,225500,40000,15.1%,N,Final
+County,Kings County,1994,Annual,40900,35100,5800,14.2%,N,Final
+County,Lake County,1994,Annual,22440,19660,2790,12.4%,N,Final
+County,Lassen County,1994,Annual,11170,9910,1260,11.3%,N,Final
+County,Los Angeles County,1994,Annual,4290800,3893300,397500,9.3%,N,Final
+County,Madera County,1994,Annual,48400,41000,7400,15.3%,N,Final
+County,Marin County,1994,Annual,129300,123300,6000,4.6%,N,Final
+County,Mariposa County,1994,Annual,7240,6550,690,9.5%,N,Final
+County,Mendocino County,1994,Annual,40450,36570,3880,9.6%,N,Final
+County,Merced County,1994,Annual,83600,70100,13500,16.1%,N,Final
+County,Modoc County,1994,Annual,4270,3760,510,11.9%,N,Final
+County,Mono County,1994,Annual,6160,5520,630,10.3%,N,Final
+County,Monterey County,1994,Annual,174800,153300,21600,12.3%,N,Final
+County,Napa County,1994,Annual,57800,53800,4000,6.9%,N,Final
+County,Nevada County,1994,Annual,40980,37930,3050,7.4%,N,Final
+County,Orange County,1994,Annual,1333200,1257100,76100,5.7%,N,Final
+County,Placer County,1994,Annual,98500,92000,6500,6.6%,N,Final
+County,Plumas County,1994,Annual,9980,8560,1430,14.3%,N,Final
+County,Riverside County,1994,Annual,596900,533800,63100,10.6%,N,Final
+County,Sacramento County,1994,Annual,532600,494200,38400,7.2%,N,Final
+County,San Benito County,1994,Annual,22300,19200,3100,13.9%,N,Final
+County,San Bernardino County,1994,Annual,670600,612700,57900,8.6%,N,Final
+County,San Diego County,1994,Annual,1226500,1139900,86600,7.1%,N,Final
+County,San Francisco County,1994,Annual,401900,376200,25700,6.4%,N,Final
+County,San Joaquin County,1994,Annual,240000,209300,30700,12.8%,N,Final
+County,San Luis Obispo County,1994,Annual,99800,92600,7200,7.2%,N,Final
+County,San Mateo County,1994,Annual,369700,352400,17300,4.7%,N,Final
+County,Santa Barbara County,1994,Annual,195200,181200,14100,7.2%,N,Final
+County,Santa Clara County,1994,Annual,851800,798300,53500,6.3%,N,Final
+County,Santa Cruz County,1994,Annual,140600,126900,13700,9.7%,N,Final
+County,Shasta County,1994,Annual,72500,63800,8700,12.1%,N,Final
+County,Sierra County,1994,Annual,1780,1600,180,10.1%,N,Final
+County,Siskiyou County,1994,Annual,19390,16680,2710,14%,N,Final
+County,Solano County,1994,Annual,175000,161700,13300,7.6%,N,Final
+County,Sonoma County,1994,Annual,223900,210800,13100,5.8%,N,Final
+County,Stanislaus County,1994,Annual,193300,162700,30600,15.8%,N,Final
+County,Sutter County,1994,Annual,34000,28300,5700,16.6%,N,Final
+County,Tehama County,1994,Annual,23880,21190,2690,11.3%,N,Final
+County,Trinity County,1994,Annual,5270,4490,780,14.9%,N,Final
+County,Tulare County,1994,Annual,161300,135000,26300,16.3%,N,Final
+County,Tuolumne County,1994,Annual,20980,18660,2320,11%,N,Final
+County,Ventura County,1994,Annual,380200,350200,30000,7.9%,N,Final
+County,Yolo County,1994,Annual,86600,80700,5900,6.8%,N,Final
+County,Yuba County,1994,Annual,22000,18500,3500,15.8%,N,Final
+County,Alameda County,1993,Annual,678100,633000,45100,6.6%,N,Final
+County,Alpine County,1993,Annual,360,310,50,13.1%,N,Final
+County,Amador County,1993,Annual,12830,11640,1190,9.3%,N,Final
+County,Butte County,1993,Annual,82500,72700,9800,11.9%,N,Final
+County,Calaveras County,1993,Annual,14950,13150,1810,12.1%,N,Final
+County,Colusa County,1993,Annual,8470,6640,1830,21.6%,N,Final
+County,Contra Costa County,1993,Annual,442500,413300,29200,6.6%,N,Final
+County,Del Norte County,1993,Annual,9760,8380,1380,14.1%,N,Final
+County,El Dorado County,1993,Annual,67500,61600,5800,8.7%,N,Final
+County,Fresno County,1993,Annual,361700,306000,55800,15.4%,N,Final
+County,Glenn County,1993,Annual,11360,9390,1960,17.3%,N,Final
+County,Humboldt County,1993,Annual,59600,53700,5900,9.9%,N,Final
+County,Imperial County,1993,Annual,55300,39100,16200,29.3%,N,Final
+County,Inyo County,1993,Annual,7110,6320,790,11.1%,N,Final
+County,Kern County,1993,Annual,273400,230400,43000,15.7%,N,Final
+County,Kings County,1993,Annual,40900,34700,6200,15.2%,N,Final
+County,Lake County,1993,Annual,22880,19840,3050,13.3%,N,Final
+County,Lassen County,1993,Annual,10940,9580,1350,12.4%,N,Final
+County,Los Angeles County,1993,Annual,4340500,3908800,431600,9.9%,N,Final
+County,Madera County,1993,Annual,47900,40100,7800,16.2%,N,Final
+County,Marin County,1993,Annual,130800,124100,6700,5.1%,N,Final
+County,Mariposa County,1993,Annual,7250,6520,730,10%,N,Final
+County,Mendocino County,1993,Annual,40370,35840,4530,11.2%,N,Final
+County,Merced County,1993,Annual,83200,68900,14400,17.3%,N,Final
+County,Modoc County,1993,Annual,3930,3400,530,13.5%,N,Final
+County,Mono County,1993,Annual,5980,5420,560,9.4%,N,Final
+County,Monterey County,1993,Annual,176800,153800,23000,13%,N,Final
+County,Napa County,1993,Annual,58000,53500,4600,7.9%,N,Final
+County,Nevada County,1993,Annual,40230,36850,3380,8.4%,N,Final
+County,Orange County,1993,Annual,1327900,1237800,90100,6.8%,N,Final
+County,Placer County,1993,Annual,93200,85700,7500,8.1%,N,Final
+County,Plumas County,1993,Annual,9680,8220,1460,15.1%,N,Final
+County,Riverside County,1993,Annual,582300,512000,70300,12.1%,N,Final
+County,Sacramento County,1993,Annual,530000,485900,44000,8.3%,N,Final
+County,San Benito County,1993,Annual,22300,18700,3600,16%,N,Final
+County,San Bernardino County,1993,Annual,676300,609400,66800,9.9%,N,Final
+County,San Diego County,1993,Annual,1218900,1123900,95000,7.8%,N,Final
+County,San Francisco County,1993,Annual,406400,377800,28600,7%,N,Final
+County,San Joaquin County,1993,Annual,241900,207800,34100,14.1%,N,Final
+County,San Luis Obispo County,1993,Annual,101300,93100,8200,8.1%,N,Final
+County,San Mateo County,1993,Annual,368700,350000,18700,5.1%,N,Final
+County,Santa Barbara County,1993,Annual,193000,178200,14900,7.7%,N,Final
+County,Santa Clara County,1993,Annual,847500,789000,58600,6.9%,N,Final
+County,Santa Cruz County,1993,Annual,140400,125800,14600,10.4%,N,Final
+County,Shasta County,1993,Annual,73200,64000,9200,12.6%,N,Final
+County,Sierra County,1993,Annual,1810,1610,200,11%,N,Final
+County,Siskiyou County,1993,Annual,19310,16320,2990,15.5%,N,Final
+County,Solano County,1993,Annual,174800,160600,14300,8.2%,N,Final
+County,Sonoma County,1993,Annual,220200,205700,14500,6.6%,N,Final
+County,Stanislaus County,1993,Annual,194200,161600,32500,16.8%,N,Final
+County,Sutter County,1993,Annual,34700,28200,6500,18.7%,N,Final
+County,Tehama County,1993,Annual,23320,20260,3060,13.1%,N,Final
+County,Trinity County,1993,Annual,5180,4320,860,16.6%,N,Final
+County,Tulare County,1993,Annual,157700,129100,28500,18.1%,N,Final
+County,Tuolumne County,1993,Annual,20620,18180,2450,11.9%,N,Final
+County,Ventura County,1993,Annual,375500,341700,33800,9%,N,Final
+County,Yolo County,1993,Annual,82700,76100,6600,8%,N,Final
+County,Yuba County,1993,Annual,23000,19000,4000,17.4%,N,Final
+County,Alameda County,1992,Annual,677400,633100,44300,6.5%,N,Final
+County,Alpine County,1992,Annual,350,290,60,16.4%,N,Final
+County,Amador County,1992,Annual,12720,11550,1160,9.1%,N,Final
+County,Butte County,1992,Annual,82000,72300,9700,11.8%,N,Final
+County,Calaveras County,1992,Annual,15030,13230,1800,11.9%,N,Final
+County,Colusa County,1992,Annual,8220,6450,1770,21.5%,N,Final
+County,Contra Costa County,1992,Annual,442200,413300,28900,6.5%,N,Final
+County,Del Norte County,1992,Annual,9840,8330,1520,15.4%,N,Final
+County,El Dorado County,1992,Annual,67300,61600,5700,8.5%,N,Final
+County,Fresno County,1992,Annual,352600,298100,54600,15.5%,N,Final
+County,Glenn County,1992,Annual,11400,9250,2150,18.9%,N,Final
+County,Humboldt County,1992,Annual,58900,53100,5900,9.9%,N,Final
+County,Imperial County,1992,Annual,53900,37300,16500,30.7%,N,Final
+County,Inyo County,1992,Annual,7170,6350,820,11.5%,N,Final
+County,Kern County,1992,Annual,272900,230200,42700,15.6%,N,Final
+County,Kings County,1992,Annual,40600,34400,6200,15.2%,N,Final
+County,Lake County,1992,Annual,22340,19480,2860,12.8%,N,Final
+County,Lassen County,1992,Annual,10770,9550,1230,11.4%,N,Final
+County,Los Angeles County,1992,Annual,4441200,4002600,438600,9.9%,N,Final
+County,Madera County,1992,Annual,46900,39100,7800,16.6%,N,Final
+County,Marin County,1992,Annual,130500,124000,6600,5%,N,Final
+County,Mariposa County,1992,Annual,7160,6540,620,8.7%,N,Final
+County,Mendocino County,1992,Annual,39780,34920,4860,12.2%,N,Final
+County,Merced County,1992,Annual,83000,68600,14400,17.3%,N,Final
+County,Modoc County,1992,Annual,4010,3500,510,12.7%,N,Final
+County,Mono County,1992,Annual,5820,5210,610,10.5%,N,Final
+County,Monterey County,1992,Annual,177100,155200,21900,12.3%,N,Final
+County,Napa County,1992,Annual,57500,53400,4100,7.2%,N,Final
+County,Nevada County,1992,Annual,39600,36260,3330,8.4%,N,Final
+County,Orange County,1992,Annual,1331300,1242900,88500,6.6%,N,Final
+County,Placer County,1992,Annual,93500,85600,7900,8.4%,N,Final
+County,Plumas County,1992,Annual,9680,8330,1350,13.9%,N,Final
+County,Riverside County,1992,Annual,576200,508200,68000,11.8%,N,Final
+County,Sacramento County,1992,Annual,529100,485500,43600,8.2%,N,Final
+County,San Benito County,1992,Annual,21900,18100,3800,17.3%,N,Final
+County,San Bernardino County,1992,Annual,668800,604800,63900,9.6%,N,Final
+County,San Diego County,1992,Annual,1214000,1126300,87600,7.2%,N,Final
+County,San Francisco County,1992,Annual,405000,377400,27500,6.8%,N,Final
+County,San Joaquin County,1992,Annual,239400,205800,33700,14.1%,N,Final
+County,San Luis Obispo County,1992,Annual,99600,92200,7400,7.4%,N,Final
+County,San Mateo County,1992,Annual,368300,349600,18700,5.1%,N,Final
+County,Santa Barbara County,1992,Annual,193100,178800,14300,7.4%,N,Final
+County,Santa Clara County,1992,Annual,847000,789300,57700,6.8%,N,Final
+County,Santa Cruz County,1992,Annual,139000,125600,13400,9.7%,N,Final
+County,Shasta County,1992,Annual,72900,63400,9500,13%,N,Final
+County,Sierra County,1992,Annual,1710,1520,190,11.1%,N,Final
+County,Siskiyou County,1992,Annual,19400,16370,3030,15.6%,N,Final
+County,Solano County,1992,Annual,173200,160500,12700,7.3%,N,Final
+County,Sonoma County,1992,Annual,217300,202000,15300,7%,N,Final
+County,Stanislaus County,1992,Annual,191700,160300,31400,16.4%,N,Final
+County,Sutter County,1992,Annual,34100,27400,6700,19.5%,N,Final
+County,Tehama County,1992,Annual,23030,20080,2950,12.8%,N,Final
+County,Trinity County,1992,Annual,5270,4380,880,16.7%,N,Final
+County,Tulare County,1992,Annual,154100,127300,26800,17.4%,N,Final
+County,Tuolumne County,1992,Annual,20760,18430,2330,11.2%,N,Final
+County,Ventura County,1992,Annual,373100,339800,33300,8.9%,N,Final
+County,Yolo County,1992,Annual,81900,75100,6700,8.2%,N,Final
+County,Yuba County,1992,Annual,22400,18500,3900,17.3%,N,Final
+County,Alameda County,1991,Annual,671800,635500,36300,5.4%,N,Final
+County,Alpine County,1991,Annual,360,310,50,13.2%,N,Final
+County,Amador County,1991,Annual,11980,11150,830,6.9%,N,Final
+County,Butte County,1991,Annual,79300,71600,7700,9.7%,N,Final
+County,Calaveras County,1991,Annual,13960,12670,1290,9.3%,N,Final
+County,Colusa County,1991,Annual,8090,6640,1450,17.9%,N,Final
+County,Contra Costa County,1991,Annual,434500,410900,23600,5.4%,N,Final
+County,Del Norte County,1991,Annual,9770,8580,1190,12.2%,N,Final
+County,El Dorado County,1991,Annual,65500,61200,4400,6.6%,N,Final
+County,Fresno County,1991,Annual,336800,291800,45000,13.4%,N,Final
+County,Glenn County,1991,Annual,11080,9340,1740,15.7%,N,Final
+County,Humboldt County,1991,Annual,56700,51700,4900,8.7%,N,Final
+County,Imperial County,1991,Annual,48800,36200,12700,25.9%,N,Final
+County,Inyo County,1991,Annual,7170,6470,700,9.7%,N,Final
+County,Kern County,1991,Annual,264600,232500,32100,12.1%,N,Final
+County,Kings County,1991,Annual,38600,33700,4900,12.6%,N,Final
+County,Lake County,1991,Annual,20910,18690,2210,10.6%,N,Final
+County,Lassen County,1991,Annual,10240,9180,1060,10.4%,N,Final
+County,Los Angeles County,1991,Annual,4471700,4114800,356900,8%,N,Final
+County,Madera County,1991,Annual,44200,37600,6600,14.9%,N,Final
+County,Marin County,1991,Annual,130600,125700,5000,3.8%,N,Final
+County,Mariposa County,1991,Annual,6950,6450,500,7.1%,N,Final
+County,Mendocino County,1991,Annual,38780,34680,4100,10.6%,N,Final
+County,Merced County,1991,Annual,77200,65200,12000,15.6%,N,Final
+County,Modoc County,1991,Annual,3880,3400,480,12.4%,N,Final
+County,Mono County,1991,Annual,5450,4800,650,12%,N,Final
+County,Monterey County,1991,Annual,171300,152000,19400,11.3%,N,Final
+County,Napa County,1991,Annual,55200,52000,3200,5.8%,N,Final
+County,Nevada County,1991,Annual,38380,35900,2480,6.5%,N,Final
+County,Orange County,1991,Annual,1318900,1249800,69100,5.2%,N,Final
+County,Placer County,1991,Annual,91100,85200,5900,6.4%,N,Final
+County,Plumas County,1991,Annual,9660,8590,1060,11%,N,Final
+County,Riverside County,1991,Annual,549800,494600,55200,10%,N,Final
+County,Sacramento County,1991,Annual,527300,492500,34800,6.6%,N,Final
+County,San Benito County,1991,Annual,21200,17800,3400,16%,N,Final
+County,San Bernardino County,1991,Annual,644300,591400,53000,8.2%,N,Final
+County,San Diego County,1991,Annual,1207000,1131600,75400,6.2%,N,Final
+County,San Francisco County,1991,Annual,405000,383500,21500,5.3%,N,Final
+County,San Joaquin County,1991,Annual,231300,203600,27700,12%,N,Final
+County,San Luis Obispo County,1991,Annual,96200,90400,5800,6%,N,Final
+County,San Mateo County,1991,Annual,366700,352200,14500,3.9%,N,Final
+County,Santa Barbara County,1991,Annual,194900,183300,11500,5.9%,N,Final
+County,Santa Clara County,1991,Annual,841800,793900,47800,5.7%,N,Final
+County,Santa Cruz County,1991,Annual,137200,125100,12100,8.8%,N,Final
+County,Shasta County,1991,Annual,68200,60800,7400,10.9%,N,Final
+County,Sierra County,1991,Annual,1650,1470,180,10.8%,N,Final
+County,Siskiyou County,1991,Annual,19120,16610,2510,13.1%,N,Final
+County,Solano County,1991,Annual,166500,156100,10400,6.2%,N,Final
+County,Sonoma County,1991,Annual,211900,200200,11700,5.5%,N,Final
+County,Stanislaus County,1991,Annual,183200,156300,26900,14.7%,N,Final
+County,Sutter County,1991,Annual,34500,28700,5800,16.9%,N,Final
+County,Tehama County,1991,Annual,21170,18740,2430,11.5%,N,Final
+County,Trinity County,1991,Annual,5130,4390,740,14.5%,N,Final
+County,Tulare County,1991,Annual,152700,125100,27600,18.1%,N,Final
+County,Tuolumne County,1991,Annual,20010,18280,1730,8.6%,N,Final
+County,Ventura County,1991,Annual,366500,338900,27600,7.5%,N,Final
+County,Yolo County,1991,Annual,77100,71000,6000,7.8%,N,Final
+County,Yuba County,1991,Annual,22600,19500,3100,13.8%,N,Final
+County,Alameda County,1990,Annual,677400,649900,27500,4.1%,N,Final
+County,Alpine County,1990,Annual,380,340,40,9.6%,N,Final
+County,Amador County,1990,Annual,11450,10860,590,5.2%,N,Final
+County,Butte County,1990,Annual,78800,72200,6600,8.4%,N,Final
+County,Calaveras County,1990,Annual,13450,12530,920,6.8%,N,Final
+County,Colusa County,1990,Annual,8010,6860,1140,14.3%,N,Final
+County,Contra Costa County,1990,Annual,435300,417800,17500,4%,N,Final
+County,Del Norte County,1990,Annual,9610,8450,1160,12.1%,N,Final
+County,El Dorado County,1990,Annual,63800,61000,2900,4.5%,N,Final
+County,Fresno County,1990,Annual,328700,290400,38300,11.6%,N,Final
+County,Glenn County,1990,Annual,11250,9850,1410,12.5%,N,Final
+County,Humboldt County,1990,Annual,56300,51800,4500,7.9%,N,Final
+County,Imperial County,1990,Annual,47300,35300,12100,25.5%,N,Final
+County,Inyo County,1990,Annual,7010,6510,500,7.1%,N,Final
+County,Kern County,1990,Annual,256800,228800,28000,10.9%,N,Final
+County,Kings County,1990,Annual,37600,33400,4200,11.2%,N,Final
+County,Lake County,1990,Annual,19970,18200,1770,8.9%,N,Final
+County,Lassen County,1990,Annual,9980,9000,980,9.8%,N,Final
+County,Los Angeles County,1990,Annual,4498700,4233100,265600,5.9%,N,Final
+County,Madera County,1990,Annual,41600,35900,5600,13.5%,N,Final
+County,Marin County,1990,Annual,131900,128600,3300,2.5%,N,Final
+County,Mariposa County,1990,Annual,6780,6390,380,5.7%,N,Final
+County,Mendocino County,1990,Annual,38750,35790,2960,7.6%,N,Final
+County,Merced County,1990,Annual,76900,67000,9900,12.9%,N,Final
+County,Modoc County,1990,Annual,3760,3400,360,9.6%,N,Final
+County,Mono County,1990,Annual,5720,5380,340,5.9%,N,Final
+County,Monterey County,1990,Annual,172700,156000,16700,9.7%,N,Final
+County,Napa County,1990,Annual,56400,54100,2300,4.1%,N,Final
+County,Nevada County,1990,Annual,36030,34300,1730,4.8%,N,Final
+County,Orange County,1990,Annual,1352900,1305700,47300,3.5%,N,Final
+County,Placer County,1990,Annual,89500,85800,3800,4.2%,N,Final
+County,Plumas County,1990,Annual,9470,8530,940,9.9%,N,Final
+County,Riverside County,1990,Annual,536600,498100,38500,7.2%,N,Final
+County,Sacramento County,1990,Annual,522300,498300,23900,4.6%,N,Final
+County,San Benito County,1990,Annual,20900,18400,2600,12.2%,N,Final
+County,San Bernardino County,1990,Annual,635200,599400,35800,5.6%,N,Final
+County,San Diego County,1990,Annual,1215100,1158900,56200,4.6%,N,Final
+County,San Francisco County,1990,Annual,409400,393900,15400,3.8%,N,Final
+County,San Joaquin County,1990,Annual,227100,204500,22500,9.9%,N,Final
+County,San Luis Obispo County,1990,Annual,99800,95100,4600,4.6%,N,Final
+County,San Mateo County,1990,Annual,370200,360500,9700,2.6%,N,Final
+County,Santa Barbara County,1990,Annual,192500,183100,9400,4.9%,N,Final
+County,Santa Clara County,1990,Annual,852300,818600,33800,4%,N,Final
+County,Santa Cruz County,1990,Annual,135700,125900,9800,7.2%,N,Final
+County,Shasta County,1990,Annual,67700,61900,5800,8.6%,N,Final
+County,Sierra County,1990,Annual,1630,1450,180,10.9%,N,Final
+County,Siskiyou County,1990,Annual,19440,17070,2370,12.2%,N,Final
+County,Solano County,1990,Annual,164900,157000,7900,4.8%,N,Final
+County,Sonoma County,1990,Annual,206300,198300,8000,3.9%,N,Final
+County,Stanislaus County,1990,Annual,180400,159100,21400,11.9%,N,Final
+County,Sutter County,1990,Annual,33100,28500,4700,14.1%,N,Final
+County,Tehama County,1990,Annual,19920,17930,1990,10%,N,Final
+County,Trinity County,1990,Annual,5340,4680,670,12.5%,N,Final
+County,Tulare County,1990,Annual,145800,127800,18000,12.3%,N,Final
+County,Tuolumne County,1990,Annual,19870,18530,1340,6.7%,N,Final
+County,Ventura County,1990,Annual,366600,345400,21100,5.8%,N,Final
+County,Yolo County,1990,Annual,74000,68900,5100,6.9%,N,Final
+County,Yuba County,1990,Annual,22100,19800,2400,10.7%,N,Final

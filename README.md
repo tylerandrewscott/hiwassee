@@ -6,26 +6,33 @@ This repository is for a paper  published in the Journal of Public Administratio
 This repository contains all of the data and code materials necessary to replicate the project. For questions, please raise an issue and tag us here on Github. 
 
 ## Paper Abstract
-Local governments consider a wide range of policies to increase resilience in the face of myriad risks, and employ a variety of tactics to communicate about these policies to external actors. An important platform to signal resilience as a policy priority is through the budget process wherein local communities decide ‘who gets what, when, and how’.  Using computational text mining techniques, we assess how county governments in California signal efforts toward resilience in their budgets during 2012-2017 fiscal years, as well as whether and how those signals are received by the capital market.  To test the relationship between local government resilience signals and capital market outcomes, we focus on county underlying credit ratings and the credit ratings of bond deals issued by counties. Empirical results show that county underlying credit ratings are insensitive to resilience signals in proposed budgets.  However, dynamic resilience signals that focus on risk management and preparedness appear to positively relate to bond deal credit ratings, while static resilience signals that focus on security and crisis management appear to do the opposite. By examining the efficacy of resilience signals and their effects on the capital market, we offer evidence on the link between policy signaling and financial outcomes at the local government level.
+Local governments consider a wide range of policies to increase resilience in the face of myriad risks, and employ a variety of tactics to communicate about these policies to external actors. An important platform to signal resilience as a policy priority is through the budget process wherein local communities decide ‘who gets what, when, and how’.  Using computational text mining techniques, we assess how county governments in California signal efforts toward resilience in their budgets during 2012-2017 fiscal years, as well as whether and how those signals are received by the capital market.  To test the relationship between local government resilience signals and capital market outcomes, we focus on county underlying credit ratings issued by counties. Empirical results show that county underlying credit ratings are insensitive to resilience signals in local government budgets. By examining the efficacy of resilience signals and their effects on the capital market, we offer evidence on the link between policy signaling and financial outcomes at the local government level.
 
 ### Dependencies
 
-* The project requires the R statistical programming language, version 4.1.2 (2021-11-01) and STATA version XXXX. Some of the R packages required might require loading underlying dependencies.
+* The project requires the R statistical programming language, version 4.1.2 (2021-11-01). Some of the R packages required might require loading underlying dependencies.
 
 
 
 ### Directory items
 
-The directory has 5 folders:
-- code: scripts for replicating the project
-- input: 
-  - prepped_county_input: these files are the prepared ingredients for the regression analysis, and include:
-      - concept_results.txt, which has estimated resilience emphases by county and year
-      - county_demographics.txt, which has population, unemployment, political ideology, and median household income by county and year (excepting political ideology, which is based on https://americanideologyproject.com/ and only estimated once per county)
-      - SOMETHING HERE ABOUT PREPARED FINANCIAL DATA
-  - raw_county_input: these files are the raw ingredients for the project, with the exception of files that are read directly in from online locations (e.g., Wikipedia articles on resilience).
+The directory has 5 folders with the following files:
+- code/ scripts for replicating the project
+  -/resilience_concept_coding.R measures resilience emphases in budget documents, makes figures 1 and A1
+  -/generate_county_demovars.R which aggregates county-year data from the American Community Survey and the CA Employment Development Department.
+  -/aggregate_inputs.R generates the panel data set with credit ratings, resilience emphases, and county covariates
+  -/regress_ratings_resilience.R performs the mixed effects orginal regression models
+  
+- input/ 
+    - county_year_panel.txt, the final filtered and aggregated dataset used for the regression models
+    - concept_results.txt, which has estimated resilience emphases by county and year
+    - county_demographs.txt, which has population, unemployment, political ideology, and median household income by county and year (excepting political ideology, which is based on https://americanideologyproject.com/ and only estimated once per county)
+    - CAcounty_ratings.csv: county-level ratings
+    - CAdeal_ratings.csv: deal-level ratings
+    - Combined_DIVER_Data.csv: county financial records
   - Macro/ and Micro/, which are the raw budget .txt files
   - wiki/ which contains snapshots of the original wikipedia articles used to measure the resilience emphases
+  - unused/ which is a folder of various data inputs that were not used in the final analysis
 
   
   
@@ -35,8 +42,10 @@ The directory has 5 folders:
 
 ### Replicating the project
 1. run code/resilience_concept_coding.R to measure resilience emphases in budget documents.
-2. run code/CountyRatings_Resilience.do to regress deal ratings as function of resilience emphasis and other covariates
-3. run code/CountyRatings_Resilience.do to regress county credit ratings on resilience emphasis and other covariates.
+2. run code/generate_count_demovars.R to create dataset of county covariates
+3. run code/aggregate_inputs.R to generate panel dataset for regression analysis
+4. run code/regress_ratings_resilience.R to perform the regression analysis
+Tables and figures found in the paper are automatically generated by these scripts.
 
 ## Help
 

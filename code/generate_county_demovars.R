@@ -47,5 +47,5 @@ ideo <- ideo[,county_fips,mrp_ideology_mean]
 setnames(ideo,'county_fips','CFIPS')
 
 county_dt <- left_join(county_dt,ideo)
-fwrite(x = county_dt,file = 'input/prepped_county_input/county_demographs.txt',sep = '\t')
+fwrite(x = county_dt,file = 'input/county_demographs.txt',sep = '\t')
 

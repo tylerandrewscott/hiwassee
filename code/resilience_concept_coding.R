@@ -13,7 +13,7 @@ colnames(vectors) = paste('dim',1:(ncol(vectors)),sep = '_')
 vectors <- as.matrix(vectors)
 
 #READ IN FILES
-files<-c(list.files(path="input/Micro",full.names = T),list.files(path="input/Macro",full.names=T))
+files<-c(list.files(path="input/Micro_Budgets/",full.names = T),list.files(path="input/Macro_Budgets/",full.names=T))
 files<-files[-stringr::str_which(files,"_")]
 
 #MAKE CONCEPTS
@@ -102,7 +102,8 @@ fa1<-ggplot(pagerank)+
   geom_label(aes(x=variable,y=page,label=round(value,2)))+
   ggthemes::scale_fill_continuous_tableau(guide='none')+
   theme_bw()+xlab("concept from vector")
-ggsave("output/figures/a1.tiff",fa1,height=2,width=8, dpi=400, device="tiff")
+ggsave("output/figures/figa1.tiff",fa1,height=2,width=8, dpi=400, device="tiff")
+ggsave("output/figures/figa1.png",fa1,height=2,width=8, dpi=400, device="png")
 #PICK HERE BY BUDGET OR PARAGRAPH
 
 ####FOLDER OUT NAME
@@ -110,7 +111,7 @@ filefolderpath<-"output/concept.codes/"
 dir.create(filefolderpath)
 ######BY ENTIRE BUDGET
 ###drop because:
-drop <- "input/Macro/Inyo.2016.txt"
+drop <- "input/Macro_Budgets//Inyo.2016.txt"
 library(pbapply)
 templist2<-pblapply(files, function(BIGID) {
   txtf1<-readtext::readtext(BIGID)
