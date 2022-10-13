@@ -7,13 +7,16 @@ library(foreach)
 library(gridExtra)
 library(ordinal)
 library(htmlTable)
-res_signals <- c('crisis_management','preparedness','risk_management','security')
+res_signals <- c('crisis_management','preparedness','risk_management','security','static','dynamic')
 mdt = fread('input/county_year_panel.txt',na.strings = '')
 setnames(mdt,c('crisis management','risk management'),c('crisis_management','risk_management'))
 linear_terms <- "scale(unemp_rate) + scale(ln_pop) + scale(ln_median_home_value) + scale(ln_totalliabilities_generallongterm_percapita)" 
 mdt$cfips <- as.character(mdt$cfips)
 mdt$year <- as.character(mdt$year)
 
+mdt$dynamic<- mdt$preparedness+mdt$risk_management
+mdt$static <- mdt$security+mdt$crisis_management
+  
 mdt$crate <- as.factor(mdt$crate)
 mdt$year <- as.factor(mdt$year)
 mdt$cfips <- as.factor(mdt$cfips)
@@ -80,12 +83,22 @@ c4 <- data.table(Coef = c('N (county-year)','# groups (counties)'))
 nobs <- data.table(c4,rbind(sapply(mod_list,nobs),
 sapply(mod_list,function(x) length(x$ranef))))
 
-htmlTable(rbindlist(list(linear_coefs,add_terms,gof,nobs),use.name = F,fill = T),
+tabs <- rbindlist(list(linear_coefs,add_terms,gof,nobs),use.name = F,fill = T)
+tab3 <- tabs[,!grepl('Coef|static|dynamic',colnames(tabs)),with=F]
+tab4 <- tabs[,grepl('static|dynamic',colnames(tabs)),with=F]
+
+htmlTable(tab3,
           n.rgroup = c(nrow(linear_coefs),nrow(add_terms),nrow(gof),nrow(nobs)),
           rgroup = c('linear predictors (estimate + p-value)','additional model terms','goodness-of-fit','observations'),
            rnames = F ,file = 'output/tables/table3.html',
           caption = 'Table 3. Ordered Logistic Models for the Covariates of Underlying County Credit Ratings.')
-# 
+htmlTable(tab4,
+          n.rgroup = c(nrow(linear_coefs),nrow(add_terms),nrow(gof),nrow(nobs)),
+          rgroup = c('linear predictors (estimate + p-value)','additional model terms','goodness-of-fit','observations'),
+          rnames = F ,file = 'output/tables/table4.html',
+          caption = 'Table 4. Ordered Logistic Models for the Covariates of Underlying County Credit Ratings, Grouped Signal Measures')
+
+
 # ggplot(data = mdt) + 
 #   geom_point(aes(x = mrp_ideology_mean,y = median_home_value,col = crate)) + 
 #   scale_color_viridis_d(name = 'rating') + ggtitle('County credit rating')
