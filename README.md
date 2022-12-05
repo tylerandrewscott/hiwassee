@@ -12,8 +12,6 @@ Local governments consider a wide range of policies to increase resilience in th
 
 * The project requires the R statistical programming language, version 4.1.2 (2021-11-01). Some of the R packages required might require loading underlying dependencies.
 
-
-
 ### Directory items
 
 The directory has 5 folders with the following files:
