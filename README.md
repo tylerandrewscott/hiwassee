@@ -16,10 +16,10 @@ Local governments consider a wide range of policies to increase resilience in th
 
 The directory has 5 folders with the following files:
 - code/ scripts for replicating the project
-  -/resilience_concept_coding.R measures resilience emphases in budget documents, makes figures 1 and A1
-  -/generate_county_demovars.R which aggregates county-year data from the American Community Survey and the CA Employment Development Department.
-  -/aggregate_inputs.R generates the panel data set with credit ratings, resilience emphases, and county covariates
-  -/regress_ratings_resilience.R performs the mixed effects orginal regression models
+  - /resilience_concept_coding.R measures resilience emphases in budget documents, makes figures 1 and A1
+  - /generate_county_demovars.R which aggregates county-year data from the American Community Survey and the CA Employment Development Department.
+  - /aggregate_inputs.R generates the panel data set with credit ratings, resilience emphases, and county covariates
+  - /regress_ratings_resilience.R performs the mixed effects orginal regression models
   
 - input/ 
     - county_year_panel.txt, the final filtered and aggregated dataset used for the regression models
