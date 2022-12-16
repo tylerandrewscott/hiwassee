@@ -26,7 +26,6 @@ The directory has 5 folders with the following files:
     - concept_results.txt, which has estimated resilience emphases by county and year
     - county_demographs.txt, which has population, unemployment, political ideology, and median household income by county and year (excepting political ideology, which is based on https://americanideologyproject.com/ and only estimated once per county)
     - CAcounty_ratings.csv: county-level ratings
-    - CAdeal_ratings.csv: deal-level ratings
     - Combined_DIVER_Data.csv: county financial records
   - Macro/ and Micro/, which are the raw budget .txt files
   - wiki/ which contains snapshots of the original wikipedia articles used to measure the resilience emphases
@@ -73,7 +72,4 @@ This work is licensed under a
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
 
-## Acknowledgments
-
-Inspiration, code snippets, etc.
 
