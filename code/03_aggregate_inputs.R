@@ -61,7 +61,7 @@ dt_all$ln_transferstotal <- log(dt_all$transfers_total+1)
 dt_all$ln_median_home_value <- log(dt_all$median_home_value)
 dt_all$ln_totalliabilities_generallongterm_percapita <- log({dt_all$totalliabilities_generallongterm+1}/dt_all$population)
 res_signals <- c('security','risk_management','preparedness','crisis_management','static','dynamic')
-names(dt) <- gsub('\\s','_',names(dt))
+names(dt_all) <- gsub('\\s','_',names(dt_all))
 
 mdt <- dt_all[year %in% 2012:2017 & !is.na(crate) & !is.na(security),]
 mdt$crate_raw<-mdt$crate
@@ -74,7 +74,7 @@ mdt$crate_alpha[mdt$crate==5]<-paste0('<= ',mdt$crate_alpha[mdt$crate==5])
   
 fwrite(mdt,'input/county_year_panel.txt',sep='\t')
 
-mdt_sub <- mdt[,.(crate_raw,`crisis management`,security,preparedness,`risk management`,
+mdt_sub <- mdt[,.(crate_raw,crisis_management,security,preparedness,risk_management,
        ln_pop,unemp_rate,ln_median_home_value,ln_totalliabilities_generallongterm_percapita)]
 
 library(psych) 

@@ -3,6 +3,12 @@ need <- packs[!packs %in% installed.packages()[,'Package']]
 lapply(need,install.packages)
 lapply(packs,require,character.only = T)
 
+if(!'wordVectors' %in% installed.packages()[,'Package']){devtools::install_github('bmschmidt/wordVectors')}
+library(wordVectors)
+#source('https://raw.githubusercontent.com/bmschmidt/wordVectors/7f1914cd6be4a1183930722fee7490c40ddf81ae/R/matrixFunctions.R')
+  
+  
+  
 if(!file.exists('scratch/numberbatch-en-17.06.txt.gz')){
 getfile<-download.file(url = 'https://conceptnet.s3.amazonaws.com/downloads/2017/numberbatch/numberbatch-en-17.06.txt.gz',"scratch/numberbatch-en-17.06.txt.gz")
 }
@@ -21,10 +27,9 @@ reses<-c("Security","Crisis management","Preparedness","Risk management")
 resilience<-paste("https://en.wikipedia.org/wiki/",reses,sep="")
 
 ### code from https://juliasilge.com/blog/tidy-word-vectors/
-library(word2vec)
-library(lsa)
+
 model <- read.wordvectors('scratch/numberbatch-en-17.06.txt.gz',type = 'txt',normalize = F)
-source('https://raw.githubusercontent.com/bmschmidt/wordVectors/7f1914cd6be4a1183930722fee7490c40ddf81ae/R/matrixFunctions.R')
+
 vsm <- as.VectorSpaceModel(model)
 
 mlist<-list(closest_to(vsm,~"security"+"resilient"+"budget"+"harden"+"prevent",25),
@@ -64,8 +69,8 @@ fig1<-ggplot(wordtable2)+
   facet_wrap(~Var2,scale="free_y")+theme_minimal()+
   ggthemes::scale_color_tableau(name="concept")+xlab("cosine similarity")+ylab("closest 25 words in each concept by cosine similarity")+theme(legend.position="bottom")
 
-ggsave("output/figures/fig1.tiff",fig1,device="tiff",height=8,width=8,dpi=400)
-ggsave("output/figures/fig1.png",fig1,device="png",height=8,width=8,dpi=400)
+ggsave("output/figures/fig1.tiff",fig1,device="tiff",height=8,width=8,dpi=350)
+ggsave("output/figures/fig1.png",fig1,device="png",height=8,width=8,dpi=350)
 
 library(rvest)
 reses<-c("Security","Crisis management","Preparedness","Risk management")
@@ -102,8 +107,8 @@ fa1<-ggplot(pagerank)+
   geom_label(aes(x=variable,y=page,label=round(value,2)))+
   ggthemes::scale_fill_continuous_tableau(guide='none')+
   theme_bw()+xlab("concept from vector")
-ggsave("output/figures/figa1.tiff",fa1,height=2,width=8, dpi=400, device="tiff")
-ggsave("output/figures/figa1.png",fa1,height=2,width=8, dpi=400, device="png")
+ggsave("output/figures/figa1.tiff",fa1,height=2,width=8, dpi=450, device="tiff")
+ggsave("output/figures/figa1.png",fa1,height=2,width=8, dpi=450, device="png")
 #PICK HERE BY BUDGET OR PARAGRAPH
 
 ####FOLDER OUT NAME

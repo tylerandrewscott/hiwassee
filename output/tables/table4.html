@@ -6,67 +6,81 @@
 <div style="margin: 0 auto; display: table; margin-top: 1em;">
 <table class='gmisc_table' style='border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;' >
 <thead>
-<tr><td colspan='2' style='text-align: left;'>
+<tr><td colspan='3' style='text-align: left;'>
 Table 4. Ordered Logistic Models for the Covariates of Underlying County Credit Ratings, Grouped Signal Measures</td></tr>
 <tr>
+<th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Coef</th>
 <th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>static</th>
 <th style='font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>dynamic</th>
 </tr>
 </thead>
 <tbody> 
-<tr><td colspan='2' style='font-weight: 900;'>linear predictors (estimate + p-value)</td></tr>
+<tr><td colspan='3' style='font-weight: 900;'>linear predictors (estimate + p-value)</td></tr>
 <tr>
+<td style='text-align: center;'>scale(resilience signal)</td>
 <td style='text-align: center;'>-0.563 (0.000)</td>
 <td style='text-align: center;'>0.051 (0.926)</td>
 </tr>
 <tr>
+<td style='text-align: center;'>scale(ln_median_home_value)</td>
 <td style='text-align: center;'>10.609 (0.000)</td>
 <td style='text-align: center;'>10.323 (0.000)</td>
 </tr>
 <tr>
+<td style='text-align: center;'>scale(ln_pop)</td>
 <td style='text-align: center;'>5.259 (0.000)</td>
 <td style='text-align: center;'>4.775 (0.013)</td>
 </tr>
 <tr>
+<td style='text-align: center;'>scale(ln_totalliabilities_generallongterm_percapita)</td>
 <td style='text-align: center;'>-0.106 (0.000)</td>
 <td style='text-align: center;'>-0.138 (0.806)</td>
 </tr>
 <tr>
+<td style='text-align: center;'>scale(unemp_rate)</td>
 <td style='text-align: center;'>0.538 (0.000)</td>
 <td style='text-align: center;'>0.626 (0.771)</td>
 </tr> 
-<tr><td colspan='2' style='font-weight: 900;'>additional model terms</td></tr>
+<tr><td colspan='3' style='font-weight: 900;'>additional model terms</td></tr>
 <tr>
+<td style='text-align: center;'>cut points</td>
 <td style='text-align: center;'>yes</td>
 <td style='text-align: center;'>yes</td>
 </tr>
 <tr>
+<td style='text-align: center;'>year fixed effect</td>
 <td style='text-align: center;'>yes</td>
 <td style='text-align: center;'>yes</td>
 </tr>
 <tr>
+<td style='text-align: center;'>county random effect</td>
 <td style='text-align: center;'>yes</td>
 <td style='text-align: center;'>yes</td>
 </tr> 
-<tr><td colspan='2' style='font-weight: 900;'>goodness-of-fit</td></tr>
+<tr><td colspan='3' style='font-weight: 900;'>goodness-of-fit</td></tr>
 <tr>
+<td style='text-align: center;'>AIC</td>
 <td style='text-align: center;'>241.948</td>
 <td style='text-align: center;'>242.688</td>
 </tr>
 <tr>
+<td style='text-align: center;'>BIC</td>
 <td style='text-align: center;'>288.169</td>
 <td style='text-align: center;'>288.909</td>
 </tr>
 <tr>
+<td style='text-align: center;'>log-likelihood</td>
 <td style='text-align: center;'>-105.974</td>
 <td style='text-align: center;'>-106.344</td>
 </tr> 
-<tr><td colspan='2' style='font-weight: 900;'>observations</td></tr>
+<tr><td colspan='3' style='font-weight: 900;'>observations</td></tr>
 <tr>
+<td style='text-align: center;'>N (county-year)</td>
 <td style='text-align: center;'>161</td>
 <td style='text-align: center;'>161</td>
 </tr>
 <tr>
+<td style='border-bottom: 2px solid grey; text-align: center;'># groups (counties)</td>
 <td style='border-bottom: 2px solid grey; text-align: center;'>38</td>
 <td style='border-bottom: 2px solid grey; text-align: center;'>38</td>
 </tr>

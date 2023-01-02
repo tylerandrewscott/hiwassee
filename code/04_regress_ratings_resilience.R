@@ -38,8 +38,8 @@ theme_bw() +
   ggtitle('distribution of credit ratings')+
   scale_x_discrete(name = 'highest rating') # labels = rev(c('AAA','AA+','AA','AA-','A+','<=A'))) 
 
-ggsave(filename = 'output/figures/fig2.png',plot = grid.arrange(g0,g1,ncol = 2),dpi = 600,width = 6,height = 3.5,units = 'in')
-ggsave(filename = 'output/figures/fig2.tiff',plot = grid.arrange(g0,g1,ncol = 2),dpi = 600,width = 6,height = 3.5,units = 'in')
+ggsave(filename = 'output/figures/fig2.png',plot = grid.arrange(g0,g1,ncol = 2),dpi = 450,width = 6,height = 3.5,units = 'in')
+ggsave(filename = 'output/figures/fig2.tiff',plot = grid.arrange(g0,g1,ncol = 2),dpi = 450,width = 6,height = 3.5,units = 'in')
 
 model_equations <- sapply(res_signals, function(x) 
   paste0("crate ~ 1 + year +", linear_terms,"+ scale(",x,")"))
@@ -83,14 +83,15 @@ c4 <- data.table(Coef = c('N (county-year)','# groups (counties)'))
 nobs <- data.table(c4,rbind(sapply(mod_list,nobs),
 sapply(mod_list,function(x) length(x$ranef))))
 
-tabs <- rbindlist(list(linear_coefs,add_terms,gof,nobs),use.name = F,fill = T)
-tab3 <- tabs[,!grepl('Coef|static|dynamic',colnames(tabs)),with=F]
-tab4 <- tabs[,grepl('static|dynamic',colnames(tabs)),with=F]
+tabs <- rbindlist(list(linear_coefs,add_terms,gof,nobs),use.names = F)
+rownames(tabs)<-tabs$Coef
+tab3 <- tabs[,grepl('Coef|static|dynamic',colnames(tabs)),with=F]
+tab4 <- tabs[,grepl('Coef|static|dynamic',colnames(tabs)),with=F]
 
 htmlTable(tab3,
           n.rgroup = c(nrow(linear_coefs),nrow(add_terms),nrow(gof),nrow(nobs)),
           rgroup = c('linear predictors (estimate + p-value)','additional model terms','goodness-of-fit','observations'),
-           rnames = F ,file = 'output/tables/table3.html',
+          rnames = F,file = 'output/tables/table3.html',
           caption = 'Table 3. Ordered Logistic Models for the Covariates of Underlying County Credit Ratings.')
 htmlTable(tab4,
           n.rgroup = c(nrow(linear_coefs),nrow(add_terms),nrow(gof),nrow(nobs)),
